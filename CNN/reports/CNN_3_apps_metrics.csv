@@ -1,0 +1,10 @@
+﻿Dataset,Framework,Accuracy,Precision,Recall,Macro-F1,Test samples
+MNIST,scratch,0.7944,0.8264,0.7929,0.7829,900
+MNIST,keras,0.7944,0.8264,0.7929,0.7829,900
+MNIST,pytorch,0.7944,0.8264,0.7929,0.7829,900
+Fashion-MNIST,scratch,0.6656,0.6801,0.6656,0.6227,900
+Fashion-MNIST,keras,0.6656,0.6801,0.6656,0.6227,900
+Fashion-MNIST,pytorch,0.6656,0.6801,0.6656,0.6227,900
+Sign Language MNIST,scratch,0.0344,0.0015,0.0417,0.0029,900
+Sign Language MNIST,keras,0.4685,0.5162,0.4396,0.4248,2000
+Sign Language MNIST,pytorch,0.0344,0.0015,0.0417,0.0029,900

@@ -1,0 +1,531 @@
+[
+  {
+    "id": "D01",
+    "title": "Cổ phiếu là gì?",
+    "category": "Chứng khoán",
+    "text": "Cổ phiếu là chứng khoán thể hiện quyền sở hữu một phần doanh nghiệp. Người nắm giữ có thể hưởng lợi từ tăng giá hoặc cổ tức nhưng cũng có nguy cơ thua lỗ khi giá giảm.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "entities": [
+      "stock",
+      "equity",
+      "company"
+    ]
+  },
+  {
+    "id": "D02",
+    "title": "Cổ phiếu phổ thông và ưu đãi",
+    "category": "Chứng khoán",
+    "text": "Cổ phiếu phổ thông thường đi kèm quyền biểu quyết, trong khi một số loại cổ phiếu ưu đãi có quyền ưu tiên về cổ tức hoặc thanh toán theo điều kiện phát hành. Quyền cụ thể phụ thuộc điều lệ và quy định.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "entities": [
+      "stock",
+      "common",
+      "preferred"
+    ]
+  },
+  {
+    "id": "D03",
+    "title": "Lợi nhuận cổ phiếu và cổ tức",
+    "category": "Chứng khoán",
+    "text": "Hai nguồn lợi nhuận quen thuộc khi nắm giữ cổ phiếu là phần tăng giá vốn và cổ tức được doanh nghiệp phân phối. Cổ tức không được bảo đảm; lợi nhuận tổng còn bị ảnh hưởng bởi thuế và phí.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "entities": [
+      "stock",
+      "dividend",
+      "return",
+      "company"
+    ]
+  },
+  {
+    "id": "D04",
+    "title": "Rủi ro của đầu tư cổ phiếu",
+    "category": "Rủi ro",
+    "text": "Giá cổ phiếu có thể biến động do kết quả kinh doanh, lãi suất, kỳ vọng thị trường và sự kiện bất ngờ. Nhà đầu tư có thể mất một phần hoặc toàn bộ vốn; không nên xem mức sinh lời quá khứ là cam kết tương lai.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "entities": [
+      "stock",
+      "volatility",
+      "risk"
+    ]
+  },
+  {
+    "id": "D05",
+    "title": "Thanh khoản và khối lượng giao dịch",
+    "category": "Thị trường",
+    "text": "Thanh khoản phản ánh mức độ có thể mua bán tài sản mà không làm thay đổi giá quá nhiều. Cổ phiếu có khối lượng giao dịch thấp có thể đi kèm chênh lệch mua bán cao và khó khớp lệnh khi thị trường biến động.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products",
+    "entities": [
+      "stock",
+      "liquidity",
+      "spread"
+    ]
+  },
+  {
+    "id": "D06",
+    "title": "Chỉ số thị trường chứng khoán",
+    "category": "Thị trường",
+    "text": "Chỉ số chứng khoán theo dõi biến động giá của một rổ cổ phiếu theo phương pháp tính xác định. VN-Index là ví dụ về chỉ số đại diện cổ phiếu niêm yết trên HOSE; một chỉ số không phải mã cổ phiếu riêng lẻ.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products",
+    "entities": [
+      "index",
+      "stock",
+      "market"
+    ]
+  },
+  {
+    "id": "D07",
+    "title": "Quỹ ETF cổ phiếu",
+    "category": "Chứng khoán",
+    "text": "ETF là quỹ có chứng chỉ được giao dịch trên sàn; nhiều quỹ theo dõi chỉ số hoặc một rổ tài sản. ETF cổ phiếu có thể giúp tiếp cận nhiều doanh nghiệp nhưng vẫn chịu rủi ro thị trường và phí quản lý.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "etf",
+      "stock",
+      "diversification"
+    ]
+  },
+  {
+    "id": "D08",
+    "title": "Đa dạng hóa danh mục",
+    "category": "Quản trị danh mục",
+    "text": "Đa dạng hóa là phân bổ vốn cho nhiều khoản đầu tư hoặc loại tài sản để tránh quá phụ thuộc vào một vị thế. Đa dạng hóa có thể giảm rủi ro tập trung nhưng không loại bỏ mọi thua lỗ.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "diversification",
+      "portfolio",
+      "risk"
+    ]
+  },
+  {
+    "id": "D09",
+    "title": "Phân bổ tài sản",
+    "category": "Quản trị danh mục",
+    "text": "Phân bổ tài sản là lựa chọn tỷ trọng giữa cổ phiếu, trái phiếu, tiền mặt hoặc vàng tùy mục tiêu, thời gian nắm giữ và khả năng chịu rủi ro. Không có tỷ trọng tối ưu chung cho tất cả mọi người.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "allocation",
+      "stock",
+      "gold",
+      "portfolio"
+    ]
+  },
+  {
+    "id": "D10",
+    "title": "Khẩu vị rủi ro và thời gian đầu tư",
+    "category": "Quản trị danh mục",
+    "text": "Khả năng chấp nhận thua lỗ, thời hạn cần dùng tiền và mục tiêu tài chính ảnh hưởng đến cơ cấu danh mục. Vốn cần sử dụng trong ngắn hạn thường không thích hợp với vị thế biến động quá cao.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "risk",
+      "horizon",
+      "allocation"
+    ]
+  },
+  {
+    "id": "D11",
+    "title": "Lệnh thị trường và lệnh giới hạn",
+    "category": "Thị trường",
+    "text": "Lệnh thị trường ưu tiên thực hiện giao dịch nhưng giá khớp có thể khác giá đang nhìn thấy. Lệnh giới hạn chỉ mua hoặc bán trong giới hạn giá đã đặt, đổi lại có thể không được khớp. Tên lệnh và quy tắc phụ thuộc sàn giao dịch.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15",
+    "entities": [
+      "order_market",
+      "order_limit",
+      "liquidity"
+    ]
+  },
+  {
+    "id": "D12",
+    "title": "Lệnh dừng và giới hạn thua lỗ",
+    "category": "Thị trường",
+    "text": "Lệnh dừng có thể kích hoạt thành lệnh thị trường khi chạm mức dừng; vì thế giá khớp thực tế không luôn bằng giá kích hoạt. Lệnh dừng giới hạn kiểm soát giá nhưng có nguy cơ không khớp khi thị trường biến động nhanh.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15",
+    "entities": [
+      "stop_order",
+      "volatility",
+      "risk"
+    ]
+  },
+  {
+    "id": "D13",
+    "title": "P/E và EPS",
+    "category": "Phân tích",
+    "text": "EPS là lợi nhuận tính trên một cổ phần theo định nghĩa kế toán tương ứng. P/E thường được tính bằng giá cổ phiếu chia EPS; hệ số này cần đặt trong bối cảnh ngành, tăng trưởng, chu kỳ và chất lượng lợi nhuận. EPS âm khiến P/E thông thường không có ý nghĩa đơn giản.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products",
+    "entities": [
+      "pe",
+      "eps",
+      "stock"
+    ]
+  },
+  {
+    "id": "D14",
+    "title": "Vốn hóa thị trường",
+    "category": "Phân tích",
+    "text": "Vốn hóa thị trường của công ty niêm yết được ước tính bằng giá một cổ phiếu nhân số cổ phiếu đang lưu hành tương ứng. Giá một cổ phiếu cao không tự chứng minh doanh nghiệp lớn hơn doanh nghiệp có giá một cổ phiếu thấp.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "entities": [
+      "marketcap",
+      "stock",
+      "company"
+    ]
+  },
+  {
+    "id": "D15",
+    "title": "Phân tích cơ bản và kỹ thuật",
+    "category": "Phân tích",
+    "text": "Phân tích cơ bản nghiên cứu doanh nghiệp, ngành và báo cáo tài chính; phân tích kỹ thuật khảo sát dữ liệu giá và khối lượng. Cả hai là công cụ hỗ trợ đánh giá, không bảo đảm dự báo chính xác chiều biến động.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products",
+    "entities": [
+      "fundamental",
+      "technical",
+      "stock"
+    ]
+  },
+  {
+    "id": "D16",
+    "title": "Lãi suất ảnh hưởng cổ phiếu",
+    "category": "Vĩ mô",
+    "text": "Lãi suất có thể tác động đến chi phí vay, lãi suất chiết khấu và quyết định tiêu dùng. Khi lợi suất tăng, định giá cổ phiếu có thể chịu áp lực, nhưng tác động thực tế phụ thuộc tăng trưởng, lợi nhuận doanh nghiệp và kỳ vọng thị trường.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "interest",
+      "stock",
+      "valuation"
+    ]
+  },
+  {
+    "id": "D17",
+    "title": "Báo cáo tài chính và lợi nhuận",
+    "category": "Phân tích",
+    "text": "Đọc doanh thu, lợi nhuận, dòng tiền, nợ và thuyết minh giúp hiểu tình hình doanh nghiệp. Tăng trưởng doanh thu không đồng nghĩa lợi nhuận hay dòng tiền sẽ tăng tương ứng.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "entities": [
+      "financials",
+      "company",
+      "fundamental"
+    ]
+  },
+  {
+    "id": "D18",
+    "title": "Chi phí giao dịch và chênh lệch giá",
+    "category": "Thị trường",
+    "text": "Chi phí đầu tư có thể bao gồm phí giao dịch, phí quản lý, thuế theo quy định và chênh lệch giá mua - bán. Cần tính cả chi phí khi so sánh lợi nhuận ròng giữa các hình thức đầu tư.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products",
+    "entities": [
+      "fees",
+      "spread",
+      "return"
+    ]
+  },
+  {
+    "id": "D19",
+    "title": "IPO và thị trường thứ cấp",
+    "category": "Chứng khoán",
+    "text": "IPO là lần chào bán cổ phiếu lần đầu ra công chúng theo cơ chế áp dụng. Sau phát hành, cổ phiếu có thể được giao dịch trên thị trường thứ cấp nếu đáp ứng điều kiện; IPO không đồng nghĩa giá sẽ tăng.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "entities": [
+      "ipo",
+      "stock",
+      "market"
+    ]
+  },
+  {
+    "id": "D20",
+    "title": "Vàng là tài sản đầu tư gì?",
+    "category": "Vàng",
+    "text": "Vàng là kim loại quý được giao dịch dưới dạng vật chất hoặc qua sản phẩm tài chính. Vàng thường được xem như tài sản lưu trữ giá trị và đa dạng hóa danh mục, song giá vẫn có thể dao động mạnh.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "asset",
+      "risk"
+    ]
+  },
+  {
+    "id": "D21",
+    "title": "Giá vàng giao ngay XAU/USD",
+    "category": "Vàng",
+    "text": "XAU/USD biểu diễn giá vàng quốc tế so với USD, thường niêm yết theo một troy ounce. Giá vàng quốc tế không thể quy đổi trực tiếp thành giá bán lẻ vàng trong nước nếu bỏ qua tỷ giá, đơn vị, chênh lệch và chi phí.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "xau",
+      "usd",
+      "exchange"
+    ]
+  },
+  {
+    "id": "D22",
+    "title": "Vàng trong nước và giá thế giới",
+    "category": "Vàng",
+    "text": "Giá vàng vật chất trong nước có thể khác giá quốc tế do cung cầu địa phương, tỷ giá, hình thức sản phẩm, chi phí lưu thông và điều kiện thị trường. So sánh phải chuẩn hóa khối lượng, độ tinh khiết và thời điểm báo giá.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "domestic",
+      "exchange",
+      "spread"
+    ]
+  },
+  {
+    "id": "D23",
+    "title": "Chênh lệch giá mua và bán vàng",
+    "category": "Vàng",
+    "text": "Giá mua vào là mức đơn vị kinh doanh trả khi mua lại vàng; giá bán ra là mức họ bán cho khách. Chênh lệch giá mua - bán là chi phí ngầm quan trọng: mua rồi bán ngay thường lỗ chênh lệch dù giá tham chiếu chưa đổi.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "spread",
+      "fees"
+    ]
+  },
+  {
+    "id": "D24",
+    "title": "Vàng miếng, vàng nhẫn và lưu trữ",
+    "category": "Vàng",
+    "text": "Mua vàng vật chất cần chú ý loại sản phẩm, độ tinh khiết, chứng từ, uy tín người bán, lưu trữ và bảo hiểm khi thích hợp. Vàng vật chất có rủi ro thất lạc, mất cắp và chi phí bảo quản.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "bullion",
+      "storage"
+    ]
+  },
+  {
+    "id": "D25",
+    "title": "Quỹ ETF vàng",
+    "category": "Vàng",
+    "text": "ETF vàng được bảo chứng bằng vàng vật chất là công cụ tài chính giao dịch trên sàn, thường nhằm theo dõi biến động giá vàng sau chi phí. Nắm chứng chỉ quỹ không tương đương trực tiếp cầm giữ vàng vật chất; cần xem điều khoản và khả năng tiếp cận tại thị trường của bạn.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "etfgold",
+      "fees"
+    ]
+  },
+  {
+    "id": "D26",
+    "title": "Hợp đồng tương lai vàng",
+    "category": "Vàng",
+    "text": "Hợp đồng tương lai vàng quy định giao dịch một lượng vàng theo điều kiện xác định ở thời điểm tương lai. Đòn bẩy và ký quỹ có thể khuếch đại cả lợi nhuận lẫn thua lỗ; sản phẩm không phù hợp với mọi nhà đầu tư.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "futures",
+      "leverage",
+      "risk"
+    ]
+  },
+  {
+    "id": "D27",
+    "title": "USD và giá vàng",
+    "category": "Vĩ mô",
+    "text": "Giá vàng quốc tế thường được niêm yết bằng USD. Đồng USD và tỷ giá có thể ảnh hưởng sức mua của người nắm các đồng tiền khác; mối quan hệ USD - vàng không cố định từng ngày và chịu nhiều yếu tố đồng thời.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/research/what-drives-gold",
+    "entities": [
+      "gold",
+      "usd",
+      "exchange"
+    ]
+  },
+  {
+    "id": "D28",
+    "title": "Lãi suất thực và vàng",
+    "category": "Vĩ mô",
+    "text": "Vàng vật chất không tự chi trả lãi suất định kỳ. Khi lợi suất thực của tài sản sinh lãi tăng, chi phí cơ hội nắm giữ vàng có thể tăng; ngược lại lợi suất thực giảm có thể hỗ trợ nhu cầu vàng. Đây là xu hướng thường gặp, không phải quy luật bất biến.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/research/what-drives-gold",
+    "entities": [
+      "gold",
+      "realyield",
+      "interest"
+    ]
+  },
+  {
+    "id": "D29",
+    "title": "Lạm phát và vàng",
+    "category": "Vĩ mô",
+    "text": "Vàng đôi khi được dùng để phân tán rủi ro mất sức mua dài hạn, nhưng vàng không luôn tăng ngay khi chỉ số giá tiêu dùng tăng. Trong ngắn hạn, USD, lãi suất thực và dòng vốn có thể lấn át tác động lạm phát.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/research/what-drives-gold",
+    "entities": [
+      "gold",
+      "inflation",
+      "realyield"
+    ]
+  },
+  {
+    "id": "D30",
+    "title": "Rủi ro địa chính trị và vàng",
+    "category": "Vĩ mô",
+    "text": "Bất ổn địa chính trị hoặc kinh tế có thể thúc đẩy nhu cầu phòng vệ bằng vàng. Tuy vậy, phản ứng giá phụ thuộc kỳ vọng trước đó, USD, lãi suất và hoạt động chốt lời, nên không bảo đảm mọi khủng hoảng đều làm giá vàng tăng.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026",
+    "entities": [
+      "gold",
+      "geopolitical",
+      "safehaven"
+    ]
+  },
+  {
+    "id": "D31",
+    "title": "Ngân hàng trung ương mua vàng",
+    "category": "Vàng",
+    "text": "Ngân hàng trung ương có thể nắm giữ vàng trong dự trữ quốc tế. Hoạt động mua hoặc bán của khu vực chính thức là một trong các yếu tố ảnh hưởng cung cầu vàng toàn cầu, không phải tín hiệu dự báo chắc chắn giá ngắn hạn.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026",
+    "entities": [
+      "gold",
+      "centralbank",
+      "demand"
+    ]
+  },
+  {
+    "id": "D32",
+    "title": "Vàng có trả cổ tức không?",
+    "category": "Vàng",
+    "text": "Vàng vật chất không tạo dòng tiền nội tại như cổ tức từ cổ phiếu hay coupon trái phiếu. Kết quả đầu tư phụ thuộc chủ yếu biến động giá sau khi trừ chênh lệch và chi phí lưu trữ; một số sản phẩm vàng tài chính có cấu trúc phí riêng.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "dividend",
+      "fees"
+    ]
+  },
+  {
+    "id": "D33",
+    "title": "So sánh vàng và cổ phiếu",
+    "category": "So sánh",
+    "text": "Cổ phiếu đại diện quyền sở hữu doanh nghiệp và có thể tạo thu nhập cổ tức; vàng là tài sản hữu hình không tạo dòng tiền từ hoạt động kinh doanh. Hai nhóm có động lực giá và rủi ro khác nhau, vì vậy không thể khẳng định một loại luôn tốt hơn loại kia.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "gold",
+      "stock",
+      "risk",
+      "dividend"
+    ]
+  },
+  {
+    "id": "D34",
+    "title": "Kết hợp vàng và cổ phiếu",
+    "category": "So sánh",
+    "text": "Kết hợp vàng, cổ phiếu và các tài sản khác có thể làm phân tán nguồn rủi ro trong danh mục. Tác dụng đa dạng hóa phụ thuộc tỷ trọng, tương quan biến động và giai đoạn thị trường; không có công thức tỷ trọng chung phù hợp với mọi nhà đầu tư.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "portfolio",
+      "gold",
+      "stock",
+      "diversification"
+    ]
+  },
+  {
+    "id": "D35",
+    "title": "Rủi ro tỷ giá khi giữ vàng",
+    "category": "Rủi ro",
+    "text": "Người đầu tư bằng VND nhưng theo dõi vàng định giá USD phải phân biệt biến động giá vàng quốc tế và biến động tỷ giá USD/VND. Ngoài ra còn có chênh lệch thị trường địa phương và chi phí mua bán.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/research/what-drives-gold",
+    "entities": [
+      "gold",
+      "exchange",
+      "usd",
+      "domestic"
+    ]
+  },
+  {
+    "id": "D36",
+    "title": "Tương quan cổ phiếu và vàng",
+    "category": "So sánh",
+    "text": "Tương quan là thước đo sự dịch chuyển cùng chiều hoặc ngược chiều giữa hai chuỗi lợi suất, thường từ -1 tới +1. Tương quan vàng và cổ phiếu thay đổi theo thời gian nên không nên giả định luôn âm hoặc luôn phòng vệ hiệu quả.",
+    "source_name": "World Gold Council",
+    "source_url": "https://www.gold.org/goldhub/how-to-invest",
+    "entities": [
+      "gold",
+      "stock",
+      "correlation",
+      "diversification"
+    ]
+  },
+  {
+    "id": "D37",
+    "title": "Quản lý biến động và kỷ luật",
+    "category": "Quản trị danh mục",
+    "text": "Xác định mục tiêu, quỹ dự phòng, quy mô vị thế và nguyên tắc tái cân bằng có thể giúp tránh quyết định bốc đồng khi giá biến động. Biến động cao có thể tạo cả cơ hội lẫn nguy cơ lỗ lớn.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "volatility",
+      "portfolio",
+      "risk"
+    ]
+  },
+  {
+    "id": "D38",
+    "title": "Đầu tư định kỳ (DCA)",
+    "category": "Quản trị danh mục",
+    "text": "Đầu tư định kỳ là phân bổ khoản vốn bằng nhau theo lịch thay vì cố dự đoán một điểm mua tối ưu. Phương pháp có thể giảm áp lực chọn thời điểm nhưng không bảo vệ trước xu hướng giá giảm dài hạn hoặc sản phẩm kém chất lượng.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "entities": [
+      "dca",
+      "portfolio",
+      "horizon"
+    ]
+  },
+  {
+    "id": "D39",
+    "title": "Cảnh giác lừa đảo đầu tư",
+    "category": "Rủi ro",
+    "text": "Lời hứa lợi nhuận cao không rủi ro, thúc giục chuyển tiền gấp, trang web giả mạo và yêu cầu cung cấp mã OTP là dấu hiệu cần cảnh giác. Luôn kiểm tra tư cách đơn vị cung cấp và nguồn công bố trước khi giao dịch.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products",
+    "entities": [
+      "fraud",
+      "risk",
+      "fees"
+    ]
+  },
+  {
+    "id": "D40",
+    "title": "Giá hôm nay và dữ liệu thời gian thực",
+    "category": "Dữ liệu",
+    "text": "Bộ Knowledge Graph + RAG này chỉ có tài liệu kiến thức tĩnh, không kết nối bảng giá hoặc API thị trường. Mọi câu hỏi về giá vàng hôm nay, giá mã chứng khoán hiện tại, xu hướng ngày mai hoặc khuyến nghị mua bán ngay cần nguồn dữ liệu cập nhật có thời gian và đơn vị rõ ràng.",
+    "source_name": "SEC Investor.gov",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products",
+    "entities": [
+      "gold",
+      "stock",
+      "realtime"
+    ]
+  }
+]

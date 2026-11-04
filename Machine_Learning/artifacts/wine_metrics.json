@@ -1,0 +1,80 @@
+[
+  {
+    "dataset": "wine",
+    "backend": "scratch",
+    "kaggle_url": "https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009",
+    "train_size": 1119,
+    "val_size": 240,
+    "test_size": 240,
+    "train_seconds": 0.1008,
+    "validation_accuracy": 0.716667,
+    "validation_f1_macro": 0.716489,
+    "accuracy": 0.7125,
+    "precision_macro": 0.711219,
+    "recall_macro": 0.710379,
+    "f1_macro": 0.710687,
+    "log_loss": 0.541133,
+    "confusion_matrix": [
+      [
+        76,
+        36
+      ],
+      [
+        33,
+        95
+      ]
+    ]
+  },
+  {
+    "dataset": "wine",
+    "backend": "keras",
+    "kaggle_url": "https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009",
+    "train_size": 1119,
+    "val_size": 240,
+    "test_size": 240,
+    "train_seconds": 2.0291,
+    "validation_accuracy": 0.716667,
+    "validation_f1_macro": 0.716489,
+    "accuracy": 0.7125,
+    "precision_macro": 0.711219,
+    "recall_macro": 0.710379,
+    "f1_macro": 0.710687,
+    "log_loss": 0.541133,
+    "confusion_matrix": [
+      [
+        76,
+        36
+      ],
+      [
+        33,
+        95
+      ]
+    ]
+  },
+  {
+    "dataset": "wine",
+    "backend": "pytorch",
+    "kaggle_url": "https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009",
+    "train_size": 1119,
+    "val_size": 240,
+    "test_size": 240,
+    "train_seconds": 0.2675,
+    "validation_accuracy": 0.716667,
+    "validation_f1_macro": 0.716489,
+    "accuracy": 0.7125,
+    "precision_macro": 0.711219,
+    "recall_macro": 0.710379,
+    "f1_macro": 0.710687,
+    "log_loss": 0.541133,
+    "confusion_matrix": [
+      [
+        76,
+        36
+      ],
+      [
+        33,
+        95
+      ]
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+﻿Mode,K,Questions,Hit@K,Recall@K,Precision@K,MRR@K
+vector,3,40,1.0,1.0,0.3333,0.975
+graph,3,40,0.875,0.875,0.2917,0.7333
+hybrid,3,40,1.0,1.0,0.3333,0.975

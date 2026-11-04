@@ -1,0 +1,15 @@
+streamlit>=1.66,<2
+Pillow>=11,<13
+numpy>=2,<3
+pandas>=2.2,<4
+scikit-learn>=1.7,<2
+rapidocr>=3,<4
+onnxruntime>=1.20,<2
+SQLAlchemy>=2,<3
+PyMySQL>=1.1,<2
+cryptography>=44
+python-dotenv>=1,<2
+graphviz>=0.20,<1
+requests>=2.32,<3
+beautifulsoup4>=4.12,<5
+pypdf>=5,<7

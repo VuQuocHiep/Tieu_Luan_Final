@@ -1,0 +1,101 @@
+[
+  {
+    "dataset": "iris",
+    "backend": "scratch",
+    "kaggle_url": "https://www.kaggle.com/datasets/uciml/iris",
+    "train_size": 104,
+    "val_size": 23,
+    "test_size": 23,
+    "train_seconds": 0.0154,
+    "validation_accuracy": 1.0,
+    "validation_f1_macro": 1.0,
+    "accuracy": 0.913043,
+    "precision_macro": 0.916667,
+    "recall_macro": 0.916667,
+    "f1_macro": 0.916667,
+    "log_loss": 0.231367,
+    "confusion_matrix": [
+      [
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        1
+      ],
+      [
+        0,
+        1,
+        7
+      ]
+    ]
+  },
+  {
+    "dataset": "iris",
+    "backend": "keras",
+    "kaggle_url": "https://www.kaggle.com/datasets/uciml/iris",
+    "train_size": 104,
+    "val_size": 23,
+    "test_size": 23,
+    "train_seconds": 12.8635,
+    "validation_accuracy": 1.0,
+    "validation_f1_macro": 1.0,
+    "accuracy": 0.913043,
+    "precision_macro": 0.916667,
+    "recall_macro": 0.916667,
+    "f1_macro": 0.916667,
+    "log_loss": 0.231367,
+    "confusion_matrix": [
+      [
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        1
+      ],
+      [
+        0,
+        1,
+        7
+      ]
+    ]
+  },
+  {
+    "dataset": "iris",
+    "backend": "pytorch",
+    "kaggle_url": "https://www.kaggle.com/datasets/uciml/iris",
+    "train_size": 104,
+    "val_size": 23,
+    "test_size": 23,
+    "train_seconds": 0.1893,
+    "validation_accuracy": 1.0,
+    "validation_f1_macro": 1.0,
+    "accuracy": 0.913043,
+    "precision_macro": 0.916667,
+    "recall_macro": 0.916667,
+    "f1_macro": 0.916667,
+    "log_loss": 0.231367,
+    "confusion_matrix": [
+      [
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        1
+      ],
+      [
+        0,
+        1,
+        7
+      ]
+    ]
+  }
+]

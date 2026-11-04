@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.kaggle/
+# Dữ liệu Kaggle tải bằng script, tránh nhầm thành dữ liệu do tự sinh
+data/raw/*/*.csv
+# checkpoints có thể tự tạo bằng train_all.py
+artifacts/*.keras
+artifacts/*.npz
+artifacts/*.pt
+artifacts/*.joblib

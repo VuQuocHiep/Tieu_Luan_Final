@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.5008333333333334,
+  "macro_precision": 0.500839397983766,
+  "macro_recall": 0.5008333333333334,
+  "macro_f1": 0.4999300820440254,
+  "confusion_matrix": [
+    [
+      275,
+      325
+    ],
+    [
+      274,
+      326
+    ]
+  ],
+  "n_test": 1200,
+  "classes": [
+    "Negative",
+    "Positive"
+  ],
+  "key": "imdb",
+  "method": "pytorch",
+  "options": {
+    "max_train": 4000,
+    "max_val": 800,
+    "max_test": 1200,
+    "max_len": 60,
+    "vocab_size": 4000,
+    "embed_dim": 24,
+    "hidden_dim": 32,
+    "epochs": 8,
+    "batch_size": 64,
+    "lr": 0.002,
+    "seed": 42
+  }
+}

@@ -1,0 +1,1961 @@
+{
+  "run_utc": "2026-10-14T17:33:18.547025+00:00",
+  "results": [
+    {
+      "mode": "vector",
+      "k": 3,
+      "n_questions": 40,
+      "hit_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.3333,
+      "mrr_at_k": 0.975,
+      "rows": [
+        {
+          "id": "Q01",
+          "question": "Cổ phiếu là gì, quyền sở hữu doanh nghiệp ra sao?",
+          "expected": [
+            "D01"
+          ],
+          "retrieved": [
+            "D01",
+            "D33",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q02",
+          "question": "Cổ phiếu phổ thông khác cổ phiếu ưu đãi thế nào?",
+          "expected": [
+            "D02"
+          ],
+          "retrieved": [
+            "D02",
+            "D33",
+            "D34"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q03",
+          "question": "Cổ tức và phần tăng giá cổ phiếu tạo lợi nhuận ra sao?",
+          "expected": [
+            "D03"
+          ],
+          "retrieved": [
+            "D03",
+            "D17",
+            "D01"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q04",
+          "question": "Đầu tư cổ phiếu có thể chịu những rủi ro gì?",
+          "expected": [
+            "D04"
+          ],
+          "retrieved": [
+            "D07",
+            "D04",
+            "D01"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q05",
+          "question": "Thanh khoản và khối lượng giao dịch là gì?",
+          "expected": [
+            "D05"
+          ],
+          "retrieved": [
+            "D05",
+            "D11",
+            "D20"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q06",
+          "question": "VN-Index là chỉ số chứng khoán gì?",
+          "expected": [
+            "D06"
+          ],
+          "retrieved": [
+            "D06",
+            "D01",
+            "D25"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q07",
+          "question": "ETF cổ phiếu là gì và hoạt động ra sao?",
+          "expected": [
+            "D07"
+          ],
+          "retrieved": [
+            "D07",
+            "D25",
+            "D01"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q08",
+          "question": "Vì sao cần đa dạng hóa danh mục đầu tư?",
+          "expected": [
+            "D08"
+          ],
+          "retrieved": [
+            "D08",
+            "D34",
+            "D20"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q09",
+          "question": "Phân bổ tài sản giữa cổ phiếu vàng và tiền mặt thế nào?",
+          "expected": [
+            "D09"
+          ],
+          "retrieved": [
+            "D09",
+            "D33",
+            "D34"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q10",
+          "question": "Khẩu vị rủi ro và thời hạn đầu tư quan trọng ra sao?",
+          "expected": [
+            "D10"
+          ],
+          "retrieved": [
+            "D10",
+            "D38",
+            "D34"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q11",
+          "question": "Lệnh thị trường khác lệnh giới hạn như thế nào?",
+          "expected": [
+            "D11"
+          ],
+          "retrieved": [
+            "D11",
+            "D12",
+            "D22"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q12",
+          "question": "Lệnh dừng stop loss hoạt động ra sao?",
+          "expected": [
+            "D12"
+          ],
+          "retrieved": [
+            "D12",
+            "D11",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q13",
+          "question": "Hệ số P/E và EPS có ý nghĩa gì?",
+          "expected": [
+            "D13"
+          ],
+          "retrieved": [
+            "D13",
+            "D01",
+            "D17"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q14",
+          "question": "Vốn hóa thị trường của doanh nghiệp được tính thế nào?",
+          "expected": [
+            "D14"
+          ],
+          "retrieved": [
+            "D14",
+            "D03",
+            "D17"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q15",
+          "question": "Phân tích cơ bản khác phân tích kỹ thuật điểm nào?",
+          "expected": [
+            "D15"
+          ],
+          "retrieved": [
+            "D15",
+            "D17",
+            "D38"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q16",
+          "question": "Lãi suất tăng có thể tác động đến giá cổ phiếu như thế nào?",
+          "expected": [
+            "D16"
+          ],
+          "retrieved": [
+            "D16",
+            "D28",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q17",
+          "question": "Đọc báo cáo tài chính và dòng tiền để phân tích doanh nghiệp?",
+          "expected": [
+            "D17"
+          ],
+          "retrieved": [
+            "D17",
+            "D15",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q18",
+          "question": "Phí giao dịch và chênh lệch mua bán ảnh hưởng lợi nhuận thế nào?",
+          "expected": [
+            "D18"
+          ],
+          "retrieved": [
+            "D18",
+            "D05",
+            "D23"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q19",
+          "question": "IPO là gì và liên quan đến thị trường thứ cấp ra sao?",
+          "expected": [
+            "D19"
+          ],
+          "retrieved": [
+            "D19",
+            "D16",
+            "D40"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q20",
+          "question": "Vàng có đặc điểm nào khi là tài sản đầu tư?",
+          "expected": [
+            "D20"
+          ],
+          "retrieved": [
+            "D20",
+            "D38",
+            "D26"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q21",
+          "question": "XAU/USD là gì, đơn vị giá vàng quốc tế?",
+          "expected": [
+            "D21"
+          ],
+          "retrieved": [
+            "D21",
+            "D27",
+            "D35"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q22",
+          "question": "Vì sao giá vàng trong nước khác giá vàng thế giới?",
+          "expected": [
+            "D22"
+          ],
+          "retrieved": [
+            "D22",
+            "D11",
+            "D21"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q23",
+          "question": "Chênh lệch giá vàng mua vào bán ra nghĩa là gì?",
+          "expected": [
+            "D23"
+          ],
+          "retrieved": [
+            "D23",
+            "D18",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q24",
+          "question": "Cần lưu ý gì khi mua vàng miếng và vàng nhẫn vật chất?",
+          "expected": [
+            "D24"
+          ],
+          "retrieved": [
+            "D24",
+            "D20",
+            "D25"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q25",
+          "question": "ETF vàng là gì, khác cầm vàng vật chất thế nào?",
+          "expected": [
+            "D25"
+          ],
+          "retrieved": [
+            "D25",
+            "D20",
+            "D24"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q26",
+          "question": "Hợp đồng tương lai vàng có rủi ro đòn bẩy gì?",
+          "expected": [
+            "D26"
+          ],
+          "retrieved": [
+            "D26",
+            "D34",
+            "D04"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q27",
+          "question": "USD mạnh lên tác động đến giá vàng ra sao?",
+          "expected": [
+            "D27"
+          ],
+          "retrieved": [
+            "D27",
+            "D35",
+            "D21"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q28",
+          "question": "Lãi suất thực ảnh hưởng giá vàng bằng cơ chế nào?",
+          "expected": [
+            "D28"
+          ],
+          "retrieved": [
+            "D28",
+            "D16",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q29",
+          "question": "Vàng có luôn tăng theo lạm phát không?",
+          "expected": [
+            "D29"
+          ],
+          "retrieved": [
+            "D29",
+            "D36",
+            "D28"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q30",
+          "question": "Bất ổn địa chính trị ảnh hưởng nhu cầu trú ẩn vàng ra sao?",
+          "expected": [
+            "D30"
+          ],
+          "retrieved": [
+            "D30",
+            "D20",
+            "D32"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q31",
+          "question": "Ngân hàng trung ương mua dự trữ vàng làm gì?",
+          "expected": [
+            "D31"
+          ],
+          "retrieved": [
+            "D31",
+            "D29",
+            "D24"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q32",
+          "question": "Giữ vàng có được nhận cổ tức không?",
+          "expected": [
+            "D32"
+          ],
+          "retrieved": [
+            "D03",
+            "D32",
+            "D33"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q33",
+          "question": "Điểm khác nhau khi đầu tư vàng và cổ phiếu?",
+          "expected": [
+            "D33"
+          ],
+          "retrieved": [
+            "D33",
+            "D34",
+            "D38"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q34",
+          "question": "Kết hợp vàng cổ phiếu giúp đa dạng hóa danh mục ra sao?",
+          "expected": [
+            "D34"
+          ],
+          "retrieved": [
+            "D34",
+            "D08",
+            "D07"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q35",
+          "question": "Rủi ro tỷ giá USD/VND khi mua vàng tính thế nào?",
+          "expected": [
+            "D35"
+          ],
+          "retrieved": [
+            "D35",
+            "D27",
+            "D21"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q36",
+          "question": "Tương quan lợi suất giữa cổ phiếu và vàng có cố định không?",
+          "expected": [
+            "D36"
+          ],
+          "retrieved": [
+            "D36",
+            "D28",
+            "D16"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q37",
+          "question": "Nên quản lý biến động thị trường và tái cân bằng danh mục ra sao?",
+          "expected": [
+            "D37"
+          ],
+          "retrieved": [
+            "D37",
+            "D34",
+            "D04"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q38",
+          "question": "Đầu tư định kỳ DCA có lợi ích và hạn chế gì?",
+          "expected": [
+            "D38"
+          ],
+          "retrieved": [
+            "D38",
+            "D18",
+            "D20"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q39",
+          "question": "Cần nhận biết dấu hiệu lừa đảo đầu tư nào?",
+          "expected": [
+            "D39"
+          ],
+          "retrieved": [
+            "D39",
+            "D10",
+            "D20"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q40",
+          "question": "Hệ thống có biết giá vàng hôm nay và giá cổ phiếu hiện tại không?",
+          "expected": [
+            "D40"
+          ],
+          "retrieved": [
+            "D40",
+            "D02",
+            "D13"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        }
+      ],
+      "note": "Chỉ đo chất lượng truy xuất so với tập nhãn mẫu; KHÔNG chứng minh hiệu quả dự báo tài chính, khả năng đầu tư hoặc chất lượng sinh câu trả lời."
+    },
+    {
+      "mode": "graph",
+      "k": 3,
+      "n_questions": 40,
+      "hit_at_k": 0.875,
+      "recall_at_k": 0.875,
+      "precision_at_k": 0.2917,
+      "mrr_at_k": 0.7333,
+      "rows": [
+        {
+          "id": "Q01",
+          "question": "Cổ phiếu là gì, quyền sở hữu doanh nghiệp ra sao?",
+          "expected": [
+            "D01"
+          ],
+          "retrieved": [
+            "D01",
+            "D03",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q02",
+          "question": "Cổ phiếu phổ thông khác cổ phiếu ưu đãi thế nào?",
+          "expected": [
+            "D02"
+          ],
+          "retrieved": [
+            "D02",
+            "D01",
+            "D03"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q03",
+          "question": "Cổ tức và phần tăng giá cổ phiếu tạo lợi nhuận ra sao?",
+          "expected": [
+            "D03"
+          ],
+          "retrieved": [
+            "D03",
+            "D18",
+            "D32"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q04",
+          "question": "Đầu tư cổ phiếu có thể chịu những rủi ro gì?",
+          "expected": [
+            "D04"
+          ],
+          "retrieved": [
+            "D04",
+            "D33",
+            "D02"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q05",
+          "question": "Thanh khoản và khối lượng giao dịch là gì?",
+          "expected": [
+            "D05"
+          ],
+          "retrieved": [
+            "D05",
+            "D11",
+            "D03"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q06",
+          "question": "VN-Index là chỉ số chứng khoán gì?",
+          "expected": [
+            "D06"
+          ],
+          "retrieved": [
+            "D06",
+            "D01",
+            "D03"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q07",
+          "question": "ETF cổ phiếu là gì và hoạt động ra sao?",
+          "expected": [
+            "D07"
+          ],
+          "retrieved": [
+            "D07",
+            "D34",
+            "D36"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q08",
+          "question": "Vì sao cần đa dạng hóa danh mục đầu tư?",
+          "expected": [
+            "D08"
+          ],
+          "retrieved": [
+            "D07",
+            "D08",
+            "D36"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q09",
+          "question": "Phân bổ tài sản giữa cổ phiếu vàng và tiền mặt thế nào?",
+          "expected": [
+            "D09"
+          ],
+          "retrieved": [
+            "D10",
+            "D09",
+            "D38"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q10",
+          "question": "Khẩu vị rủi ro và thời hạn đầu tư quan trọng ra sao?",
+          "expected": [
+            "D10"
+          ],
+          "retrieved": [
+            "D10",
+            "D38",
+            "D09"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q11",
+          "question": "Lệnh thị trường khác lệnh giới hạn như thế nào?",
+          "expected": [
+            "D11"
+          ],
+          "retrieved": [
+            "D11",
+            "D05",
+            "D06"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q12",
+          "question": "Lệnh dừng stop loss hoạt động ra sao?",
+          "expected": [
+            "D12"
+          ],
+          "retrieved": [
+            "D12",
+            "D04",
+            "D37"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q13",
+          "question": "Hệ số P/E và EPS có ý nghĩa gì?",
+          "expected": [
+            "D13"
+          ],
+          "retrieved": [
+            "D13",
+            "D16",
+            "D01"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q14",
+          "question": "Vốn hóa thị trường của doanh nghiệp được tính thế nào?",
+          "expected": [
+            "D14"
+          ],
+          "retrieved": [
+            "D01",
+            "D03",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q15",
+          "question": "Phân tích cơ bản khác phân tích kỹ thuật điểm nào?",
+          "expected": [
+            "D15"
+          ],
+          "retrieved": [
+            "D15",
+            "D17",
+            "D12"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q16",
+          "question": "Lãi suất tăng có thể tác động đến giá cổ phiếu như thế nào?",
+          "expected": [
+            "D16"
+          ],
+          "retrieved": [
+            "D16",
+            "D28",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q17",
+          "question": "Đọc báo cáo tài chính và dòng tiền để phân tích doanh nghiệp?",
+          "expected": [
+            "D17"
+          ],
+          "retrieved": [
+            "D01",
+            "D03",
+            "D14"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q18",
+          "question": "Phí giao dịch và chênh lệch mua bán ảnh hưởng lợi nhuận thế nào?",
+          "expected": [
+            "D18"
+          ],
+          "retrieved": [
+            "D03",
+            "D05",
+            "D22"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q19",
+          "question": "IPO là gì và liên quan đến thị trường thứ cấp ra sao?",
+          "expected": [
+            "D19"
+          ],
+          "retrieved": [
+            "D19",
+            "D01",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q20",
+          "question": "Vàng có đặc điểm nào khi là tài sản đầu tư?",
+          "expected": [
+            "D20"
+          ],
+          "retrieved": [
+            "D20",
+            "D09",
+            "D27"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q21",
+          "question": "XAU/USD là gì, đơn vị giá vàng quốc tế?",
+          "expected": [
+            "D21"
+          ],
+          "retrieved": [
+            "D27",
+            "D21",
+            "D35"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q22",
+          "question": "Vì sao giá vàng trong nước khác giá vàng thế giới?",
+          "expected": [
+            "D22"
+          ],
+          "retrieved": [
+            "D21",
+            "D22",
+            "D35"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q23",
+          "question": "Chênh lệch giá vàng mua vào bán ra nghĩa là gì?",
+          "expected": [
+            "D23"
+          ],
+          "retrieved": [
+            "D05",
+            "D23",
+            "D22"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q24",
+          "question": "Cần lưu ý gì khi mua vàng miếng và vàng nhẫn vật chất?",
+          "expected": [
+            "D24"
+          ],
+          "retrieved": [
+            "D24",
+            "D09",
+            "D27"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q25",
+          "question": "ETF vàng là gì, khác cầm vàng vật chất thế nào?",
+          "expected": [
+            "D25"
+          ],
+          "retrieved": [
+            "D25",
+            "D24",
+            "D23"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q26",
+          "question": "Hợp đồng tương lai vàng có rủi ro đòn bẩy gì?",
+          "expected": [
+            "D26"
+          ],
+          "retrieved": [
+            "D26",
+            "D20",
+            "D33"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q27",
+          "question": "USD mạnh lên tác động đến giá vàng ra sao?",
+          "expected": [
+            "D27"
+          ],
+          "retrieved": [
+            "D27",
+            "D21",
+            "D35"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q28",
+          "question": "Lãi suất thực ảnh hưởng giá vàng bằng cơ chế nào?",
+          "expected": [
+            "D28"
+          ],
+          "retrieved": [
+            "D16",
+            "D29",
+            "D28"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q29",
+          "question": "Vàng có luôn tăng theo lạm phát không?",
+          "expected": [
+            "D29"
+          ],
+          "retrieved": [
+            "D29",
+            "D28",
+            "D09"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q30",
+          "question": "Bất ổn địa chính trị ảnh hưởng nhu cầu trú ẩn vàng ra sao?",
+          "expected": [
+            "D30"
+          ],
+          "retrieved": [
+            "D30",
+            "D09",
+            "D27"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q31",
+          "question": "Ngân hàng trung ương mua dự trữ vàng làm gì?",
+          "expected": [
+            "D31"
+          ],
+          "retrieved": [
+            "D31",
+            "D09",
+            "D27"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q32",
+          "question": "Giữ vàng có được nhận cổ tức không?",
+          "expected": [
+            "D32"
+          ],
+          "retrieved": [
+            "D03",
+            "D32",
+            "D33"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q33",
+          "question": "Điểm khác nhau khi đầu tư vàng và cổ phiếu?",
+          "expected": [
+            "D33"
+          ],
+          "retrieved": [
+            "D09",
+            "D36",
+            "D34"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q34",
+          "question": "Kết hợp vàng cổ phiếu giúp đa dạng hóa danh mục ra sao?",
+          "expected": [
+            "D34"
+          ],
+          "retrieved": [
+            "D07",
+            "D08",
+            "D36"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q35",
+          "question": "Rủi ro tỷ giá USD/VND khi mua vàng tính thế nào?",
+          "expected": [
+            "D35"
+          ],
+          "retrieved": [
+            "D21",
+            "D27",
+            "D22"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q36",
+          "question": "Tương quan lợi suất giữa cổ phiếu và vàng có cố định không?",
+          "expected": [
+            "D36"
+          ],
+          "retrieved": [
+            "D03",
+            "D18",
+            "D36"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q37",
+          "question": "Nên quản lý biến động thị trường và tái cân bằng danh mục ra sao?",
+          "expected": [
+            "D37"
+          ],
+          "retrieved": [
+            "D04",
+            "D12",
+            "D37"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q38",
+          "question": "Đầu tư định kỳ DCA có lợi ích và hạn chế gì?",
+          "expected": [
+            "D38"
+          ],
+          "retrieved": [
+            "D38",
+            "D08",
+            "D34"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q39",
+          "question": "Cần nhận biết dấu hiệu lừa đảo đầu tư nào?",
+          "expected": [
+            "D39"
+          ],
+          "retrieved": [
+            "D39",
+            "D04",
+            "D12"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q40",
+          "question": "Hệ thống có biết giá vàng hôm nay và giá cổ phiếu hiện tại không?",
+          "expected": [
+            "D40"
+          ],
+          "retrieved": [
+            "D40",
+            "D09",
+            "D33"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        }
+      ],
+      "note": "Chỉ đo chất lượng truy xuất so với tập nhãn mẫu; KHÔNG chứng minh hiệu quả dự báo tài chính, khả năng đầu tư hoặc chất lượng sinh câu trả lời."
+    },
+    {
+      "mode": "hybrid",
+      "k": 3,
+      "n_questions": 40,
+      "hit_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.3333,
+      "mrr_at_k": 0.975,
+      "rows": [
+        {
+          "id": "Q01",
+          "question": "Cổ phiếu là gì, quyền sở hữu doanh nghiệp ra sao?",
+          "expected": [
+            "D01"
+          ],
+          "retrieved": [
+            "D01",
+            "D14",
+            "D03"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q02",
+          "question": "Cổ phiếu phổ thông khác cổ phiếu ưu đãi thế nào?",
+          "expected": [
+            "D02"
+          ],
+          "retrieved": [
+            "D02",
+            "D33",
+            "D34"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q03",
+          "question": "Cổ tức và phần tăng giá cổ phiếu tạo lợi nhuận ra sao?",
+          "expected": [
+            "D03"
+          ],
+          "retrieved": [
+            "D03",
+            "D32",
+            "D33"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q04",
+          "question": "Đầu tư cổ phiếu có thể chịu những rủi ro gì?",
+          "expected": [
+            "D04"
+          ],
+          "retrieved": [
+            "D07",
+            "D04",
+            "D01"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q05",
+          "question": "Thanh khoản và khối lượng giao dịch là gì?",
+          "expected": [
+            "D05"
+          ],
+          "retrieved": [
+            "D05",
+            "D11",
+            "D01"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q06",
+          "question": "VN-Index là chỉ số chứng khoán gì?",
+          "expected": [
+            "D06"
+          ],
+          "retrieved": [
+            "D06",
+            "D01",
+            "D07"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q07",
+          "question": "ETF cổ phiếu là gì và hoạt động ra sao?",
+          "expected": [
+            "D07"
+          ],
+          "retrieved": [
+            "D07",
+            "D01",
+            "D33"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q08",
+          "question": "Vì sao cần đa dạng hóa danh mục đầu tư?",
+          "expected": [
+            "D08"
+          ],
+          "retrieved": [
+            "D08",
+            "D34",
+            "D07"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q09",
+          "question": "Phân bổ tài sản giữa cổ phiếu vàng và tiền mặt thế nào?",
+          "expected": [
+            "D09"
+          ],
+          "retrieved": [
+            "D09",
+            "D10",
+            "D34"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q10",
+          "question": "Khẩu vị rủi ro và thời hạn đầu tư quan trọng ra sao?",
+          "expected": [
+            "D10"
+          ],
+          "retrieved": [
+            "D10",
+            "D38",
+            "D09"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q11",
+          "question": "Lệnh thị trường khác lệnh giới hạn như thế nào?",
+          "expected": [
+            "D11"
+          ],
+          "retrieved": [
+            "D11",
+            "D12",
+            "D22"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q12",
+          "question": "Lệnh dừng stop loss hoạt động ra sao?",
+          "expected": [
+            "D12"
+          ],
+          "retrieved": [
+            "D12",
+            "D11",
+            "D37"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q13",
+          "question": "Hệ số P/E và EPS có ý nghĩa gì?",
+          "expected": [
+            "D13"
+          ],
+          "retrieved": [
+            "D13",
+            "D01",
+            "D19"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q14",
+          "question": "Vốn hóa thị trường của doanh nghiệp được tính thế nào?",
+          "expected": [
+            "D14"
+          ],
+          "retrieved": [
+            "D14",
+            "D03",
+            "D17"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q15",
+          "question": "Phân tích cơ bản khác phân tích kỹ thuật điểm nào?",
+          "expected": [
+            "D15"
+          ],
+          "retrieved": [
+            "D15",
+            "D17",
+            "D38"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q16",
+          "question": "Lãi suất tăng có thể tác động đến giá cổ phiếu như thế nào?",
+          "expected": [
+            "D16"
+          ],
+          "retrieved": [
+            "D16",
+            "D28",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q17",
+          "question": "Đọc báo cáo tài chính và dòng tiền để phân tích doanh nghiệp?",
+          "expected": [
+            "D17"
+          ],
+          "retrieved": [
+            "D17",
+            "D14",
+            "D03"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q18",
+          "question": "Phí giao dịch và chênh lệch mua bán ảnh hưởng lợi nhuận thế nào?",
+          "expected": [
+            "D18"
+          ],
+          "retrieved": [
+            "D18",
+            "D05",
+            "D23"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q19",
+          "question": "IPO là gì và liên quan đến thị trường thứ cấp ra sao?",
+          "expected": [
+            "D19"
+          ],
+          "retrieved": [
+            "D19",
+            "D01",
+            "D17"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q20",
+          "question": "Vàng có đặc điểm nào khi là tài sản đầu tư?",
+          "expected": [
+            "D20"
+          ],
+          "retrieved": [
+            "D20",
+            "D26",
+            "D32"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q21",
+          "question": "XAU/USD là gì, đơn vị giá vàng quốc tế?",
+          "expected": [
+            "D21"
+          ],
+          "retrieved": [
+            "D21",
+            "D27",
+            "D35"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q22",
+          "question": "Vì sao giá vàng trong nước khác giá vàng thế giới?",
+          "expected": [
+            "D22"
+          ],
+          "retrieved": [
+            "D22",
+            "D21",
+            "D35"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q23",
+          "question": "Chênh lệch giá vàng mua vào bán ra nghĩa là gì?",
+          "expected": [
+            "D23"
+          ],
+          "retrieved": [
+            "D23",
+            "D18",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q24",
+          "question": "Cần lưu ý gì khi mua vàng miếng và vàng nhẫn vật chất?",
+          "expected": [
+            "D24"
+          ],
+          "retrieved": [
+            "D24",
+            "D20",
+            "D25"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q25",
+          "question": "ETF vàng là gì, khác cầm vàng vật chất thế nào?",
+          "expected": [
+            "D25"
+          ],
+          "retrieved": [
+            "D25",
+            "D24",
+            "D20"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q26",
+          "question": "Hợp đồng tương lai vàng có rủi ro đòn bẩy gì?",
+          "expected": [
+            "D26"
+          ],
+          "retrieved": [
+            "D26",
+            "D34",
+            "D04"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q27",
+          "question": "USD mạnh lên tác động đến giá vàng ra sao?",
+          "expected": [
+            "D27"
+          ],
+          "retrieved": [
+            "D27",
+            "D35",
+            "D21"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q28",
+          "question": "Lãi suất thực ảnh hưởng giá vàng bằng cơ chế nào?",
+          "expected": [
+            "D28"
+          ],
+          "retrieved": [
+            "D28",
+            "D16",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q29",
+          "question": "Vàng có luôn tăng theo lạm phát không?",
+          "expected": [
+            "D29"
+          ],
+          "retrieved": [
+            "D29",
+            "D28",
+            "D36"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q30",
+          "question": "Bất ổn địa chính trị ảnh hưởng nhu cầu trú ẩn vàng ra sao?",
+          "expected": [
+            "D30"
+          ],
+          "retrieved": [
+            "D30",
+            "D20",
+            "D32"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q31",
+          "question": "Ngân hàng trung ương mua dự trữ vàng làm gì?",
+          "expected": [
+            "D31"
+          ],
+          "retrieved": [
+            "D31",
+            "D29",
+            "D24"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q32",
+          "question": "Giữ vàng có được nhận cổ tức không?",
+          "expected": [
+            "D32"
+          ],
+          "retrieved": [
+            "D03",
+            "D32",
+            "D33"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q33",
+          "question": "Điểm khác nhau khi đầu tư vàng và cổ phiếu?",
+          "expected": [
+            "D33"
+          ],
+          "retrieved": [
+            "D33",
+            "D34",
+            "D38"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q34",
+          "question": "Kết hợp vàng cổ phiếu giúp đa dạng hóa danh mục ra sao?",
+          "expected": [
+            "D34"
+          ],
+          "retrieved": [
+            "D34",
+            "D08",
+            "D07"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q35",
+          "question": "Rủi ro tỷ giá USD/VND khi mua vàng tính thế nào?",
+          "expected": [
+            "D35"
+          ],
+          "retrieved": [
+            "D35",
+            "D27",
+            "D21"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q36",
+          "question": "Tương quan lợi suất giữa cổ phiếu và vàng có cố định không?",
+          "expected": [
+            "D36"
+          ],
+          "retrieved": [
+            "D36",
+            "D03",
+            "D18"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q37",
+          "question": "Nên quản lý biến động thị trường và tái cân bằng danh mục ra sao?",
+          "expected": [
+            "D37"
+          ],
+          "retrieved": [
+            "D37",
+            "D04",
+            "D12"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q38",
+          "question": "Đầu tư định kỳ DCA có lợi ích và hạn chế gì?",
+          "expected": [
+            "D38"
+          ],
+          "retrieved": [
+            "D38",
+            "D37",
+            "D18"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q39",
+          "question": "Cần nhận biết dấu hiệu lừa đảo đầu tư nào?",
+          "expected": [
+            "D39"
+          ],
+          "retrieved": [
+            "D39",
+            "D10",
+            "D20"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q40",
+          "question": "Hệ thống có biết giá vàng hôm nay và giá cổ phiếu hiện tại không?",
+          "expected": [
+            "D40"
+          ],
+          "retrieved": [
+            "D40",
+            "D02",
+            "D13"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        }
+      ],
+      "note": "Chỉ đo chất lượng truy xuất so với tập nhãn mẫu; KHÔNG chứng minh hiệu quả dự báo tài chính, khả năng đầu tư hoặc chất lượng sinh câu trả lời."
+    }
+  ]
+}

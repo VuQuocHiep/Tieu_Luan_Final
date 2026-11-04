@@ -1,0 +1,54 @@
+{
+  "key": "imdb",
+  "title": "IMDB Movie Review Sentiment",
+  "classes": [
+    "Negative",
+    "Positive"
+  ],
+  "original_counts": {
+    "all": 50000,
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "distribution": {
+    "Negative": 25000,
+    "Positive": 25000
+  },
+  "options": {
+    "max_train": 4000,
+    "max_val": 800,
+    "max_test": 1200,
+    "max_len": 60,
+    "vocab_size": 4000,
+    "embed_dim": 24,
+    "hidden_dim": 32,
+    "epochs": 8,
+    "batch_size": 64,
+    "lr": 0.002,
+    "seed": 42
+  },
+  "vocab_size_actual": 4000,
+  "samples": [
+    {
+      "text": "One of the other reviewers has mentioned that after watching just 1 Oz episode you'll be hooked. They are right, as this is exactly what happened with me.<br /><br />The first thing that struck me about Oz was its brutality and unflinching ",
+      "label": "Positive"
+    },
+    {
+      "text": "A wonderful little production. <br /><br />The filming technique is very unassuming- very old-time-BBC fashion and gives a comforting, and sometimes discomforting, sense of realism to the entire piece. <br /><br />The actors are extremely w",
+      "label": "Positive"
+    },
+    {
+      "text": "I thought this was a wonderful way to spend time on a too hot summer weekend, sitting in the air conditioned theater and watching a light-hearted comedy. The plot is simplistic, but the dialogue is witty and the characters are likable (even",
+      "label": "Positive"
+    },
+    {
+      "text": "Basically there's a family where a little boy (Jake) thinks there's a zombie in his closet & his parents are fighting all the time.<br /><br />This movie is slower than a soap opera... and suddenly, Jake decides to become Rambo and kill the",
+      "label": "Negative"
+    },
+    {
+      "text": "Petter Mattei's \"Love in the Time of Money\" is a visually stunning film to watch. Mr. Mattei offers us a vivid portrait about human relations. This is a movie that seems to be telling us what money, power and success do to people in the dif",
+      "label": "Positive"
+    }
+  ]
+}

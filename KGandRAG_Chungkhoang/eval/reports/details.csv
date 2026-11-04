@@ -1,0 +1,121 @@
+﻿Mode,ID,Question,Gold docs,Retrieved docs,Hit,Recall,Precision,RR
+vector,Q01,"Cổ phiếu là gì, quyền sở hữu doanh nghiệp ra sao?",D01,D01;D33;D14,1,1.0,0.3333333333333333,1.0
+vector,Q02,Cổ phiếu phổ thông khác cổ phiếu ưu đãi thế nào?,D02,D02;D33;D34,1,1.0,0.3333333333333333,1.0
+vector,Q03,Cổ tức và phần tăng giá cổ phiếu tạo lợi nhuận ra sao?,D03,D03;D17;D01,1,1.0,0.3333333333333333,1.0
+vector,Q04,Đầu tư cổ phiếu có thể chịu những rủi ro gì?,D04,D07;D04;D01,1,1.0,0.3333333333333333,0.5
+vector,Q05,Thanh khoản và khối lượng giao dịch là gì?,D05,D05;D11;D20,1,1.0,0.3333333333333333,1.0
+vector,Q06,VN-Index là chỉ số chứng khoán gì?,D06,D06;D01;D25,1,1.0,0.3333333333333333,1.0
+vector,Q07,ETF cổ phiếu là gì và hoạt động ra sao?,D07,D07;D25;D01,1,1.0,0.3333333333333333,1.0
+vector,Q08,Vì sao cần đa dạng hóa danh mục đầu tư?,D08,D08;D34;D20,1,1.0,0.3333333333333333,1.0
+vector,Q09,Phân bổ tài sản giữa cổ phiếu vàng và tiền mặt thế nào?,D09,D09;D33;D34,1,1.0,0.3333333333333333,1.0
+vector,Q10,Khẩu vị rủi ro và thời hạn đầu tư quan trọng ra sao?,D10,D10;D38;D34,1,1.0,0.3333333333333333,1.0
+vector,Q11,Lệnh thị trường khác lệnh giới hạn như thế nào?,D11,D11;D12;D22,1,1.0,0.3333333333333333,1.0
+vector,Q12,Lệnh dừng stop loss hoạt động ra sao?,D12,D12;D11;D05,1,1.0,0.3333333333333333,1.0
+vector,Q13,Hệ số P/E và EPS có ý nghĩa gì?,D13,D13;D01;D17,1,1.0,0.3333333333333333,1.0
+vector,Q14,Vốn hóa thị trường của doanh nghiệp được tính thế nào?,D14,D14;D03;D17,1,1.0,0.3333333333333333,1.0
+vector,Q15,Phân tích cơ bản khác phân tích kỹ thuật điểm nào?,D15,D15;D17;D38,1,1.0,0.3333333333333333,1.0
+vector,Q16,Lãi suất tăng có thể tác động đến giá cổ phiếu như thế nào?,D16,D16;D28;D29,1,1.0,0.3333333333333333,1.0
+vector,Q17,Đọc báo cáo tài chính và dòng tiền để phân tích doanh nghiệp?,D17,D17;D15;D14,1,1.0,0.3333333333333333,1.0
+vector,Q18,Phí giao dịch và chênh lệch mua bán ảnh hưởng lợi nhuận thế nào?,D18,D18;D05;D23,1,1.0,0.3333333333333333,1.0
+vector,Q19,IPO là gì và liên quan đến thị trường thứ cấp ra sao?,D19,D19;D16;D40,1,1.0,0.3333333333333333,1.0
+vector,Q20,Vàng có đặc điểm nào khi là tài sản đầu tư?,D20,D20;D38;D26,1,1.0,0.3333333333333333,1.0
+vector,Q21,"XAU/USD là gì, đơn vị giá vàng quốc tế?",D21,D21;D27;D35,1,1.0,0.3333333333333333,1.0
+vector,Q22,Vì sao giá vàng trong nước khác giá vàng thế giới?,D22,D22;D11;D21,1,1.0,0.3333333333333333,1.0
+vector,Q23,Chênh lệch giá vàng mua vào bán ra nghĩa là gì?,D23,D23;D18;D05,1,1.0,0.3333333333333333,1.0
+vector,Q24,Cần lưu ý gì khi mua vàng miếng và vàng nhẫn vật chất?,D24,D24;D20;D25,1,1.0,0.3333333333333333,1.0
+vector,Q25,"ETF vàng là gì, khác cầm vàng vật chất thế nào?",D25,D25;D20;D24,1,1.0,0.3333333333333333,1.0
+vector,Q26,Hợp đồng tương lai vàng có rủi ro đòn bẩy gì?,D26,D26;D34;D04,1,1.0,0.3333333333333333,1.0
+vector,Q27,USD mạnh lên tác động đến giá vàng ra sao?,D27,D27;D35;D21,1,1.0,0.3333333333333333,1.0
+vector,Q28,Lãi suất thực ảnh hưởng giá vàng bằng cơ chế nào?,D28,D28;D16;D29,1,1.0,0.3333333333333333,1.0
+vector,Q29,Vàng có luôn tăng theo lạm phát không?,D29,D29;D36;D28,1,1.0,0.3333333333333333,1.0
+vector,Q30,Bất ổn địa chính trị ảnh hưởng nhu cầu trú ẩn vàng ra sao?,D30,D30;D20;D32,1,1.0,0.3333333333333333,1.0
+vector,Q31,Ngân hàng trung ương mua dự trữ vàng làm gì?,D31,D31;D29;D24,1,1.0,0.3333333333333333,1.0
+vector,Q32,Giữ vàng có được nhận cổ tức không?,D32,D03;D32;D33,1,1.0,0.3333333333333333,0.5
+vector,Q33,Điểm khác nhau khi đầu tư vàng và cổ phiếu?,D33,D33;D34;D38,1,1.0,0.3333333333333333,1.0
+vector,Q34,Kết hợp vàng cổ phiếu giúp đa dạng hóa danh mục ra sao?,D34,D34;D08;D07,1,1.0,0.3333333333333333,1.0
+vector,Q35,Rủi ro tỷ giá USD/VND khi mua vàng tính thế nào?,D35,D35;D27;D21,1,1.0,0.3333333333333333,1.0
+vector,Q36,Tương quan lợi suất giữa cổ phiếu và vàng có cố định không?,D36,D36;D28;D16,1,1.0,0.3333333333333333,1.0
+vector,Q37,Nên quản lý biến động thị trường và tái cân bằng danh mục ra sao?,D37,D37;D34;D04,1,1.0,0.3333333333333333,1.0
+vector,Q38,Đầu tư định kỳ DCA có lợi ích và hạn chế gì?,D38,D38;D18;D20,1,1.0,0.3333333333333333,1.0
+vector,Q39,Cần nhận biết dấu hiệu lừa đảo đầu tư nào?,D39,D39;D10;D20,1,1.0,0.3333333333333333,1.0
+vector,Q40,Hệ thống có biết giá vàng hôm nay và giá cổ phiếu hiện tại không?,D40,D40;D02;D13,1,1.0,0.3333333333333333,1.0
+graph,Q01,"Cổ phiếu là gì, quyền sở hữu doanh nghiệp ra sao?",D01,D01;D03;D14,1,1.0,0.3333333333333333,1.0
+graph,Q02,Cổ phiếu phổ thông khác cổ phiếu ưu đãi thế nào?,D02,D02;D01;D03,1,1.0,0.3333333333333333,1.0
+graph,Q03,Cổ tức và phần tăng giá cổ phiếu tạo lợi nhuận ra sao?,D03,D03;D18;D32,1,1.0,0.3333333333333333,1.0
+graph,Q04,Đầu tư cổ phiếu có thể chịu những rủi ro gì?,D04,D04;D33;D02,1,1.0,0.3333333333333333,1.0
+graph,Q05,Thanh khoản và khối lượng giao dịch là gì?,D05,D05;D11;D03,1,1.0,0.3333333333333333,1.0
+graph,Q06,VN-Index là chỉ số chứng khoán gì?,D06,D06;D01;D03,1,1.0,0.3333333333333333,1.0
+graph,Q07,ETF cổ phiếu là gì và hoạt động ra sao?,D07,D07;D34;D36,1,1.0,0.3333333333333333,1.0
+graph,Q08,Vì sao cần đa dạng hóa danh mục đầu tư?,D08,D07;D08;D36,1,1.0,0.3333333333333333,0.5
+graph,Q09,Phân bổ tài sản giữa cổ phiếu vàng và tiền mặt thế nào?,D09,D10;D09;D38,1,1.0,0.3333333333333333,0.5
+graph,Q10,Khẩu vị rủi ro và thời hạn đầu tư quan trọng ra sao?,D10,D10;D38;D09,1,1.0,0.3333333333333333,1.0
+graph,Q11,Lệnh thị trường khác lệnh giới hạn như thế nào?,D11,D11;D05;D06,1,1.0,0.3333333333333333,1.0
+graph,Q12,Lệnh dừng stop loss hoạt động ra sao?,D12,D12;D04;D37,1,1.0,0.3333333333333333,1.0
+graph,Q13,Hệ số P/E và EPS có ý nghĩa gì?,D13,D13;D16;D01,1,1.0,0.3333333333333333,1.0
+graph,Q14,Vốn hóa thị trường của doanh nghiệp được tính thế nào?,D14,D01;D03;D14,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q15,Phân tích cơ bản khác phân tích kỹ thuật điểm nào?,D15,D15;D17;D12,1,1.0,0.3333333333333333,1.0
+graph,Q16,Lãi suất tăng có thể tác động đến giá cổ phiếu như thế nào?,D16,D16;D28;D29,1,1.0,0.3333333333333333,1.0
+graph,Q17,Đọc báo cáo tài chính và dòng tiền để phân tích doanh nghiệp?,D17,D01;D03;D14,0,0.0,0.0,0.0
+graph,Q18,Phí giao dịch và chênh lệch mua bán ảnh hưởng lợi nhuận thế nào?,D18,D03;D05;D22,0,0.0,0.0,0.0
+graph,Q19,IPO là gì và liên quan đến thị trường thứ cấp ra sao?,D19,D19;D01;D14,1,1.0,0.3333333333333333,1.0
+graph,Q20,Vàng có đặc điểm nào khi là tài sản đầu tư?,D20,D20;D09;D27,1,1.0,0.3333333333333333,1.0
+graph,Q21,"XAU/USD là gì, đơn vị giá vàng quốc tế?",D21,D27;D21;D35,1,1.0,0.3333333333333333,0.5
+graph,Q22,Vì sao giá vàng trong nước khác giá vàng thế giới?,D22,D21;D22;D35,1,1.0,0.3333333333333333,0.5
+graph,Q23,Chênh lệch giá vàng mua vào bán ra nghĩa là gì?,D23,D05;D23;D22,1,1.0,0.3333333333333333,0.5
+graph,Q24,Cần lưu ý gì khi mua vàng miếng và vàng nhẫn vật chất?,D24,D24;D09;D27,1,1.0,0.3333333333333333,1.0
+graph,Q25,"ETF vàng là gì, khác cầm vàng vật chất thế nào?",D25,D25;D24;D23,1,1.0,0.3333333333333333,1.0
+graph,Q26,Hợp đồng tương lai vàng có rủi ro đòn bẩy gì?,D26,D26;D20;D33,1,1.0,0.3333333333333333,1.0
+graph,Q27,USD mạnh lên tác động đến giá vàng ra sao?,D27,D27;D21;D35,1,1.0,0.3333333333333333,1.0
+graph,Q28,Lãi suất thực ảnh hưởng giá vàng bằng cơ chế nào?,D28,D16;D29;D28,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q29,Vàng có luôn tăng theo lạm phát không?,D29,D29;D28;D09,1,1.0,0.3333333333333333,1.0
+graph,Q30,Bất ổn địa chính trị ảnh hưởng nhu cầu trú ẩn vàng ra sao?,D30,D30;D09;D27,1,1.0,0.3333333333333333,1.0
+graph,Q31,Ngân hàng trung ương mua dự trữ vàng làm gì?,D31,D31;D09;D27,1,1.0,0.3333333333333333,1.0
+graph,Q32,Giữ vàng có được nhận cổ tức không?,D32,D03;D32;D33,1,1.0,0.3333333333333333,0.5
+graph,Q33,Điểm khác nhau khi đầu tư vàng và cổ phiếu?,D33,D09;D36;D34,0,0.0,0.0,0.0
+graph,Q34,Kết hợp vàng cổ phiếu giúp đa dạng hóa danh mục ra sao?,D34,D07;D08;D36,0,0.0,0.0,0.0
+graph,Q35,Rủi ro tỷ giá USD/VND khi mua vàng tính thế nào?,D35,D21;D27;D22,0,0.0,0.0,0.0
+graph,Q36,Tương quan lợi suất giữa cổ phiếu và vàng có cố định không?,D36,D03;D18;D36,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q37,Nên quản lý biến động thị trường và tái cân bằng danh mục ra sao?,D37,D04;D12;D37,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q38,Đầu tư định kỳ DCA có lợi ích và hạn chế gì?,D38,D38;D08;D34,1,1.0,0.3333333333333333,1.0
+graph,Q39,Cần nhận biết dấu hiệu lừa đảo đầu tư nào?,D39,D39;D04;D12,1,1.0,0.3333333333333333,1.0
+graph,Q40,Hệ thống có biết giá vàng hôm nay và giá cổ phiếu hiện tại không?,D40,D40;D09;D33,1,1.0,0.3333333333333333,1.0
+hybrid,Q01,"Cổ phiếu là gì, quyền sở hữu doanh nghiệp ra sao?",D01,D01;D14;D03,1,1.0,0.3333333333333333,1.0
+hybrid,Q02,Cổ phiếu phổ thông khác cổ phiếu ưu đãi thế nào?,D02,D02;D33;D34,1,1.0,0.3333333333333333,1.0
+hybrid,Q03,Cổ tức và phần tăng giá cổ phiếu tạo lợi nhuận ra sao?,D03,D03;D32;D33,1,1.0,0.3333333333333333,1.0
+hybrid,Q04,Đầu tư cổ phiếu có thể chịu những rủi ro gì?,D04,D07;D04;D01,1,1.0,0.3333333333333333,0.5
+hybrid,Q05,Thanh khoản và khối lượng giao dịch là gì?,D05,D05;D11;D01,1,1.0,0.3333333333333333,1.0
+hybrid,Q06,VN-Index là chỉ số chứng khoán gì?,D06,D06;D01;D07,1,1.0,0.3333333333333333,1.0
+hybrid,Q07,ETF cổ phiếu là gì và hoạt động ra sao?,D07,D07;D01;D33,1,1.0,0.3333333333333333,1.0
+hybrid,Q08,Vì sao cần đa dạng hóa danh mục đầu tư?,D08,D08;D34;D07,1,1.0,0.3333333333333333,1.0
+hybrid,Q09,Phân bổ tài sản giữa cổ phiếu vàng và tiền mặt thế nào?,D09,D09;D10;D34,1,1.0,0.3333333333333333,1.0
+hybrid,Q10,Khẩu vị rủi ro và thời hạn đầu tư quan trọng ra sao?,D10,D10;D38;D09,1,1.0,0.3333333333333333,1.0
+hybrid,Q11,Lệnh thị trường khác lệnh giới hạn như thế nào?,D11,D11;D12;D22,1,1.0,0.3333333333333333,1.0
+hybrid,Q12,Lệnh dừng stop loss hoạt động ra sao?,D12,D12;D11;D37,1,1.0,0.3333333333333333,1.0
+hybrid,Q13,Hệ số P/E và EPS có ý nghĩa gì?,D13,D13;D01;D19,1,1.0,0.3333333333333333,1.0
+hybrid,Q14,Vốn hóa thị trường của doanh nghiệp được tính thế nào?,D14,D14;D03;D17,1,1.0,0.3333333333333333,1.0
+hybrid,Q15,Phân tích cơ bản khác phân tích kỹ thuật điểm nào?,D15,D15;D17;D38,1,1.0,0.3333333333333333,1.0
+hybrid,Q16,Lãi suất tăng có thể tác động đến giá cổ phiếu như thế nào?,D16,D16;D28;D29,1,1.0,0.3333333333333333,1.0
+hybrid,Q17,Đọc báo cáo tài chính và dòng tiền để phân tích doanh nghiệp?,D17,D17;D14;D03,1,1.0,0.3333333333333333,1.0
+hybrid,Q18,Phí giao dịch và chênh lệch mua bán ảnh hưởng lợi nhuận thế nào?,D18,D18;D05;D23,1,1.0,0.3333333333333333,1.0
+hybrid,Q19,IPO là gì và liên quan đến thị trường thứ cấp ra sao?,D19,D19;D01;D17,1,1.0,0.3333333333333333,1.0
+hybrid,Q20,Vàng có đặc điểm nào khi là tài sản đầu tư?,D20,D20;D26;D32,1,1.0,0.3333333333333333,1.0
+hybrid,Q21,"XAU/USD là gì, đơn vị giá vàng quốc tế?",D21,D21;D27;D35,1,1.0,0.3333333333333333,1.0
+hybrid,Q22,Vì sao giá vàng trong nước khác giá vàng thế giới?,D22,D22;D21;D35,1,1.0,0.3333333333333333,1.0
+hybrid,Q23,Chênh lệch giá vàng mua vào bán ra nghĩa là gì?,D23,D23;D18;D05,1,1.0,0.3333333333333333,1.0
+hybrid,Q24,Cần lưu ý gì khi mua vàng miếng và vàng nhẫn vật chất?,D24,D24;D20;D25,1,1.0,0.3333333333333333,1.0
+hybrid,Q25,"ETF vàng là gì, khác cầm vàng vật chất thế nào?",D25,D25;D24;D20,1,1.0,0.3333333333333333,1.0
+hybrid,Q26,Hợp đồng tương lai vàng có rủi ro đòn bẩy gì?,D26,D26;D34;D04,1,1.0,0.3333333333333333,1.0
+hybrid,Q27,USD mạnh lên tác động đến giá vàng ra sao?,D27,D27;D35;D21,1,1.0,0.3333333333333333,1.0
+hybrid,Q28,Lãi suất thực ảnh hưởng giá vàng bằng cơ chế nào?,D28,D28;D16;D29,1,1.0,0.3333333333333333,1.0
+hybrid,Q29,Vàng có luôn tăng theo lạm phát không?,D29,D29;D28;D36,1,1.0,0.3333333333333333,1.0
+hybrid,Q30,Bất ổn địa chính trị ảnh hưởng nhu cầu trú ẩn vàng ra sao?,D30,D30;D20;D32,1,1.0,0.3333333333333333,1.0
+hybrid,Q31,Ngân hàng trung ương mua dự trữ vàng làm gì?,D31,D31;D29;D24,1,1.0,0.3333333333333333,1.0
+hybrid,Q32,Giữ vàng có được nhận cổ tức không?,D32,D03;D32;D33,1,1.0,0.3333333333333333,0.5
+hybrid,Q33,Điểm khác nhau khi đầu tư vàng và cổ phiếu?,D33,D33;D34;D38,1,1.0,0.3333333333333333,1.0
+hybrid,Q34,Kết hợp vàng cổ phiếu giúp đa dạng hóa danh mục ra sao?,D34,D34;D08;D07,1,1.0,0.3333333333333333,1.0
+hybrid,Q35,Rủi ro tỷ giá USD/VND khi mua vàng tính thế nào?,D35,D35;D27;D21,1,1.0,0.3333333333333333,1.0
+hybrid,Q36,Tương quan lợi suất giữa cổ phiếu và vàng có cố định không?,D36,D36;D03;D18,1,1.0,0.3333333333333333,1.0
+hybrid,Q37,Nên quản lý biến động thị trường và tái cân bằng danh mục ra sao?,D37,D37;D04;D12,1,1.0,0.3333333333333333,1.0
+hybrid,Q38,Đầu tư định kỳ DCA có lợi ích và hạn chế gì?,D38,D38;D37;D18,1,1.0,0.3333333333333333,1.0
+hybrid,Q39,Cần nhận biết dấu hiệu lừa đảo đầu tư nào?,D39,D39;D10;D20,1,1.0,0.3333333333333333,1.0
+hybrid,Q40,Hệ thống có biết giá vàng hôm nay và giá cổ phiếu hiện tại không?,D40,D40;D02;D13,1,1.0,0.3333333333333333,1.0

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: stocks-gold-kg-rag-demo
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: LLM_PROVIDER
+        value: none
+      - key: RETRIEVAL_ENCODER
+        value: tfidf

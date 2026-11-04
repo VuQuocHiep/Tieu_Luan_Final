@@ -1,0 +1,1201 @@
+{
+  "nodes": [
+    {
+      "id": "stock",
+      "label": "Cổ phiếu",
+      "type": "Chứng khoán",
+      "aliases": [
+        "chứng khoán",
+        "cổ phiếu",
+        "shares",
+        "stock"
+      ]
+    },
+    {
+      "id": "equity",
+      "label": "Quyền sở hữu",
+      "type": "Khái niệm",
+      "aliases": [
+        "quyền sở hữu",
+        "vốn chủ sở hữu"
+      ]
+    },
+    {
+      "id": "company",
+      "label": "Doanh nghiệp",
+      "type": "Chủ thể",
+      "aliases": [
+        "công ty",
+        "doanh nghiệp"
+      ]
+    },
+    {
+      "id": "common",
+      "label": "Cổ phiếu phổ thông",
+      "type": "Chứng khoán",
+      "aliases": [
+        "phổ thông",
+        "common stock"
+      ]
+    },
+    {
+      "id": "preferred",
+      "label": "Cổ phiếu ưu đãi",
+      "type": "Chứng khoán",
+      "aliases": [
+        "ưu đãi",
+        "preferred stock"
+      ]
+    },
+    {
+      "id": "dividend",
+      "label": "Cổ tức",
+      "type": "Chứng khoán",
+      "aliases": [
+        "cổ tức",
+        "dividend"
+      ]
+    },
+    {
+      "id": "return",
+      "label": "Lợi suất",
+      "type": "Chỉ số",
+      "aliases": [
+        "lợi suất",
+        "lợi nhuận",
+        "sinh lời"
+      ]
+    },
+    {
+      "id": "risk",
+      "label": "Rủi ro đầu tư",
+      "type": "Rủi ro",
+      "aliases": [
+        "rủi ro",
+        "thua lỗ"
+      ]
+    },
+    {
+      "id": "volatility",
+      "label": "Biến động giá",
+      "type": "Rủi ro",
+      "aliases": [
+        "biến động",
+        "dao động"
+      ]
+    },
+    {
+      "id": "liquidity",
+      "label": "Thanh khoản",
+      "type": "Chỉ số",
+      "aliases": [
+        "thanh khoản",
+        "khối lượng giao dịch"
+      ]
+    },
+    {
+      "id": "spread",
+      "label": "Chênh lệch mua bán",
+      "type": "Chi phí",
+      "aliases": [
+        "spread",
+        "chênh lệch",
+        "giá mua bán"
+      ]
+    },
+    {
+      "id": "index",
+      "label": "Chỉ số chứng khoán",
+      "type": "Thị trường",
+      "aliases": [
+        "chỉ số",
+        "vn-index",
+        "vn index"
+      ]
+    },
+    {
+      "id": "market",
+      "label": "Thị trường",
+      "type": "Thị trường",
+      "aliases": [
+        "sàn chứng khoán",
+        "thị trường"
+      ]
+    },
+    {
+      "id": "etf",
+      "label": "ETF cổ phiếu",
+      "type": "Chứng khoán",
+      "aliases": [
+        "etf cổ phiếu",
+        "quỹ chỉ số",
+        "quỹ etf"
+      ]
+    },
+    {
+      "id": "diversification",
+      "label": "Đa dạng hóa",
+      "type": "Quản trị",
+      "aliases": [
+        "đa dạng hóa",
+        "phân tán rủi ro"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "label": "Danh mục đầu tư",
+      "type": "Quản trị",
+      "aliases": [
+        "danh mục",
+        "portfolio",
+        "tái cân bằng",
+        "tái cân bằng vốn"
+      ]
+    },
+    {
+      "id": "allocation",
+      "label": "Phân bổ tài sản",
+      "type": "Quản trị",
+      "aliases": [
+        "phân bổ vốn",
+        "phân bổ tài sản"
+      ]
+    },
+    {
+      "id": "horizon",
+      "label": "Thời hạn đầu tư",
+      "type": "Quản trị",
+      "aliases": [
+        "dài hạn",
+        "ngắn hạn",
+        "thời hạn"
+      ]
+    },
+    {
+      "id": "order_market",
+      "label": "Lệnh thị trường",
+      "type": "Giao dịch",
+      "aliases": [
+        "lệnh thị trường",
+        "market order",
+        "lệnh mp"
+      ]
+    },
+    {
+      "id": "order_limit",
+      "label": "Lệnh giới hạn",
+      "type": "Giao dịch",
+      "aliases": [
+        "lệnh giới hạn",
+        "limit order",
+        "lệnh lo"
+      ]
+    },
+    {
+      "id": "stop_order",
+      "label": "Lệnh dừng",
+      "type": "Giao dịch",
+      "aliases": [
+        "stop loss",
+        "stop-limit",
+        "lệnh dừng",
+        "cắt lỗ"
+      ]
+    },
+    {
+      "id": "pe",
+      "label": "P/E",
+      "type": "Phân tích",
+      "aliases": [
+        "p/e",
+        "pe ratio",
+        "hệ số pe"
+      ]
+    },
+    {
+      "id": "eps",
+      "label": "EPS",
+      "type": "Phân tích",
+      "aliases": [
+        "eps",
+        "lãi trên cổ phiếu"
+      ]
+    },
+    {
+      "id": "marketcap",
+      "label": "Vốn hóa",
+      "type": "Phân tích",
+      "aliases": [
+        "vốn hóa",
+        "market cap"
+      ]
+    },
+    {
+      "id": "fundamental",
+      "label": "Phân tích cơ bản",
+      "type": "Phân tích",
+      "aliases": [
+        "phân tích cơ bản",
+        "fundamental"
+      ]
+    },
+    {
+      "id": "technical",
+      "label": "Phân tích kỹ thuật",
+      "type": "Phân tích",
+      "aliases": [
+        "phân tích kỹ thuật",
+        "technical"
+      ]
+    },
+    {
+      "id": "valuation",
+      "label": "Định giá",
+      "type": "Phân tích",
+      "aliases": [
+        "định giá",
+        "valuation"
+      ]
+    },
+    {
+      "id": "interest",
+      "label": "Lãi suất",
+      "type": "Vĩ mô",
+      "aliases": [
+        "lãi suất",
+        "interest rate"
+      ]
+    },
+    {
+      "id": "financials",
+      "label": "Báo cáo tài chính",
+      "type": "Phân tích",
+      "aliases": [
+        "báo cáo tài chính",
+        "doanh thu",
+        "dòng tiền"
+      ]
+    },
+    {
+      "id": "fees",
+      "label": "Chi phí đầu tư",
+      "type": "Chi phí",
+      "aliases": [
+        "phí giao dịch",
+        "phí quản lý",
+        "chi phí"
+      ]
+    },
+    {
+      "id": "ipo",
+      "label": "IPO",
+      "type": "Chứng khoán",
+      "aliases": [
+        "ipo",
+        "phát hành lần đầu"
+      ]
+    },
+    {
+      "id": "gold",
+      "label": "Vàng",
+      "type": "Vàng",
+      "aliases": [
+        "vàng",
+        "kim loại quý",
+        "gold"
+      ]
+    },
+    {
+      "id": "asset",
+      "label": "Tài sản đầu tư",
+      "type": "Khái niệm",
+      "aliases": [
+        "tài sản",
+        "asset"
+      ]
+    },
+    {
+      "id": "xau",
+      "label": "XAU/USD",
+      "type": "Vàng",
+      "aliases": [
+        "xau/usd",
+        "xauusd",
+        "giá vàng thế giới",
+        "spot gold"
+      ]
+    },
+    {
+      "id": "usd",
+      "label": "USD",
+      "type": "Vĩ mô",
+      "aliases": [
+        "usd",
+        "đô la mỹ",
+        "đồng đô"
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Tỷ giá",
+      "type": "Vĩ mô",
+      "aliases": [
+        "tỷ giá",
+        "usd/vnd",
+        "ngoại tệ"
+      ]
+    },
+    {
+      "id": "domestic",
+      "label": "Giá vàng trong nước",
+      "type": "Vàng",
+      "aliases": [
+        "giá vàng trong nước",
+        "vàng sjc",
+        "vàng nội địa"
+      ]
+    },
+    {
+      "id": "bullion",
+      "label": "Vàng vật chất",
+      "type": "Vàng",
+      "aliases": [
+        "vàng miếng",
+        "vàng nhẫn",
+        "vàng vật chất",
+        "bullion"
+      ]
+    },
+    {
+      "id": "storage",
+      "label": "Lưu trữ vàng",
+      "type": "Rủi ro",
+      "aliases": [
+        "cất giữ",
+        "bảo quản",
+        "lưu trữ vàng"
+      ]
+    },
+    {
+      "id": "etfgold",
+      "label": "ETF vàng",
+      "type": "Vàng",
+      "aliases": [
+        "etf vàng",
+        "quỹ vàng",
+        "gold etf"
+      ]
+    },
+    {
+      "id": "futures",
+      "label": "Hợp đồng tương lai vàng",
+      "type": "Vàng",
+      "aliases": [
+        "futures vàng",
+        "phái sinh vàng",
+        "hợp đồng tương lai vàng"
+      ]
+    },
+    {
+      "id": "leverage",
+      "label": "Đòn bẩy",
+      "type": "Rủi ro",
+      "aliases": [
+        "đòn bẩy",
+        "ký quỹ",
+        "margin"
+      ]
+    },
+    {
+      "id": "realyield",
+      "label": "Lãi suất thực",
+      "type": "Vĩ mô",
+      "aliases": [
+        "lãi suất thực",
+        "lợi suất thực"
+      ]
+    },
+    {
+      "id": "inflation",
+      "label": "Lạm phát",
+      "type": "Vĩ mô",
+      "aliases": [
+        "lạm phát",
+        "cpi"
+      ]
+    },
+    {
+      "id": "geopolitical",
+      "label": "Địa chính trị",
+      "type": "Vĩ mô",
+      "aliases": [
+        "địa chính trị",
+        "chiến tranh",
+        "bất ổn"
+      ]
+    },
+    {
+      "id": "safehaven",
+      "label": "Tài sản trú ẩn",
+      "type": "Vàng",
+      "aliases": [
+        "trú ẩn",
+        "safe haven"
+      ]
+    },
+    {
+      "id": "centralbank",
+      "label": "Ngân hàng trung ương",
+      "type": "Chủ thể",
+      "aliases": [
+        "ngân hàng trung ương",
+        "dự trữ vàng"
+      ]
+    },
+    {
+      "id": "demand",
+      "label": "Cung cầu vàng",
+      "type": "Vàng",
+      "aliases": [
+        "cung cầu vàng",
+        "nhu cầu vàng"
+      ]
+    },
+    {
+      "id": "correlation",
+      "label": "Tương quan",
+      "type": "Chỉ số",
+      "aliases": [
+        "tương quan",
+        "correlation"
+      ]
+    },
+    {
+      "id": "dca",
+      "label": "Đầu tư định kỳ",
+      "type": "Quản trị",
+      "aliases": [
+        "dca",
+        "trung bình giá",
+        "đầu tư định kỳ"
+      ]
+    },
+    {
+      "id": "fraud",
+      "label": "Lừa đảo đầu tư",
+      "type": "Rủi ro",
+      "aliases": [
+        "lừa đảo",
+        "otp",
+        "giả mạo",
+        "lợi nhuận cam kết"
+      ]
+    },
+    {
+      "id": "realtime",
+      "label": "Dữ liệu thời gian thực",
+      "type": "Dữ liệu",
+      "aliases": [
+        "thời gian thực",
+        "hôm nay",
+        "giá hiện tại",
+        "giá trực tiếp"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E001",
+      "source": "stock",
+      "target": "equity",
+      "relation": "thể hiện",
+      "doc_ids": [
+        "D01"
+      ]
+    },
+    {
+      "id": "E002",
+      "source": "stock",
+      "target": "company",
+      "relation": "đại diện một phần",
+      "doc_ids": [
+        "D01",
+        "D03",
+        "D14"
+      ]
+    },
+    {
+      "id": "E003",
+      "source": "stock",
+      "target": "common",
+      "relation": "có loại",
+      "doc_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "E004",
+      "source": "stock",
+      "target": "preferred",
+      "relation": "có loại",
+      "doc_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "E005",
+      "source": "stock",
+      "target": "dividend",
+      "relation": "có thể trả",
+      "doc_ids": [
+        "D03",
+        "D33"
+      ]
+    },
+    {
+      "id": "E006",
+      "source": "stock",
+      "target": "return",
+      "relation": "có thể tạo",
+      "doc_ids": [
+        "D03"
+      ]
+    },
+    {
+      "id": "E007",
+      "source": "stock",
+      "target": "risk",
+      "relation": "có",
+      "doc_ids": [
+        "D04",
+        "D33"
+      ]
+    },
+    {
+      "id": "E008",
+      "source": "stock",
+      "target": "volatility",
+      "relation": "chịu ảnh hưởng",
+      "doc_ids": [
+        "D04"
+      ]
+    },
+    {
+      "id": "E009",
+      "source": "stock",
+      "target": "liquidity",
+      "relation": "có đặc tính",
+      "doc_ids": [
+        "D05"
+      ]
+    },
+    {
+      "id": "E010",
+      "source": "stock",
+      "target": "index",
+      "relation": "được tổng hợp trong",
+      "doc_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "E011",
+      "source": "stock",
+      "target": "market",
+      "relation": "giao dịch trên",
+      "doc_ids": [
+        "D06",
+        "D19"
+      ]
+    },
+    {
+      "id": "E012",
+      "source": "stock",
+      "target": "etf",
+      "relation": "có thể nằm trong",
+      "doc_ids": [
+        "D07"
+      ]
+    },
+    {
+      "id": "E013",
+      "source": "etf",
+      "target": "diversification",
+      "relation": "có thể hỗ trợ",
+      "doc_ids": [
+        "D07"
+      ]
+    },
+    {
+      "id": "E014",
+      "source": "diversification",
+      "target": "portfolio",
+      "relation": "áp dụng cho",
+      "doc_ids": [
+        "D08",
+        "D34"
+      ]
+    },
+    {
+      "id": "E015",
+      "source": "allocation",
+      "target": "portfolio",
+      "relation": "cấu thành",
+      "doc_ids": [
+        "D09"
+      ]
+    },
+    {
+      "id": "E016",
+      "source": "allocation",
+      "target": "horizon",
+      "relation": "phụ thuộc",
+      "doc_ids": [
+        "D10"
+      ]
+    },
+    {
+      "id": "E017",
+      "source": "risk",
+      "target": "horizon",
+      "relation": "đánh giá cùng",
+      "doc_ids": [
+        "D10"
+      ]
+    },
+    {
+      "id": "E018",
+      "source": "order_market",
+      "target": "market",
+      "relation": "được sử dụng trên",
+      "doc_ids": [
+        "D11"
+      ]
+    },
+    {
+      "id": "E019",
+      "source": "order_market",
+      "target": "liquidity",
+      "relation": "phụ thuộc",
+      "doc_ids": [
+        "D11"
+      ]
+    },
+    {
+      "id": "E020",
+      "source": "order_limit",
+      "target": "market",
+      "relation": "được sử dụng trên",
+      "doc_ids": [
+        "D11"
+      ]
+    },
+    {
+      "id": "E021",
+      "source": "stop_order",
+      "target": "volatility",
+      "relation": "bị ảnh hưởng",
+      "doc_ids": [
+        "D12"
+      ]
+    },
+    {
+      "id": "E022",
+      "source": "stock",
+      "target": "pe",
+      "relation": "có chỉ số định giá",
+      "doc_ids": [
+        "D13"
+      ]
+    },
+    {
+      "id": "E023",
+      "source": "pe",
+      "target": "eps",
+      "relation": "dùng mẫu số",
+      "doc_ids": [
+        "D13"
+      ]
+    },
+    {
+      "id": "E024",
+      "source": "pe",
+      "target": "valuation",
+      "relation": "hỗ trợ",
+      "doc_ids": [
+        "D13"
+      ]
+    },
+    {
+      "id": "E025",
+      "source": "stock",
+      "target": "marketcap",
+      "relation": "có chỉ số",
+      "doc_ids": [
+        "D14"
+      ]
+    },
+    {
+      "id": "E026",
+      "source": "company",
+      "target": "financials",
+      "relation": "công bố",
+      "doc_ids": [
+        "D17"
+      ]
+    },
+    {
+      "id": "E027",
+      "source": "fundamental",
+      "target": "financials",
+      "relation": "nghiên cứu",
+      "doc_ids": [
+        "D17"
+      ]
+    },
+    {
+      "id": "E028",
+      "source": "technical",
+      "target": "volatility",
+      "relation": "nghiên cứu",
+      "doc_ids": [
+        "D15"
+      ]
+    },
+    {
+      "id": "E029",
+      "source": "valuation",
+      "target": "interest",
+      "relation": "chịu tác động",
+      "doc_ids": [
+        "D16"
+      ]
+    },
+    {
+      "id": "E030",
+      "source": "company",
+      "target": "ipo",
+      "relation": "có thể thực hiện",
+      "doc_ids": [
+        "D01",
+        "D03"
+      ]
+    },
+    {
+      "id": "E031",
+      "source": "stock",
+      "target": "fees",
+      "relation": "phát sinh",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "id": "E032",
+      "source": "order_limit",
+      "target": "spread",
+      "relation": "cân nhắc",
+      "doc_ids": [
+        "D11"
+      ]
+    },
+    {
+      "id": "E033",
+      "source": "gold",
+      "target": "asset",
+      "relation": "là loại",
+      "doc_ids": [
+        "D20"
+      ]
+    },
+    {
+      "id": "E034",
+      "source": "gold",
+      "target": "xau",
+      "relation": "có giá tham chiếu",
+      "doc_ids": [
+        "D21"
+      ]
+    },
+    {
+      "id": "E035",
+      "source": "gold",
+      "target": "bullion",
+      "relation": "giao dịch dưới dạng",
+      "doc_ids": [
+        "D24"
+      ]
+    },
+    {
+      "id": "E036",
+      "source": "gold",
+      "target": "etfgold",
+      "relation": "có sản phẩm",
+      "doc_ids": [
+        "D25"
+      ]
+    },
+    {
+      "id": "E037",
+      "source": "gold",
+      "target": "futures",
+      "relation": "có sản phẩm",
+      "doc_ids": [
+        "D26"
+      ]
+    },
+    {
+      "id": "E038",
+      "source": "gold",
+      "target": "risk",
+      "relation": "có",
+      "doc_ids": [
+        "D20",
+        "D26",
+        "D33"
+      ]
+    },
+    {
+      "id": "E039",
+      "source": "gold",
+      "target": "domestic",
+      "relation": "có báo giá",
+      "doc_ids": [
+        "D22",
+        "D35"
+      ]
+    },
+    {
+      "id": "E040",
+      "source": "gold",
+      "target": "spread",
+      "relation": "phát sinh",
+      "doc_ids": [
+        "D22",
+        "D23"
+      ]
+    },
+    {
+      "id": "E041",
+      "source": "bullion",
+      "target": "storage",
+      "relation": "cần",
+      "doc_ids": [
+        "D24"
+      ]
+    },
+    {
+      "id": "E042",
+      "source": "etfgold",
+      "target": "fees",
+      "relation": "chịu",
+      "doc_ids": [
+        "D25"
+      ]
+    },
+    {
+      "id": "E043",
+      "source": "futures",
+      "target": "leverage",
+      "relation": "có thể sử dụng",
+      "doc_ids": [
+        "D26"
+      ]
+    },
+    {
+      "id": "E044",
+      "source": "gold",
+      "target": "usd",
+      "relation": "thường định giá bằng",
+      "doc_ids": [
+        "D21",
+        "D27",
+        "D35"
+      ]
+    },
+    {
+      "id": "E045",
+      "source": "xau",
+      "target": "usd",
+      "relation": "được niêm yết bằng",
+      "doc_ids": [
+        "D21"
+      ]
+    },
+    {
+      "id": "E046",
+      "source": "domestic",
+      "target": "exchange",
+      "relation": "chịu ảnh hưởng",
+      "doc_ids": [
+        "D22",
+        "D35"
+      ]
+    },
+    {
+      "id": "E047",
+      "source": "domestic",
+      "target": "spread",
+      "relation": "có chênh lệch",
+      "doc_ids": [
+        "D22"
+      ]
+    },
+    {
+      "id": "E048",
+      "source": "usd",
+      "target": "exchange",
+      "relation": "liên quan",
+      "doc_ids": [
+        "D21",
+        "D27",
+        "D35"
+      ]
+    },
+    {
+      "id": "E049",
+      "source": "gold",
+      "target": "realyield",
+      "relation": "chịu ảnh hưởng",
+      "doc_ids": [
+        "D28",
+        "D29"
+      ]
+    },
+    {
+      "id": "E050",
+      "source": "realyield",
+      "target": "interest",
+      "relation": "liên quan",
+      "doc_ids": [
+        "D28"
+      ]
+    },
+    {
+      "id": "E051",
+      "source": "gold",
+      "target": "inflation",
+      "relation": "chịu ảnh hưởng",
+      "doc_ids": [
+        "D29"
+      ]
+    },
+    {
+      "id": "E052",
+      "source": "inflation",
+      "target": "realyield",
+      "relation": "liên quan",
+      "doc_ids": [
+        "D29"
+      ]
+    },
+    {
+      "id": "E053",
+      "source": "gold",
+      "target": "geopolitical",
+      "relation": "chịu ảnh hưởng",
+      "doc_ids": [
+        "D30"
+      ]
+    },
+    {
+      "id": "E054",
+      "source": "gold",
+      "target": "safehaven",
+      "relation": "thường được xem là",
+      "doc_ids": [
+        "D30"
+      ]
+    },
+    {
+      "id": "E055",
+      "source": "gold",
+      "target": "centralbank",
+      "relation": "được nắm giữ bởi",
+      "doc_ids": [
+        "D31"
+      ]
+    },
+    {
+      "id": "E056",
+      "source": "centralbank",
+      "target": "demand",
+      "relation": "tạo một phần",
+      "doc_ids": [
+        "D31"
+      ]
+    },
+    {
+      "id": "E057",
+      "source": "gold",
+      "target": "demand",
+      "relation": "chịu ảnh hưởng",
+      "doc_ids": [
+        "D31"
+      ]
+    },
+    {
+      "id": "E058",
+      "source": "gold",
+      "target": "dividend",
+      "relation": "không tự trả",
+      "doc_ids": [
+        "D32",
+        "D33"
+      ]
+    },
+    {
+      "id": "E059",
+      "source": "stock",
+      "target": "gold",
+      "relation": "có thể phân bổ cùng",
+      "doc_ids": [
+        "D09",
+        "D33",
+        "D34",
+        "D36",
+        "D40"
+      ]
+    },
+    {
+      "id": "E060",
+      "source": "gold",
+      "target": "portfolio",
+      "relation": "có thể thuộc",
+      "doc_ids": [
+        "D09",
+        "D34"
+      ]
+    },
+    {
+      "id": "E061",
+      "source": "gold",
+      "target": "diversification",
+      "relation": "có thể hỗ trợ",
+      "doc_ids": [
+        "D34",
+        "D36"
+      ]
+    },
+    {
+      "id": "E062",
+      "source": "gold",
+      "target": "correlation",
+      "relation": "có tương quan với cổ phiếu",
+      "doc_ids": [
+        "D36"
+      ]
+    },
+    {
+      "id": "E063",
+      "source": "correlation",
+      "target": "stock",
+      "relation": "được tính với",
+      "doc_ids": [
+        "D36"
+      ]
+    },
+    {
+      "id": "E064",
+      "source": "correlation",
+      "target": "diversification",
+      "relation": "ảnh hưởng",
+      "doc_ids": [
+        "D36"
+      ]
+    },
+    {
+      "id": "E065",
+      "source": "portfolio",
+      "target": "dca",
+      "relation": "có thể áp dụng",
+      "doc_ids": [
+        "D38"
+      ]
+    },
+    {
+      "id": "E066",
+      "source": "risk",
+      "target": "fraud",
+      "relation": "bao gồm",
+      "doc_ids": [
+        "D39"
+      ]
+    },
+    {
+      "id": "E067",
+      "source": "gold",
+      "target": "realtime",
+      "relation": "cần tra giá qua",
+      "doc_ids": [
+        "D40"
+      ]
+    },
+    {
+      "id": "E068",
+      "source": "stock",
+      "target": "realtime",
+      "relation": "cần tra giá qua",
+      "doc_ids": [
+        "D40"
+      ]
+    },
+    {
+      "id": "E069",
+      "source": "return",
+      "target": "fees",
+      "relation": "cần khấu trừ",
+      "doc_ids": [
+        "D18"
+      ]
+    },
+    {
+      "id": "E070",
+      "source": "interest",
+      "target": "stock",
+      "relation": "có thể ảnh hưởng",
+      "doc_ids": [
+        "D16"
+      ]
+    },
+    {
+      "id": "E071",
+      "source": "interest",
+      "target": "gold",
+      "relation": "có thể ảnh hưởng",
+      "doc_ids": [
+        "D28"
+      ]
+    },
+    {
+      "id": "E072",
+      "source": "diversification",
+      "target": "risk",
+      "relation": "có thể hạn chế tập trung",
+      "doc_ids": [
+        "D08"
+      ]
+    },
+    {
+      "id": "E073",
+      "source": "volatility",
+      "target": "risk",
+      "relation": "là thành phần",
+      "doc_ids": [
+        "D04",
+        "D12",
+        "D37"
+      ]
+    },
+    {
+      "id": "E074",
+      "source": "leverage",
+      "target": "risk",
+      "relation": "khuếch đại",
+      "doc_ids": [
+        "D26"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "accuracy": 0.595,
+  "macro_precision": 0.42361812792180226,
+  "macro_recall": 0.4266968359208501,
+  "macro_f1": 0.42377909895404214,
+  "confusion_matrix": [
+    [
+      242,
+      37,
+      5,
+      46,
+      17,
+      2
+    ],
+    [
+      21,
+      337,
+      26,
+      25,
+      4,
+      4
+    ],
+    [
+      15,
+      33,
+      16,
+      20,
+      8,
+      3
+    ],
+    [
+      41,
+      36,
+      24,
+      36,
+      19,
+      9
+    ],
+    [
+      22,
+      9,
+      5,
+      11,
+      80,
+      7
+    ],
+    [
+      3,
+      6,
+      5,
+      4,
+      19,
+      3
+    ]
+  ],
+  "n_test": 1200,
+  "classes": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "key": "emotion",
+  "method": "keras",
+  "options": {
+    "max_train": 4000,
+    "max_val": 800,
+    "max_test": 1200,
+    "max_len": 60,
+    "vocab_size": 4000,
+    "embed_dim": 24,
+    "hidden_dim": 32,
+    "epochs": 8,
+    "batch_size": 64,
+    "lr": 0.002,
+    "seed": 42
+  }
+}

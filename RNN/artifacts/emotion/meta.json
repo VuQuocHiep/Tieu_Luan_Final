@@ -1,0 +1,62 @@
+{
+  "key": "emotion",
+  "title": "Emotion Classification",
+  "classes": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "original_counts": {
+    "all": 20000,
+    "train": 16000,
+    "val": 2000,
+    "test": 2000
+  },
+  "distribution": {
+    "sadness": 5797,
+    "joy": 6761,
+    "love": 1641,
+    "anger": 2709,
+    "fear": 2373,
+    "surprise": 719
+  },
+  "options": {
+    "max_train": 4000,
+    "max_val": 800,
+    "max_test": 1200,
+    "max_len": 60,
+    "vocab_size": 4000,
+    "embed_dim": 24,
+    "hidden_dim": 32,
+    "epochs": 8,
+    "batch_size": 64,
+    "lr": 0.002,
+    "seed": 42
+  },
+  "vocab_size_actual": 4000,
+  "samples": [
+    {
+      "text": "i didnt feel humiliated",
+      "label": "sadness"
+    },
+    {
+      "text": "i can go from feeling so hopeless to so damned hopeful just from being around someone who cares and is awake",
+      "label": "sadness"
+    },
+    {
+      "text": "im grabbing a minute to post i feel greedy wrong",
+      "label": "anger"
+    },
+    {
+      "text": "i am ever feeling nostalgic about the fireplace i will know that it is still on the property",
+      "label": "love"
+    },
+    {
+      "text": "i am feeling grouchy",
+      "label": "anger"
+    }
+  ]
+}

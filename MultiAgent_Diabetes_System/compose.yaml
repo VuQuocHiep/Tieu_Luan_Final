@@ -1,0 +1,20 @@
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-mutilagent}
+      MYSQL_USER: ${MYSQL_USER:-diabetes}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-diabetes_local}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-change_local_root_password}
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+volumes:
+  mysql_data:

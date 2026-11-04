@@ -1,0 +1,11 @@
+.venv/
+.env
+__pycache__/
+data/*.db*
+data/nhanes/
+data/*.csv
+data/*.metadata.json
+artifacts/*
+!artifacts/.gitkeep
+outputs/*
+!outputs/.gitkeep

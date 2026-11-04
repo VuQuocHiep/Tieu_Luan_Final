@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0c1831" />
+  <title>Market Atlas • Knowledge Graph & RAG</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="/static/main.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="/" aria-label="Market Atlas">
+        <div class="brand-icon">◈</div><div><strong>Market Atlas</strong><span>Knowledge intelligence lab</span></div>
+      </a>
+      <div class="side-caption">KHÔNG GIAN LÀM VIỆC</div>
+      <nav aria-label="Các chức năng">
+        <button class="navbtn active" data-view="chat"><span class="nav-symbol">✦</span> Hỏi đáp kiến thức <span class="nav-arrow">↗</span></button>
+        <button class="navbtn" data-view="graph"><span class="nav-symbol">⌘</span> Đồ thị tri thức <span class="nav-arrow">↗</span></button>
+        <button class="navbtn" data-view="eval"><span class="nav-symbol">▤</span> Bảng đánh giá <span class="nav-arrow">↗</span></button>
+      </nav>
+      <div class="side-caption side-caption-2">DỮ LIỆU THỰC NGHIỆM</div>
+      <div class="sidebar-stat"><span>Đoạn tri thức</span><strong id="side-docs">—</strong></div>
+      <div class="sidebar-stat"><span>Thực thể / nút</span><strong id="side-nodes">—</strong></div>
+      <div class="sidebar-stat"><span>Quan hệ / cạnh</span><strong id="side-edges">—</strong></div>
+      <div class="side-bottom"><span class="pulse"></span><div><b>Hệ thống demo</b><small>Không lấy dữ liệu giao dịch cá nhân</small></div></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="breadcrumb">NGHIÊN CỨU AI <span>/</span> KNOWLEDGE GRAPH + RAG</div><div class="top-status"><span class="status-dot"></span> SẴN SÀNG THỬ NGHIỆM</div></header>
+      <section class="view visible" id="view-chat">
+        <div class="intro"><div class="eyebrow"><span>✦</span> HỆ THỐNG HỎI ĐÁP THÔNG MINH</div><h1>Hiểu sâu về <em>chứng khoán &amp; vàng.</em></h1><p>Giải thích cổ phiếu, vàng, chỉ số, lãi suất và rủi ro bằng tài liệu tham khảo cùng Knowledge Graph — luôn hiển thị bằng chứng truy xuất.</p></div>
+        <div class="metric-strip"><div class="metric"><span>BỘ TRI THỨC</span><div><strong id="count-docs">—</strong><small>tài liệu</small></div></div><div class="metric"><span>KNOWLEDGE GRAPH</span><div><strong id="count-graph">—</strong><small>thực thể</small></div></div><div class="metric"><span>KIỂM THỬ</span><div><strong id="count-questions">—</strong><small>câu hỏi</small></div></div><div class="metric"><span>CHẾ ĐỘ TRẢ LỜI</span><div><strong id="llm-status" class="small-metric">—</strong></div></div></div>
+        <div class="section-heading"><div><h2>Trợ lý tra cứu</h2><p>Đặt câu hỏi và quan sát tài liệu được truy xuất, độ liên quan và thực thể được nhận diện.</p></div><div class="beta-label">EXPLAINABLE RETRIEVAL</div></div>
+        <div class="workspace">
+          <div class="ask-panel">
+            <label for="question" class="field-label">CÂU HỎI CỦA BẠN</label>
+            <textarea id="question" rows="4" maxlength="1000" placeholder="Ví dụ: Lãi suất thực tăng ảnh hưởng đến vàng như thế nào?">Vì sao lãi suất thực tăng có thể gây áp lực lên giá vàng?</textarea>
+            <div class="suggestions"><span>GỢI Ý:</span><button data-sample="P/E và EPS có ý nghĩa gì khi định giá cổ phiếu?">P/E &amp; EPS ↗</button><button data-sample="Vì sao USD mạnh lên ảnh hưởng đến giá vàng?">USD &amp; vàng ↗</button><button data-sample="Kết hợp cổ phiếu và vàng giúp đa dạng hóa danh mục ra sao?">Cổ phiếu vs vàng ↗</button></div>
+            <div class="form-row"><div class="input-wrap"><label for="mode">PHƯƠNG PHÁP</label><select id="mode"><option value="hybrid">Hybrid (Text + KG)</option><option value="vector">Vector (Text)</option><option value="graph">Knowledge Graph</option></select></div><div class="input-wrap narrow"><label for="topk">TOP-K</label><select id="topk"><option value="3">3 đoạn</option><option value="4" selected>4 đoạn</option><option value="5">5 đoạn</option></select></div><button class="primary-btn" id="ask">Truy xuất & trả lời <span>➜</span></button></div>
+            <div class="answer" id="answer-area" aria-live="polite"><div class="placeholder"><span>✧</span><b>Sẵn sàng khám phá</b><p>Nhấn “Truy xuất & trả lời” để xem kết quả kèm nguồn tài liệu.</p></div></div>
+          </div>
+          <aside class="inspector"><div class="inspector-heading"><span class="tiny-icon">◈</span><div><h3>Retrieval inspector</h3><p>Theo dõi bằng chứng được sử dụng</p></div></div><div id="retrieved"><div class="empty-aside">Các tài liệu được chọn sẽ hiển thị tại đây kèm điểm phù hợp và liên kết nguồn.</div></div><div class="graph-context" id="graph-context"><div class="mini-title">KG MATCHING</div><p>Thực thể trong câu hỏi sẽ được hiển thị sau khi truy xuất.</p></div></aside>
+        </div>
+        <div class="med-note">◈ <b>Demo học thuật, không phải tư vấn đầu tư.</b> Không có giá thời gian thực, dự báo giao dịch hoặc khuyến nghị mua bán. Nguồn đối chiếu: SEC Investor.gov và World Gold Council.</div>
+      </section>
+      <section class="view" id="view-graph">
+        <div class="intro graph-intro"><div class="eyebrow"><span>⌘</span> KNOWLEDGE STRUCTURE</div><h1>Không chỉ có tài liệu. <em>Còn có quan hệ.</em></h1><p>Chọn một nút để khám phá các thực thể liên quan. Tìm kiếm giúp thu hẹp đồ thị theo thực thể và các nút lân cận.</p></div>
+        <div class="graph-shell"><div class="graph-tools"><div><h2>Stocks &amp; Gold Knowledge Graph</h2><p id="graph-count">Đang tải đồ thị…</p></div><div class="graph-search"><input id="graph-query" placeholder="Ví dụ: vàng, P/E, lãi suất, ETF" aria-label="Tìm kiếm thực thể"/><button id="graph-filter">Lọc đồ thị</button><button id="graph-reset" class="ghost-btn">Toàn bộ</button></div></div><div class="graph-layout"><div class="svg-container"><svg id="graph-svg" viewBox="0 0 950 620" role="img" aria-label="Đồ thị tri thức chứng khoán và vàng"></svg><div class="graph-legend"><span><i style="background:#8a79f7"></i> Chứng khoán</span><span><i style="background:#15baa6"></i> Vàng</span><span><i style="background:#f1b153"></i> Vĩ mô</span><span><i style="background:#5e98ed"></i> Khác</span></div></div><aside class="graph-details"><div class="mini-title">NODE EXPLORER</div><div id="node-detail"><div class="placeholder mini-placeholder">Nhấn vào một nút trên đồ thị để xem chi tiết quan hệ.</div></div></aside></div></div>
+      </section>
+      <section class="view" id="view-eval">
+        <div class="intro graph-intro"><div class="eyebrow"><span>▤</span> BENCHMARK & EVALUATION</div><h1>Đánh giá bằng <em>dữ liệu.</em></h1><p>So sánh ba phương pháp truy xuất trên tập câu hỏi có tài liệu chuẩn. Kết quả tính trực tiếp, không sử dụng số liệu minh họa giả.</p></div>
+        <div class="eval-tools"><div><h2>Bảng so sánh mô hình</h2><p>Hit@K, Recall@K, Precision@K, MRR@K · <span id="eval-question-count">—</span> câu hỏi</p></div><div class="eval-actions"><label for="eval-k">Số kết quả</label><select id="eval-k"><option value="1">K = 1</option><option value="3" selected>K = 3</option><option value="5">K = 5</option></select><button id="evaluate" class="primary-btn">Chạy đánh giá ➜</button><button id="export-csv" class="ghost-btn" disabled>Xuất CSV</button></div></div>
+        <div id="eval-output"><div class="eval-placeholder">Nhấn “Chạy đánh giá” để đo chất lượng retrieval và hiển thị bảng kết quả.</div></div>
+        <p class="eval-disclaimer">Lưu ý: Đây là benchmark retrieval trên tập câu hỏi tự biên soạn cùng tài liệu; điểm có thể lạc quan. Không đo chất lượng lời khuyên tài chính, độ chính xác giá, kết quả đầu tư hay độ đúng của LLM. Muốn triển khai thực tế cần tập đánh giá độc lập và nguồn dữ liệu thị trường có giấy phép.</p>
+      </section>
+      <footer>MARKET ATLAS <span>·</span> EXPERIMENTAL KNOWLEDGE SYSTEM <span>·</span> EDUCATIONAL USE ONLY</footer>
+    </main>
+  </div>
+</body></html>

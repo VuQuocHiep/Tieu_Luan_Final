@@ -1,0 +1,778 @@
+{
+  "nodes": [
+    {
+      "id": "diabetes",
+      "label": "Đái tháo đường",
+      "type": "Bệnh",
+      "aliases": [
+        "tiểu đường",
+        "đái tháo đường",
+        "bệnh tiểu đường"
+      ]
+    },
+    {
+      "id": "type1",
+      "label": "Tiểu đường típ 1",
+      "type": "Bệnh",
+      "aliases": [
+        "type 1",
+        "típ 1",
+        "tuýp 1",
+        "loại 1"
+      ]
+    },
+    {
+      "id": "type2",
+      "label": "Tiểu đường típ 2",
+      "type": "Bệnh",
+      "aliases": [
+        "type 2",
+        "típ 2",
+        "tuýp 2",
+        "loại 2"
+      ]
+    },
+    {
+      "id": "gestational",
+      "label": "Tiểu đường thai kỳ",
+      "type": "Bệnh",
+      "aliases": [
+        "thai kỳ",
+        "tiểu đường thai kỳ"
+      ]
+    },
+    {
+      "id": "prediabetes",
+      "label": "Tiền đái tháo đường",
+      "type": "Bệnh",
+      "aliases": [
+        "tiền đái tháo đường",
+        "tiền tiểu đường"
+      ]
+    },
+    {
+      "id": "insulin",
+      "label": "Insulin",
+      "type": "Hormone/Thuốc",
+      "aliases": [
+        "insulin"
+      ]
+    },
+    {
+      "id": "glucose",
+      "label": "Đường huyết",
+      "type": "Xét nghiệm",
+      "aliases": [
+        "glucose",
+        "đường huyết",
+        "đường máu"
+      ]
+    },
+    {
+      "id": "pancreas",
+      "label": "Tuyến tụy",
+      "type": "Cơ quan",
+      "aliases": [
+        "tuyến tụy"
+      ]
+    },
+    {
+      "id": "immune",
+      "label": "Tự miễn",
+      "type": "Cơ chế",
+      "aliases": [
+        "tự miễn",
+        "miễn dịch"
+      ]
+    },
+    {
+      "id": "resistance",
+      "label": "Đề kháng insulin",
+      "type": "Cơ chế",
+      "aliases": [
+        "đề kháng insulin",
+        "kháng insulin"
+      ]
+    },
+    {
+      "id": "a1c",
+      "label": "HbA1c",
+      "type": "Xét nghiệm",
+      "aliases": [
+        "hba1c",
+        "a1c",
+        "huyết sắc tố glycat"
+      ]
+    },
+    {
+      "id": "fasting",
+      "label": "Glucose lúc đói",
+      "type": "Xét nghiệm",
+      "aliases": [
+        "đường huyết lúc đói",
+        "glucose lúc đói",
+        "nhịn đói"
+      ]
+    },
+    {
+      "id": "diagnosis",
+      "label": "Chẩn đoán",
+      "type": "Khái niệm",
+      "aliases": [
+        "chẩn đoán",
+        "xét nghiệm"
+      ]
+    },
+    {
+      "id": "thirst",
+      "label": "Khát nhiều",
+      "type": "Triệu chứng",
+      "aliases": [
+        "khát nhiều",
+        "hay khát"
+      ]
+    },
+    {
+      "id": "urination",
+      "label": "Tiểu nhiều",
+      "type": "Triệu chứng",
+      "aliases": [
+        "tiểu nhiều",
+        "đi tiểu nhiều"
+      ]
+    },
+    {
+      "id": "fatigue",
+      "label": "Mệt mỏi",
+      "type": "Triệu chứng",
+      "aliases": [
+        "mệt mỏi",
+        "mệt lả"
+      ]
+    },
+    {
+      "id": "vision",
+      "label": "Nhìn mờ",
+      "type": "Triệu chứng",
+      "aliases": [
+        "nhìn mờ",
+        "mờ mắt"
+      ]
+    },
+    {
+      "id": "family_history",
+      "label": "Tiền sử gia đình",
+      "type": "Nguy cơ",
+      "aliases": [
+        "tiền sử gia đình",
+        "di truyền"
+      ]
+    },
+    {
+      "id": "weight",
+      "label": "Thừa cân",
+      "type": "Nguy cơ",
+      "aliases": [
+        "thừa cân",
+        "béo phì",
+        "cân nặng"
+      ]
+    },
+    {
+      "id": "exercise",
+      "label": "Vận động",
+      "type": "Lối sống",
+      "aliases": [
+        "vận động",
+        "tập thể dục",
+        "thể dục",
+        "hoạt động thể lực"
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Ăn uống",
+      "type": "Lối sống",
+      "aliases": [
+        "chế độ ăn",
+        "ăn uống",
+        "dinh dưỡng",
+        "thực đơn"
+      ]
+    },
+    {
+      "id": "prevention",
+      "label": "Phòng ngừa",
+      "type": "Lối sống",
+      "aliases": [
+        "phòng ngừa",
+        "phòng tránh",
+        "dự phòng"
+      ]
+    },
+    {
+      "id": "hypoglycemia",
+      "label": "Hạ đường huyết",
+      "type": "Cấp cứu",
+      "aliases": [
+        "hạ đường huyết",
+        "tụt đường huyết",
+        "đường huyết thấp"
+      ]
+    },
+    {
+      "id": "rule15",
+      "label": "Quy tắc 15-15",
+      "type": "Cấp cứu",
+      "aliases": [
+        "15-15",
+        "15 15",
+        "15g carbohydrate"
+      ]
+    },
+    {
+      "id": "glucagon",
+      "label": "Glucagon",
+      "type": "Thuốc",
+      "aliases": [
+        "glucagon"
+      ]
+    },
+    {
+      "id": "dka",
+      "label": "Nhiễm toan ceton",
+      "type": "Cấp cứu",
+      "aliases": [
+        "dka",
+        "ceton",
+        "nhiễm toan"
+      ]
+    },
+    {
+      "id": "emergency",
+      "label": "Cấp cứu",
+      "type": "Cấp cứu",
+      "aliases": [
+        "cấp cứu",
+        "nguy hiểm",
+        "khẩn cấp",
+        "bất tỉnh",
+        "co giật",
+        "khó thở"
+      ]
+    },
+    {
+      "id": "kidney",
+      "label": "Bệnh thận",
+      "type": "Biến chứng",
+      "aliases": [
+        "thận",
+        "suy thận",
+        "thận đái tháo đường"
+      ]
+    },
+    {
+      "id": "retinopathy",
+      "label": "Bệnh võng mạc",
+      "type": "Biến chứng",
+      "aliases": [
+        "võng mạc",
+        "mắt",
+        "thị lực"
+      ]
+    },
+    {
+      "id": "neuropathy",
+      "label": "Tổn thương thần kinh",
+      "type": "Biến chứng",
+      "aliases": [
+        "thần kinh",
+        "tê chân",
+        "tê tay"
+      ]
+    },
+    {
+      "id": "foot",
+      "label": "Bàn chân",
+      "type": "Biến chứng",
+      "aliases": [
+        "bàn chân",
+        "loét chân"
+      ]
+    },
+    {
+      "id": "heart",
+      "label": "Tim mạch",
+      "type": "Biến chứng",
+      "aliases": [
+        "tim mạch",
+        "tim",
+        "đột quỵ"
+      ]
+    },
+    {
+      "id": "metformin",
+      "label": "Metformin",
+      "type": "Thuốc",
+      "aliases": [
+        "metformin"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "label": "Theo dõi",
+      "type": "Quản lý",
+      "aliases": [
+        "theo dõi",
+        "khám định kỳ",
+        "tái khám",
+        "kiểm tra"
+      ]
+    },
+    {
+      "id": "pregnancy",
+      "label": "Mang thai",
+      "type": "Khái niệm",
+      "aliases": [
+        "mang thai",
+        "thai nhi",
+        "sản phụ"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E001",
+      "source": "diabetes",
+      "target": "type1",
+      "relation": "có thể",
+      "doc_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "E002",
+      "source": "diabetes",
+      "target": "type2",
+      "relation": "có thể",
+      "doc_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "E003",
+      "source": "diabetes",
+      "target": "gestational",
+      "relation": "có thể",
+      "doc_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "E004",
+      "source": "prediabetes",
+      "target": "type2",
+      "relation": "làm tăng nguy cơ",
+      "doc_ids": [
+        "D02",
+        "D07"
+      ]
+    },
+    {
+      "id": "E005",
+      "source": "type1",
+      "target": "immune",
+      "relation": "liên quan",
+      "doc_ids": [
+        "D04",
+        "D28"
+      ]
+    },
+    {
+      "id": "E006",
+      "source": "immune",
+      "target": "pancreas",
+      "relation": "tác động",
+      "doc_ids": [
+        "D04"
+      ]
+    },
+    {
+      "id": "E007",
+      "source": "pancreas",
+      "target": "insulin",
+      "relation": "tiết ra",
+      "doc_ids": [
+        "D01",
+        "D04"
+      ]
+    },
+    {
+      "id": "E008",
+      "source": "insulin",
+      "target": "glucose",
+      "relation": "điều hòa",
+      "doc_ids": [
+        "D01",
+        "D14",
+        "D23"
+      ]
+    },
+    {
+      "id": "E009",
+      "source": "type1",
+      "target": "insulin",
+      "relation": "cần điều trị",
+      "doc_ids": [
+        "D04",
+        "D17",
+        "D23",
+        "D28"
+      ]
+    },
+    {
+      "id": "E010",
+      "source": "type2",
+      "target": "resistance",
+      "relation": "liên quan",
+      "doc_ids": [
+        "D05",
+        "D28"
+      ]
+    },
+    {
+      "id": "E011",
+      "source": "resistance",
+      "target": "insulin",
+      "relation": "giảm hiệu quả",
+      "doc_ids": [
+        "D05",
+        "D28"
+      ]
+    },
+    {
+      "id": "E012",
+      "source": "diabetes",
+      "target": "glucose",
+      "relation": "tăng",
+      "doc_ids": [
+        "D01",
+        "D12",
+        "D27"
+      ]
+    },
+    {
+      "id": "E013",
+      "source": "diabetes",
+      "target": "thirst",
+      "relation": "có triệu chứng",
+      "doc_ids": [
+        "D03"
+      ]
+    },
+    {
+      "id": "E014",
+      "source": "diabetes",
+      "target": "urination",
+      "relation": "có triệu chứng",
+      "doc_ids": [
+        "D03"
+      ]
+    },
+    {
+      "id": "E015",
+      "source": "diabetes",
+      "target": "fatigue",
+      "relation": "có triệu chứng",
+      "doc_ids": [
+        "D03"
+      ]
+    },
+    {
+      "id": "E016",
+      "source": "diabetes",
+      "target": "vision",
+      "relation": "có triệu chứng",
+      "doc_ids": [
+        "D03",
+        "D19"
+      ]
+    },
+    {
+      "id": "E017",
+      "source": "diabetes",
+      "target": "a1c",
+      "relation": "được xét nghiệm bằng",
+      "doc_ids": [
+        "D08",
+        "D13"
+      ]
+    },
+    {
+      "id": "E018",
+      "source": "diabetes",
+      "target": "fasting",
+      "relation": "được xét nghiệm bằng",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "id": "E019",
+      "source": "a1c",
+      "target": "diagnosis",
+      "relation": "hỗ trợ",
+      "doc_ids": [
+        "D08",
+        "D29"
+      ]
+    },
+    {
+      "id": "E020",
+      "source": "fasting",
+      "target": "diagnosis",
+      "relation": "hỗ trợ",
+      "doc_ids": [
+        "D09"
+      ]
+    },
+    {
+      "id": "E021",
+      "source": "type2",
+      "target": "family_history",
+      "relation": "yếu tố nguy cơ",
+      "doc_ids": [
+        "D05",
+        "D10"
+      ]
+    },
+    {
+      "id": "E022",
+      "source": "type2",
+      "target": "weight",
+      "relation": "yếu tố nguy cơ",
+      "doc_ids": [
+        "D05",
+        "D10",
+        "D26"
+      ]
+    },
+    {
+      "id": "E023",
+      "source": "exercise",
+      "target": "prevention",
+      "relation": "hỗ trợ",
+      "doc_ids": [
+        "D11",
+        "D26"
+      ]
+    },
+    {
+      "id": "E024",
+      "source": "food",
+      "target": "prevention",
+      "relation": "hỗ trợ",
+      "doc_ids": [
+        "D12"
+      ]
+    },
+    {
+      "id": "E025",
+      "source": "weight",
+      "target": "prevention",
+      "relation": "cần quản lý",
+      "doc_ids": [
+        "D26"
+      ]
+    },
+    {
+      "id": "E026",
+      "source": "prevention",
+      "target": "type2",
+      "relation": "có thể giảm nguy cơ",
+      "doc_ids": [
+        "D07",
+        "D26"
+      ]
+    },
+    {
+      "id": "E027",
+      "source": "diabetes",
+      "target": "hypoglycemia",
+      "relation": "có thể gặp khi điều trị",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "id": "E028",
+      "source": "hypoglycemia",
+      "target": "rule15",
+      "relation": "cách xử trí phù hợp trường hợp",
+      "doc_ids": [
+        "D15"
+      ]
+    },
+    {
+      "id": "E029",
+      "source": "hypoglycemia",
+      "target": "glucagon",
+      "relation": "có thể dùng khi nặng",
+      "doc_ids": [
+        "D16"
+      ]
+    },
+    {
+      "id": "E030",
+      "source": "hypoglycemia",
+      "target": "emergency",
+      "relation": "có thể cần",
+      "doc_ids": [
+        "D14",
+        "D15",
+        "D16",
+        "D30"
+      ]
+    },
+    {
+      "id": "E031",
+      "source": "type1",
+      "target": "dka",
+      "relation": "nguy cơ",
+      "doc_ids": [
+        "D17"
+      ]
+    },
+    {
+      "id": "E032",
+      "source": "dka",
+      "target": "emergency",
+      "relation": "đòi hỏi",
+      "doc_ids": [
+        "D17",
+        "D30"
+      ]
+    },
+    {
+      "id": "E033",
+      "source": "diabetes",
+      "target": "kidney",
+      "relation": "có biến chứng",
+      "doc_ids": [
+        "D18"
+      ]
+    },
+    {
+      "id": "E034",
+      "source": "diabetes",
+      "target": "retinopathy",
+      "relation": "có biến chứng",
+      "doc_ids": [
+        "D19"
+      ]
+    },
+    {
+      "id": "E035",
+      "source": "diabetes",
+      "target": "neuropathy",
+      "relation": "có biến chứng",
+      "doc_ids": [
+        "D20"
+      ]
+    },
+    {
+      "id": "E036",
+      "source": "neuropathy",
+      "target": "foot",
+      "relation": "ảnh hưởng",
+      "doc_ids": [
+        "D20",
+        "D24"
+      ]
+    },
+    {
+      "id": "E037",
+      "source": "diabetes",
+      "target": "heart",
+      "relation": "có biến chứng",
+      "doc_ids": [
+        "D11",
+        "D13",
+        "D21"
+      ]
+    },
+    {
+      "id": "E038",
+      "source": "type2",
+      "target": "metformin",
+      "relation": "có thể điều trị bằng",
+      "doc_ids": [
+        "D22"
+      ]
+    },
+    {
+      "id": "E039",
+      "source": "diabetes",
+      "target": "monitoring",
+      "relation": "cần",
+      "doc_ids": [
+        "D13",
+        "D18",
+        "D21",
+        "D27"
+      ]
+    },
+    {
+      "id": "E040",
+      "source": "monitoring",
+      "target": "a1c",
+      "relation": "bao gồm",
+      "doc_ids": [
+        "D13",
+        "D24"
+      ]
+    },
+    {
+      "id": "E041",
+      "source": "monitoring",
+      "target": "kidney",
+      "relation": "bao gồm",
+      "doc_ids": [
+        "D18",
+        "D24"
+      ]
+    },
+    {
+      "id": "E042",
+      "source": "monitoring",
+      "target": "retinopathy",
+      "relation": "bao gồm",
+      "doc_ids": [
+        "D24"
+      ]
+    },
+    {
+      "id": "E043",
+      "source": "gestational",
+      "target": "pregnancy",
+      "relation": "xuất hiện khi",
+      "doc_ids": [
+        "D06",
+        "D25"
+      ]
+    },
+    {
+      "id": "E044",
+      "source": "gestational",
+      "target": "type2",
+      "relation": "tăng nguy cơ sau sinh",
+      "doc_ids": [
+        "D02",
+        "D06",
+        "D10"
+      ]
+    }
+  ]
+}

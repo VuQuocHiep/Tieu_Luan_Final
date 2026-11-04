@@ -1,0 +1,54 @@
+{
+  "key": "sms",
+  "title": "SMS Spam Detection",
+  "classes": [
+    "Ham",
+    "Spam"
+  ],
+  "original_counts": {
+    "all": 5572,
+    "train": 3900,
+    "val": 836,
+    "test": 836
+  },
+  "distribution": {
+    "Ham": 4825,
+    "Spam": 747
+  },
+  "options": {
+    "max_train": 4000,
+    "max_val": 800,
+    "max_test": 1200,
+    "max_len": 60,
+    "vocab_size": 4000,
+    "embed_dim": 24,
+    "hidden_dim": 32,
+    "epochs": 8,
+    "batch_size": 64,
+    "lr": 0.002,
+    "seed": 42
+  },
+  "vocab_size_actual": 4000,
+  "samples": [
+    {
+      "text": "Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...",
+      "label": "Ham"
+    },
+    {
+      "text": "Ok lar... Joking wif u oni...",
+      "label": "Ham"
+    },
+    {
+      "text": "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's",
+      "label": "Spam"
+    },
+    {
+      "text": "U dun say so early hor... U c already then say...",
+      "label": "Ham"
+    },
+    {
+      "text": "Nah I don't think he goes to usf, he lives around here though",
+      "label": "Ham"
+    }
+  ]
+}

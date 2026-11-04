@@ -1,0 +1,10 @@
+dataset,backend,kaggle_url,train_size,val_size,test_size,train_seconds,validation_accuracy,validation_f1_macro,accuracy,precision_macro,recall_macro,f1_macro,log_loss,confusion_matrix
+iris,scratch,https://www.kaggle.com/datasets/uciml/iris,104,23,23,0.0154,1.0,1.0,0.913043,0.916667,0.916667,0.916667,0.231367,"[[7, 0, 0], [0, 7, 1], [0, 1, 7]]"
+iris,keras,https://www.kaggle.com/datasets/uciml/iris,104,23,23,12.8635,1.0,1.0,0.913043,0.916667,0.916667,0.916667,0.231367,"[[7, 0, 0], [0, 7, 1], [0, 1, 7]]"
+iris,pytorch,https://www.kaggle.com/datasets/uciml/iris,104,23,23,0.1893,1.0,1.0,0.913043,0.916667,0.916667,0.916667,0.231367,"[[7, 0, 0], [0, 7, 1], [0, 1, 7]]"
+wine,scratch,https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009,1119,240,240,0.1008,0.716667,0.716489,0.7125,0.711219,0.710379,0.710687,0.541133,"[[76, 36], [33, 95]]"
+wine,keras,https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009,1119,240,240,2.0291,0.716667,0.716489,0.7125,0.711219,0.710379,0.710687,0.541133,"[[76, 36], [33, 95]]"
+wine,pytorch,https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009,1119,240,240,0.2675,0.716667,0.716489,0.7125,0.711219,0.710379,0.710687,0.541133,"[[76, 36], [33, 95]]"
+breast_cancer,scratch,https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data,397,86,86,0.0645,1.0,1.0,0.953488,0.946267,0.956597,0.950829,0.094583,"[[31, 1], [3, 51]]"
+breast_cancer,keras,https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data,397,86,86,1.8257,1.0,1.0,0.953488,0.946267,0.956597,0.950829,0.094583,"[[31, 1], [3, 51]]"
+breast_cancer,pytorch,https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data,397,86,86,0.219,1.0,1.0,0.953488,0.946267,0.956597,0.950829,0.094583,"[[31, 1], [3, 51]]"

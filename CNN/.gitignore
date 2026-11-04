@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+data/raw/**/*.csv
+artifacts/*.npz
+artifacts/*.pt
+artifacts/*.keras
+artifacts/*.json
+.DS_Store

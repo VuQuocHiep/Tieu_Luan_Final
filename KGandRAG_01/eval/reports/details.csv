@@ -1,0 +1,91 @@
+﻿Mode,ID,Question,Gold docs,Retrieved docs,Hit,Recall,Precision,RR
+vector,Q01,Tiểu đường là gì và insulin có tác dụng gì?,D01,D01;D14;D05,1,1.0,0.3333333333333333,1.0
+vector,Q02,Bệnh đái tháo đường có những loại nào?,D02,D02;D19;D06,1,1.0,0.3333333333333333,1.0
+vector,Q03,Các triệu chứng thường gặp của tiểu đường?,D03,D03;D02;D18,1,1.0,0.3333333333333333,1.0
+vector,Q04,Tiểu đường típ 1 xảy ra do đâu?,D04,D05;D02;D26,0,0.0,0.0,0.0
+vector,Q05,Đái tháo đường típ 2 liên quan đến đề kháng insulin thế nào?,D05,D28;D05;D04,1,1.0,0.3333333333333333,0.5
+vector,Q06,Sau sinh mắc tiểu đường thai kỳ có nguy cơ gì?,D06,D06;D25;D10,1,1.0,0.3333333333333333,1.0
+vector,Q07,Tiền đái tháo đường là gì?,D07,D07;D02;D01,1,1.0,0.3333333333333333,1.0
+vector,Q08,HbA1c 6.5 phần trăm có ý nghĩa gì và ngưỡng là bao nhiêu?,D08,D08;D29;D13,1,1.0,0.3333333333333333,1.0
+vector,Q09,Đường huyết lúc đói từ 126 mg/dL có ý nghĩa gì?,D09,D09;D14;D07,1,1.0,0.3333333333333333,1.0
+vector,Q10,Những yếu tố nguy cơ gây tiểu đường típ 2?,D10,D10;D07;D05,1,1.0,0.3333333333333333,1.0
+vector,Q11,Tập thể dục có ích gì cho kiểm soát đường huyết?,D11,D19;D14;D11,1,1.0,0.3333333333333333,0.3333333333333333
+vector,Q12,Người tiểu đường nên ăn uống như thế nào?,D12,D12;D11;D02,1,1.0,0.3333333333333333,1.0
+vector,Q13,HbA1c mục tiêu và huyết áp cholesterol cần quản lý ra sao?,D13,D13;D21;D19,1,1.0,0.3333333333333333,1.0
+vector,Q14,Khi nào được gọi là hạ đường huyết?,D14,D14;D16;D15,1,1.0,0.3333333333333333,1.0
+vector,Q15,Quy tắc 15-15 xử trí hạ đường huyết là gì?,D15,D15;D14;D16,1,1.0,0.3333333333333333,1.0
+vector,Q16,Bị hạ đường huyết nặng bất tỉnh cần làm gì?,D16,D16;D14;D30,1,1.0,0.3333333333333333,1.0
+vector,Q17,Nhiễm toan ceton DKA có dấu hiệu nào?,D17,D17;D30;D14,1,1.0,0.3333333333333333,1.0
+vector,Q18,Đái tháo đường gây biến chứng thận như thế nào?,D18,D18;D24;D19,1,1.0,0.3333333333333333,1.0
+vector,Q19,Bệnh võng mạc tiểu đường ảnh hưởng mắt thế nào?,D19,D19;D24;D02,1,1.0,0.3333333333333333,1.0
+vector,Q20,Tê bàn chân do bệnh thần kinh tiểu đường có nguy hiểm không?,D20,D20;D24;D18,1,1.0,0.3333333333333333,1.0
+vector,Q21,Tiểu đường ảnh hưởng tim mạch và đột quỵ thế nào?,D21,D21;D11;D13,1,1.0,0.3333333333333333,1.0
+vector,Q22,Thuốc metformin được dùng cho ai?,D22,D22;D14;D16,1,1.0,0.3333333333333333,1.0
+vector,Q23,Người tiểu đường típ 1 có phải dùng insulin không?,D04;D23,D05;D23;D04,1,1.0,0.6666666666666666,0.5
+vector,Q24,Cần kiểm tra biến chứng và tái khám tiểu đường ra sao?,D24,D24;D19;D03,1,1.0,0.3333333333333333,1.0
+vector,Q25,Xét nghiệm tiểu đường thai kỳ vào tuần bao nhiêu?,D25,D25;D06;D10,1,1.0,0.3333333333333333,1.0
+vector,Q26,Có cách nào phòng ngừa tiểu đường loại 2?,D26,D26;D07;D11,1,1.0,0.3333333333333333,1.0
+vector,Q27,Thiết bị CGM theo dõi đường huyết làm gì?,D27,D27;D14;D18,1,1.0,0.3333333333333333,1.0
+vector,Q28,Sự khác nhau giữa tiểu đường típ 1 và típ 2?,D28,D28;D02;D05,1,1.0,0.3333333333333333,1.0
+vector,Q29,Những yếu tố nào làm sai lệch xét nghiệm HbA1c?,D29,D29;D08;D10,1,1.0,0.3333333333333333,1.0
+vector,Q30,Dấu hiệu tiểu đường nào cần cấp cứu ngay?,D30,D30;D17;D14,1,1.0,0.3333333333333333,1.0
+graph,Q01,Tiểu đường là gì và insulin có tác dụng gì?,D01,D01;D04;D05,1,1.0,0.3333333333333333,1.0
+graph,Q02,Bệnh đái tháo đường có những loại nào?,D02,D01;D02;D03,1,1.0,0.3333333333333333,0.5
+graph,Q03,Các triệu chứng thường gặp của tiểu đường?,D03,D01;D02;D03,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q04,Tiểu đường típ 1 xảy ra do đâu?,D04,D02;D04;D23,1,1.0,0.3333333333333333,0.5
+graph,Q05,Đái tháo đường típ 2 liên quan đến đề kháng insulin thế nào?,D05,D01;D02;D04,0,0.0,0.0,0.0
+graph,Q06,Sau sinh mắc tiểu đường thai kỳ có nguy cơ gì?,D06,D02;D06;D10,1,1.0,0.3333333333333333,0.5
+graph,Q07,Tiền đái tháo đường là gì?,D07,D02;D08;D07,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q08,HbA1c 6.5 phần trăm có ý nghĩa gì và ngưỡng là bao nhiêu?,D08,D08;D13;D29,1,1.0,0.3333333333333333,1.0
+graph,Q09,Đường huyết lúc đói từ 126 mg/dL có ý nghĩa gì?,D09,D09;D08;D12,1,1.0,0.3333333333333333,1.0
+graph,Q10,Những yếu tố nguy cơ gây tiểu đường típ 2?,D10,D02;D07;D06,0,0.0,0.0,0.0
+graph,Q11,Tập thể dục có ích gì cho kiểm soát đường huyết?,D11,D05;D10;D11,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q12,Người tiểu đường nên ăn uống như thế nào?,D12,D12;D11;D07,1,1.0,0.3333333333333333,1.0
+graph,Q13,HbA1c mục tiêu và huyết áp cholesterol cần quản lý ra sao?,D13,D08;D13;D29,1,1.0,0.3333333333333333,0.5
+graph,Q14,Khi nào được gọi là hạ đường huyết?,D14,D16;D14;D15,1,1.0,0.3333333333333333,0.5
+graph,Q15,Quy tắc 15-15 xử trí hạ đường huyết là gì?,D15,D16;D14;D15,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q16,Bị hạ đường huyết nặng bất tỉnh cần làm gì?,D16,D16;D14;D15,1,1.0,0.3333333333333333,1.0
+graph,Q17,Nhiễm toan ceton DKA có dấu hiệu nào?,D17,D30;D17;D02,1,1.0,0.3333333333333333,0.5
+graph,Q18,Đái tháo đường gây biến chứng thận như thế nào?,D18,D29;D24;D22,0,0.0,0.0,0.0
+graph,Q19,Bệnh võng mạc tiểu đường ảnh hưởng mắt thế nào?,D19,D24;D19;D13,1,1.0,0.3333333333333333,0.5
+graph,Q20,Tê bàn chân do bệnh thần kinh tiểu đường có nguy hiểm không?,D20,D16;D14;D15,0,0.0,0.0,0.0
+graph,Q21,Tiểu đường ảnh hưởng tim mạch và đột quỵ thế nào?,D21,D13;D11;D21,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q22,Thuốc metformin được dùng cho ai?,D22,D22;D02;D06,1,1.0,0.3333333333333333,1.0
+graph,Q23,Người tiểu đường típ 1 có phải dùng insulin không?,D04;D23,D01;D02;D04,1,0.5,0.3333333333333333,0.3333333333333333
+graph,Q24,Cần kiểm tra biến chứng và tái khám tiểu đường ra sao?,D24,D13;D24;D21,1,1.0,0.3333333333333333,0.5
+graph,Q25,Xét nghiệm tiểu đường thai kỳ vào tuần bao nhiêu?,D25,D02;D06;D10,0,0.0,0.0,0.0
+graph,Q26,Có cách nào phòng ngừa tiểu đường loại 2?,D26,D02;D07;D06,0,0.0,0.0,0.0
+graph,Q27,Thiết bị CGM theo dõi đường huyết làm gì?,D27,D13;D24;D21,0,0.0,0.0,0.0
+graph,Q28,Sự khác nhau giữa tiểu đường típ 1 và típ 2?,D28,D02;D04;D06,0,0.0,0.0,0.0
+graph,Q29,Những yếu tố nào làm sai lệch xét nghiệm HbA1c?,D29,D08;D13;D29,1,1.0,0.3333333333333333,0.3333333333333333
+graph,Q30,Dấu hiệu tiểu đường nào cần cấp cứu ngay?,D30,D16;D14;D15,0,0.0,0.0,0.0
+hybrid,Q01,Tiểu đường là gì và insulin có tác dụng gì?,D01,D01;D14;D05,1,1.0,0.3333333333333333,1.0
+hybrid,Q02,Bệnh đái tháo đường có những loại nào?,D02,D02;D19;D18,1,1.0,0.3333333333333333,1.0
+hybrid,Q03,Các triệu chứng thường gặp của tiểu đường?,D03,D03;D02;D18,1,1.0,0.3333333333333333,1.0
+hybrid,Q04,Tiểu đường típ 1 xảy ra do đâu?,D04,D02;D04;D28,1,1.0,0.3333333333333333,0.5
+hybrid,Q05,Đái tháo đường típ 2 liên quan đến đề kháng insulin thế nào?,D05,D28;D05;D04,1,1.0,0.3333333333333333,0.5
+hybrid,Q06,Sau sinh mắc tiểu đường thai kỳ có nguy cơ gì?,D06,D06;D25;D10,1,1.0,0.3333333333333333,1.0
+hybrid,Q07,Tiền đái tháo đường là gì?,D07,D07;D02;D09,1,1.0,0.3333333333333333,1.0
+hybrid,Q08,HbA1c 6.5 phần trăm có ý nghĩa gì và ngưỡng là bao nhiêu?,D08,D08;D29;D13,1,1.0,0.3333333333333333,1.0
+hybrid,Q09,Đường huyết lúc đói từ 126 mg/dL có ý nghĩa gì?,D09,D09;D14;D07,1,1.0,0.3333333333333333,1.0
+hybrid,Q10,Những yếu tố nguy cơ gây tiểu đường típ 2?,D10,D10;D07;D05,1,1.0,0.3333333333333333,1.0
+hybrid,Q11,Tập thể dục có ích gì cho kiểm soát đường huyết?,D11,D11;D26;D05,1,1.0,0.3333333333333333,1.0
+hybrid,Q12,Người tiểu đường nên ăn uống như thế nào?,D12,D12;D11;D26,1,1.0,0.3333333333333333,1.0
+hybrid,Q13,HbA1c mục tiêu và huyết áp cholesterol cần quản lý ra sao?,D13,D13;D29;D08,1,1.0,0.3333333333333333,1.0
+hybrid,Q14,Khi nào được gọi là hạ đường huyết?,D14,D14;D16;D15,1,1.0,0.3333333333333333,1.0
+hybrid,Q15,Quy tắc 15-15 xử trí hạ đường huyết là gì?,D15,D15;D14;D16,1,1.0,0.3333333333333333,1.0
+hybrid,Q16,Bị hạ đường huyết nặng bất tỉnh cần làm gì?,D16,D16;D14;D30,1,1.0,0.3333333333333333,1.0
+hybrid,Q17,Nhiễm toan ceton DKA có dấu hiệu nào?,D17,D17;D30;D14,1,1.0,0.3333333333333333,1.0
+hybrid,Q18,Đái tháo đường gây biến chứng thận như thế nào?,D18,D18;D24;D29,1,1.0,0.3333333333333333,1.0
+hybrid,Q19,Bệnh võng mạc tiểu đường ảnh hưởng mắt thế nào?,D19,D19;D24;D02,1,1.0,0.3333333333333333,1.0
+hybrid,Q20,Tê bàn chân do bệnh thần kinh tiểu đường có nguy hiểm không?,D20,D20;D24;D18,1,1.0,0.3333333333333333,1.0
+hybrid,Q21,Tiểu đường ảnh hưởng tim mạch và đột quỵ thế nào?,D21,D21;D11;D13,1,1.0,0.3333333333333333,1.0
+hybrid,Q22,Thuốc metformin được dùng cho ai?,D22,D22;D23;D05,1,1.0,0.3333333333333333,1.0
+hybrid,Q23,Người tiểu đường típ 1 có phải dùng insulin không?,D04;D23,D05;D23;D04,1,1.0,0.6666666666666666,0.5
+hybrid,Q24,Cần kiểm tra biến chứng và tái khám tiểu đường ra sao?,D24,D24;D18;D27,1,1.0,0.3333333333333333,1.0
+hybrid,Q25,Xét nghiệm tiểu đường thai kỳ vào tuần bao nhiêu?,D25,D25;D06;D10,1,1.0,0.3333333333333333,1.0
+hybrid,Q26,Có cách nào phòng ngừa tiểu đường loại 2?,D26,D26;D07;D11,1,1.0,0.3333333333333333,1.0
+hybrid,Q27,Thiết bị CGM theo dõi đường huyết làm gì?,D27,D27;D18;D13,1,1.0,0.3333333333333333,1.0
+hybrid,Q28,Sự khác nhau giữa tiểu đường típ 1 và típ 2?,D28,D28;D02;D05,1,1.0,0.3333333333333333,1.0
+hybrid,Q29,Những yếu tố nào làm sai lệch xét nghiệm HbA1c?,D29,D29;D08;D24,1,1.0,0.3333333333333333,1.0
+hybrid,Q30,Dấu hiệu tiểu đường nào cần cấp cứu ngay?,D30,D30;D17;D14,1,1.0,0.3333333333333333,1.0

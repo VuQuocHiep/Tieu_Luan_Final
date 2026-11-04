@@ -1,0 +1,420 @@
+[
+  {
+    "id": "D01",
+    "title": "Bệnh tiểu đường là gì?",
+    "category": "Tổng quan",
+    "text": "Đái tháo đường (tiểu đường) là tình trạng glucose trong máu tăng cao. Insulin là hormone do tuyến tụy tạo ra, giúp glucose đi vào tế bào để tạo năng lượng. Khi thiếu insulin hoặc cơ thể sử dụng insulin không hiệu quả, glucose tích tụ trong máu. Bệnh có thể gây tổn thương mắt, thận, thần kinh và tim về lâu dài.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/",
+    "entities": [
+      "diabetes",
+      "insulin",
+      "glucose",
+      "pancreas"
+    ]
+  },
+  {
+    "id": "D02",
+    "title": "Các thể đái tháo đường",
+    "category": "Tổng quan",
+    "text": "Ba thể thường gặp là đái tháo đường típ 1, típ 2 và đái tháo đường thai kỳ. Tiền đái tháo đường là tình trạng glucose cao hơn bình thường nhưng chưa đạt ngưỡng chẩn đoán đái tháo đường. Các thể bệnh có cơ chế và hướng chăm sóc khác nhau.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/",
+    "entities": [
+      "diabetes",
+      "type1",
+      "type2",
+      "gestational",
+      "prediabetes"
+    ]
+  },
+  {
+    "id": "D03",
+    "title": "Triệu chứng gợi ý tiểu đường",
+    "category": "Triệu chứng",
+    "text": "Những biểu hiện có thể gặp gồm khát nhiều, tiểu nhiều, mệt mỏi, nhìn mờ, sụt cân không giải thích được, vết thương lâu lành hoặc nhiễm trùng tái diễn. Một số người mắc đái tháo đường típ 2 không có triệu chứng rõ rệt. Triệu chứng không đủ để tự chẩn đoán; cần thăm khám và xét nghiệm thích hợp.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes",
+    "entities": [
+      "diabetes",
+      "thirst",
+      "urination",
+      "fatigue",
+      "vision"
+    ]
+  },
+  {
+    "id": "D04",
+    "title": "Đái tháo đường típ 1",
+    "category": "Phân loại",
+    "text": "Đái tháo đường típ 1 là bệnh mà hệ miễn dịch phá hủy tế bào beta sản xuất insulin ở tuyến tụy. Người mắc thường sản xuất rất ít hoặc không có insulin và cần insulin để duy trì sự sống. Bệnh có thể xuất hiện ở bất kỳ độ tuổi nào.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-1-diabetes",
+    "entities": [
+      "type1",
+      "immune",
+      "insulin",
+      "pancreas"
+    ]
+  },
+  {
+    "id": "D05",
+    "title": "Đái tháo đường típ 2",
+    "category": "Phân loại",
+    "text": "Đái tháo đường típ 2 xảy ra khi cơ thể sử dụng insulin không hiệu quả và/hoặc tuyến tụy không tạo đủ insulin để giữ đường huyết trong phạm vi phù hợp. Thừa cân, ít vận động và tiền sử gia đình là những yếu tố nguy cơ. Điều trị thường kết hợp lối sống và thuốc theo đánh giá cá thể của bác sĩ.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes",
+    "entities": [
+      "type2",
+      "insulin",
+      "resistance",
+      "weight",
+      "exercise",
+      "family_history"
+    ]
+  },
+  {
+    "id": "D06",
+    "title": "Đái tháo đường thai kỳ",
+    "category": "Phân loại",
+    "text": "Đái tháo đường thai kỳ xuất hiện trong thời kỳ mang thai. Bệnh thường hết sau sinh, nhưng người đã mắc có nguy cơ cao hơn bị đái tháo đường típ 2 về sau. Việc sàng lọc và theo dõi thai kỳ cần tuân theo nhân viên y tế.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/",
+    "entities": [
+      "gestational",
+      "pregnancy",
+      "type2"
+    ]
+  },
+  {
+    "id": "D07",
+    "title": "Tiền đái tháo đường",
+    "category": "Xét nghiệm",
+    "text": "Tiền đái tháo đường nghĩa là mức glucose máu cao hơn bình thường nhưng chưa đến ngưỡng đái tháo đường. Đây là yếu tố nguy cơ phát triển đái tháo đường típ 2. Thay đổi lối sống có thể giúp trì hoãn hoặc phòng ngừa tiến triển.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/",
+    "entities": [
+      "prediabetes",
+      "type2",
+      "prevention",
+      "glucose"
+    ]
+  },
+  {
+    "id": "D08",
+    "title": "Ngưỡng HbA1c",
+    "category": "Xét nghiệm",
+    "text": "Theo CDC, HbA1c dưới 5,7% thường thuộc khoảng bình thường; từ 5,7% đến 6,4% thuộc khoảng tiền đái tháo đường; từ 6,5% trở lên thuộc ngưỡng đái tháo đường. HbA1c phản ánh đường huyết trung bình khoảng 2–3 tháng. Chẩn đoán cần bác sĩ đánh giá, thường phải xác nhận bằng xét nghiệm theo hoàn cảnh; kết quả có thể bị ảnh hưởng bởi thiếu máu hoặc một số tình trạng khác.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/diabetes-testing/prediabetes-a1c-test.html",
+    "entities": [
+      "a1c",
+      "prediabetes",
+      "diabetes",
+      "diagnosis"
+    ]
+  },
+  {
+    "id": "D09",
+    "title": "Ngưỡng glucose máu lúc đói",
+    "category": "Xét nghiệm",
+    "text": "Theo CDC, glucose máu lúc đói 99 mg/dL trở xuống được xem là bình thường; 100–125 mg/dL gợi ý tiền đái tháo đường; từ 126 mg/dL trở lên ở ngưỡng đái tháo đường. Kết quả cần được bác sĩ diễn giải cùng bối cảnh, điều kiện nhịn đói và xét nghiệm xác nhận khi cần.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/diabetes-testing/index.html",
+    "entities": [
+      "fasting",
+      "glucose",
+      "prediabetes",
+      "diagnosis"
+    ]
+  },
+  {
+    "id": "D10",
+    "title": "Yếu tố nguy cơ típ 2",
+    "category": "Nguy cơ",
+    "text": "Các yếu tố làm tăng nguy cơ đái tháo đường típ 2 gồm thừa cân hoặc béo phì, tiền sử gia đình, ít hoạt động thể lực và từng bị đái tháo đường thai kỳ. Người có yếu tố nguy cơ nên trao đổi với bác sĩ về xét nghiệm sàng lọc phù hợp.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes",
+    "entities": [
+      "type2",
+      "weight",
+      "exercise",
+      "family_history",
+      "gestational"
+    ]
+  },
+  {
+    "id": "D11",
+    "title": "Vận động và tiểu đường",
+    "category": "Lối sống",
+    "text": "Vận động thể lực đều đặn hỗ trợ kiểm soát glucose máu và sức khỏe tim mạch. Loại hình và cường độ vận động cần phù hợp với thể trạng, các biến chứng và thuốc đang sử dụng. Người mắc bệnh nên trao đổi với nhóm chăm sóc y tế để xây dựng kế hoạch an toàn.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+    "entities": [
+      "exercise",
+      "prevention",
+      "diabetes",
+      "heart"
+    ]
+  },
+  {
+    "id": "D12",
+    "title": "Chế độ ăn và quản lý đường huyết",
+    "category": "Lối sống",
+    "text": "Ăn uống cân bằng, có kế hoạch bữa ăn và theo dõi lượng carbohydrate có thể hỗ trợ quản lý đường huyết. Hạn chế đồ uống có đường và lựa chọn thực phẩm phù hợp giúp cải thiện quản lý bệnh. Không có một thực đơn phù hợp cho tất cả mọi người; nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng về nhu cầu cá nhân.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+    "entities": [
+      "food",
+      "glucose",
+      "diabetes",
+      "prevention"
+    ]
+  },
+  {
+    "id": "D13",
+    "title": "Các mục tiêu quản lý bệnh",
+    "category": "Quản lý",
+    "text": "Quản lý đái tháo đường bao gồm theo dõi đường huyết, huyết áp, cholesterol và tránh hút thuốc. Mục tiêu HbA1c của nhiều người trưởng thành là dưới 7%, nhưng có thể khác nhau tùy từng trường hợp; bác sĩ quyết định mục tiêu phù hợp. Kết hợp dùng thuốc theo đơn, hoạt động thể lực và khám định kỳ.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+    "entities": [
+      "a1c",
+      "diabetes",
+      "heart",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "D14",
+    "title": "Hạ đường huyết là gì?",
+    "category": "Cấp cứu",
+    "text": "Đường huyết dưới 70 mg/dL thường được xem là hạ đường huyết. Tình trạng này có thể nguy hiểm, đặc biệt ở người dùng insulin hoặc một số thuốc điều trị đái tháo đường. Dấu hiệu có thể gồm run, vã mồ hôi, chóng mặt, lú lẫn. Nếu mất ý thức, co giật hoặc không nuốt an toàn, cần gọi cấp cứu; không cho ăn uống qua miệng.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+    "entities": [
+      "hypoglycemia",
+      "insulin",
+      "glucose",
+      "emergency"
+    ]
+  },
+  {
+    "id": "D15",
+    "title": "Quy tắc 15–15 cho hạ đường huyết",
+    "category": "Cấp cứu",
+    "text": "Với người còn tỉnh và nuốt an toàn, CDC hướng dẫn dùng khoảng 15 g carbohydrate tác dụng nhanh, đợi 15 phút rồi kiểm tra lại đường huyết. Nếu vẫn dưới 70 mg/dL, lặp lại các bước và theo dõi. Quy tắc này không thay thế xử trí cấp cứu khi người bệnh không tỉnh táo, không nuốt được hoặc có triệu chứng nặng. Trẻ nhỏ có thể cần cách xử trí khác theo chỉ dẫn bác sĩ.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+    "entities": [
+      "hypoglycemia",
+      "rule15",
+      "glucose",
+      "emergency"
+    ]
+  },
+  {
+    "id": "D16",
+    "title": "Hạ đường huyết nặng",
+    "category": "Cấp cứu",
+    "text": "Hạ đường huyết nặng có thể gây lú lẫn, co giật hoặc mất ý thức, và người bệnh có thể cần người khác trợ giúp. Glucagon được dùng trong một số tình huống theo kế hoạch điều trị và hướng dẫn của nhân viên y tế. Gọi cấp cứu ngay nếu có mất ý thức hoặc co giật và tuyệt đối không cho uống hay ăn khi không thể nuốt an toàn.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+    "entities": [
+      "hypoglycemia",
+      "emergency",
+      "glucagon"
+    ]
+  },
+  {
+    "id": "D17",
+    "title": "Nhiễm toan ceton (DKA)",
+    "category": "Cấp cứu",
+    "text": "Nhiễm toan ceton do đái tháo đường (DKA) là biến chứng nghiêm trọng, thường liên quan đến thiếu insulin. Dấu hiệu cảnh báo gồm thở nhanh sâu, nôn, đau bụng, hơi thở mùi trái cây, khát nhiều và mệt lả. Người có những dấu hiệu đáng ngờ cần được đánh giá cấp cứu ngay vì DKA có thể đe dọa tính mạng.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
+    "entities": [
+      "dka",
+      "type1",
+      "insulin",
+      "emergency"
+    ]
+  },
+  {
+    "id": "D18",
+    "title": "Bệnh thận do đái tháo đường",
+    "category": "Biến chứng",
+    "text": "Đái tháo đường có thể gây tổn thương thận theo thời gian. Quản lý glucose máu và huyết áp góp phần giảm nguy cơ hoặc làm chậm tiến triển tổn thương thận. Bác sĩ có thể chỉ định xét nghiệm nước tiểu và máu để kiểm tra chức năng thận; bệnh thận giai đoạn đầu có thể ít triệu chứng.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease",
+    "entities": [
+      "kidney",
+      "diabetes",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "D19",
+    "title": "Biến chứng võng mạc và mắt",
+    "category": "Biến chứng",
+    "text": "Đái tháo đường có thể làm tổn thương mạch máu ở mắt và gây giảm thị lực. Việc kiểm soát glucose, huyết áp, cholesterol và khám mắt giãn đồng tử định kỳ giúp phát hiện sớm bệnh mắt do đái tháo đường. Tần suất kiểm tra cụ thể phụ thuộc vào loại bệnh và tình trạng của từng người.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-eye-disease",
+    "entities": [
+      "retinopathy",
+      "vision",
+      "diabetes"
+    ]
+  },
+  {
+    "id": "D20",
+    "title": "Tổn thương thần kinh và bàn chân",
+    "category": "Biến chứng",
+    "text": "Đái tháo đường có thể làm tổn thương dây thần kinh, gây tê hoặc châm chích ở bàn chân. Tổn thương thần kinh phối hợp tuần hoàn kém làm tăng nguy cơ loét chân và nhiễm trùng. Người bệnh nên quan sát bàn chân thường xuyên và nhờ nhân viên y tế kiểm tra khi có tổn thương.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems",
+    "entities": [
+      "neuropathy",
+      "foot",
+      "diabetes"
+    ]
+  },
+  {
+    "id": "D21",
+    "title": "Tim mạch và đái tháo đường",
+    "category": "Biến chứng",
+    "text": "Đái tháo đường làm tăng nguy cơ bệnh tim mạch và đột quỵ. Quản lý glucose, huyết áp, cholesterol, duy trì vận động phù hợp và tránh thuốc lá giúp giảm nguy cơ. Kế hoạch phòng ngừa cần dựa trên đánh giá nguy cơ của bác sĩ.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/heart-disease-stroke",
+    "entities": [
+      "heart",
+      "diabetes",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "D22",
+    "title": "Metformin và điều trị",
+    "category": "Thuốc",
+    "text": "Metformin là một thuốc có thể được sử dụng trong điều trị đái tháo đường típ 2 và một số trường hợp nguy cơ cao theo chỉ định chuyên môn. Việc lựa chọn thuốc phụ thuộc chức năng thận, bệnh kèm theo và các yếu tố cá thể khác. Không tự bắt đầu, ngừng hoặc đổi liều thuốc dựa trên chatbot.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes",
+    "entities": [
+      "metformin",
+      "type2",
+      "kidney"
+    ]
+  },
+  {
+    "id": "D23",
+    "title": "Insulin trong điều trị",
+    "category": "Thuốc",
+    "text": "Insulin là hormone giúp glucose đi vào tế bào và cũng là thuốc thiết yếu cho người mắc đái tháo đường típ 1. Một số người mắc đái tháo đường típ 2 cũng cần insulin theo đánh giá chuyên môn. Việc chỉnh liều insulin là quyết định y khoa cá thể hóa, chatbot không thể thay thế chỉ dẫn của bác sĩ.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-1-diabetes",
+    "entities": [
+      "insulin",
+      "type1",
+      "type2",
+      "glucose"
+    ]
+  },
+  {
+    "id": "D24",
+    "title": "Theo dõi định kỳ và biến chứng",
+    "category": "Quản lý",
+    "text": "Người mắc đái tháo đường cần kế hoạch tái khám cá thể hóa để theo dõi HbA1c, huyết áp, mỡ máu và các biến chứng ở mắt, thận, thần kinh hoặc bàn chân. Tần suất kiểm tra phụ thuộc loại bệnh, kết quả xét nghiệm và tình trạng sức khỏe hiện tại.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+    "entities": [
+      "monitoring",
+      "a1c",
+      "kidney",
+      "retinopathy",
+      "neuropathy",
+      "foot"
+    ]
+  },
+  {
+    "id": "D25",
+    "title": "Sàng lọc tiểu đường thai kỳ",
+    "category": "Xét nghiệm",
+    "text": "Trong thai kỳ, người mang thai thường được sàng lọc đái tháo đường thai kỳ ở khoảng tuần 24 đến 28. Người có nguy cơ cao có thể được nhân viên y tế hướng dẫn xét nghiệm sớm hơn. Xét nghiệm và diễn giải kết quả thai kỳ khác với một số xét nghiệm ở người không mang thai.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/diabetes-testing/index.html",
+    "entities": [
+      "pregnancy",
+      "gestational",
+      "diagnosis"
+    ]
+  },
+  {
+    "id": "D26",
+    "title": "Phòng ngừa tiểu đường típ 2",
+    "category": "Phòng ngừa",
+    "text": "Với người có nguy cơ cao, điều chỉnh chế độ ăn, hoạt động thể lực và giảm cân phù hợp nếu thừa cân có thể giúp trì hoãn hoặc ngăn đái tháo đường típ 2. Chương trình phòng ngừa có cấu trúc và tư vấn chuyên môn có thể hỗ trợ thực hiện thay đổi bền vững. Không thể phòng ngừa đái tháo đường típ 1 chỉ bằng thay đổi lối sống.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/prevention-type-2/type-2-diabetes-prevention-guide.html",
+    "entities": [
+      "prevention",
+      "type2",
+      "exercise",
+      "weight"
+    ]
+  },
+  {
+    "id": "D27",
+    "title": "Theo dõi glucose tại nhà",
+    "category": "Quản lý",
+    "text": "Đo glucose máu bằng máy đo hoặc thiết bị theo dõi glucose liên tục (CGM) có thể giúp nhận biết biến động đường huyết. Thời điểm và tần suất theo dõi phải phù hợp với loại bệnh, thuốc đang dùng và kế hoạch của nhóm chăm sóc y tế. Thiết bị đo tại nhà không thay thế xét nghiệm và chẩn đoán do cơ sở y tế thực hiện.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+    "entities": [
+      "monitoring",
+      "glucose",
+      "diabetes"
+    ]
+  },
+  {
+    "id": "D28",
+    "title": "Khác nhau giữa típ 1 và típ 2",
+    "category": "Phân loại",
+    "text": "Đái tháo đường típ 1 chủ yếu do quá trình tự miễn phá hủy tế bào sản xuất insulin và cần bổ sung insulin. Đái tháo đường típ 2 thường liên quan đến đề kháng insulin và giảm khả năng bài tiết insulin theo thời gian. Cả hai đều có thể xuất hiện ở người trưởng thành; không nên phân biệt chỉ dựa vào tuổi hay ngoại hình.",
+    "source_name": "NIDDK/NIH",
+    "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/",
+    "entities": [
+      "type1",
+      "type2",
+      "immune",
+      "resistance",
+      "insulin"
+    ]
+  },
+  {
+    "id": "D29",
+    "title": "Những yếu tố làm sai lệch HbA1c",
+    "category": "Xét nghiệm",
+    "text": "Một số tình trạng như thiếu máu nặng, bệnh thận, các bệnh huyết sắc tố, truyền máu hoặc thai kỳ có thể ảnh hưởng độ chính xác của HbA1c. Bác sĩ có thể lựa chọn xét nghiệm bổ sung nếu HbA1c không phù hợp với triệu chứng và những kết quả khác.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/diabetes-testing/prediabetes-a1c-test.html",
+    "entities": [
+      "a1c",
+      "kidney",
+      "diagnosis",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "D30",
+    "title": "Cảnh báo cần cấp cứu",
+    "category": "Cấp cứu",
+    "text": "Nếu người bệnh khó thở, bất tỉnh, co giật, nôn liên tục kèm dấu hiệu mất nước hoặc nghi nhiễm toan ceton, cần được cấp cứu ngay. Không dùng chatbot để quyết định trì hoãn điều trị khẩn cấp. Nếu người bệnh bất tỉnh hay không nuốt an toàn, không đưa thức ăn hoặc nước uống vào miệng.",
+    "source_name": "CDC",
+    "source_url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
+    "entities": [
+      "emergency",
+      "dka",
+      "hypoglycemia"
+    ]
+  }
+]

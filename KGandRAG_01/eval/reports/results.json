@@ -1,0 +1,1484 @@
+{
+  "run_utc": "2026-10-14T17:19:36.907791+00:00",
+  "results": [
+    {
+      "mode": "vector",
+      "k": 3,
+      "n_questions": 30,
+      "hit_at_k": 0.9667,
+      "recall_at_k": 0.9667,
+      "precision_at_k": 0.3333,
+      "mrr_at_k": 0.9111,
+      "rows": [
+        {
+          "id": "Q01",
+          "question": "Tiểu đường là gì và insulin có tác dụng gì?",
+          "expected": [
+            "D01"
+          ],
+          "retrieved": [
+            "D01",
+            "D14",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q02",
+          "question": "Bệnh đái tháo đường có những loại nào?",
+          "expected": [
+            "D02"
+          ],
+          "retrieved": [
+            "D02",
+            "D19",
+            "D06"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q03",
+          "question": "Các triệu chứng thường gặp của tiểu đường?",
+          "expected": [
+            "D03"
+          ],
+          "retrieved": [
+            "D03",
+            "D02",
+            "D18"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q04",
+          "question": "Tiểu đường típ 1 xảy ra do đâu?",
+          "expected": [
+            "D04"
+          ],
+          "retrieved": [
+            "D05",
+            "D02",
+            "D26"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q05",
+          "question": "Đái tháo đường típ 2 liên quan đến đề kháng insulin thế nào?",
+          "expected": [
+            "D05"
+          ],
+          "retrieved": [
+            "D28",
+            "D05",
+            "D04"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q06",
+          "question": "Sau sinh mắc tiểu đường thai kỳ có nguy cơ gì?",
+          "expected": [
+            "D06"
+          ],
+          "retrieved": [
+            "D06",
+            "D25",
+            "D10"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q07",
+          "question": "Tiền đái tháo đường là gì?",
+          "expected": [
+            "D07"
+          ],
+          "retrieved": [
+            "D07",
+            "D02",
+            "D01"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q08",
+          "question": "HbA1c 6.5 phần trăm có ý nghĩa gì và ngưỡng là bao nhiêu?",
+          "expected": [
+            "D08"
+          ],
+          "retrieved": [
+            "D08",
+            "D29",
+            "D13"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q09",
+          "question": "Đường huyết lúc đói từ 126 mg/dL có ý nghĩa gì?",
+          "expected": [
+            "D09"
+          ],
+          "retrieved": [
+            "D09",
+            "D14",
+            "D07"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q10",
+          "question": "Những yếu tố nguy cơ gây tiểu đường típ 2?",
+          "expected": [
+            "D10"
+          ],
+          "retrieved": [
+            "D10",
+            "D07",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q11",
+          "question": "Tập thể dục có ích gì cho kiểm soát đường huyết?",
+          "expected": [
+            "D11"
+          ],
+          "retrieved": [
+            "D19",
+            "D14",
+            "D11"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q12",
+          "question": "Người tiểu đường nên ăn uống như thế nào?",
+          "expected": [
+            "D12"
+          ],
+          "retrieved": [
+            "D12",
+            "D11",
+            "D02"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q13",
+          "question": "HbA1c mục tiêu và huyết áp cholesterol cần quản lý ra sao?",
+          "expected": [
+            "D13"
+          ],
+          "retrieved": [
+            "D13",
+            "D21",
+            "D19"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q14",
+          "question": "Khi nào được gọi là hạ đường huyết?",
+          "expected": [
+            "D14"
+          ],
+          "retrieved": [
+            "D14",
+            "D16",
+            "D15"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q15",
+          "question": "Quy tắc 15-15 xử trí hạ đường huyết là gì?",
+          "expected": [
+            "D15"
+          ],
+          "retrieved": [
+            "D15",
+            "D14",
+            "D16"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q16",
+          "question": "Bị hạ đường huyết nặng bất tỉnh cần làm gì?",
+          "expected": [
+            "D16"
+          ],
+          "retrieved": [
+            "D16",
+            "D14",
+            "D30"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q17",
+          "question": "Nhiễm toan ceton DKA có dấu hiệu nào?",
+          "expected": [
+            "D17"
+          ],
+          "retrieved": [
+            "D17",
+            "D30",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q18",
+          "question": "Đái tháo đường gây biến chứng thận như thế nào?",
+          "expected": [
+            "D18"
+          ],
+          "retrieved": [
+            "D18",
+            "D24",
+            "D19"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q19",
+          "question": "Bệnh võng mạc tiểu đường ảnh hưởng mắt thế nào?",
+          "expected": [
+            "D19"
+          ],
+          "retrieved": [
+            "D19",
+            "D24",
+            "D02"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q20",
+          "question": "Tê bàn chân do bệnh thần kinh tiểu đường có nguy hiểm không?",
+          "expected": [
+            "D20"
+          ],
+          "retrieved": [
+            "D20",
+            "D24",
+            "D18"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q21",
+          "question": "Tiểu đường ảnh hưởng tim mạch và đột quỵ thế nào?",
+          "expected": [
+            "D21"
+          ],
+          "retrieved": [
+            "D21",
+            "D11",
+            "D13"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q22",
+          "question": "Thuốc metformin được dùng cho ai?",
+          "expected": [
+            "D22"
+          ],
+          "retrieved": [
+            "D22",
+            "D14",
+            "D16"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q23",
+          "question": "Người tiểu đường típ 1 có phải dùng insulin không?",
+          "expected": [
+            "D04",
+            "D23"
+          ],
+          "retrieved": [
+            "D05",
+            "D23",
+            "D04"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.6666666666666666,
+          "rr": 0.5
+        },
+        {
+          "id": "Q24",
+          "question": "Cần kiểm tra biến chứng và tái khám tiểu đường ra sao?",
+          "expected": [
+            "D24"
+          ],
+          "retrieved": [
+            "D24",
+            "D19",
+            "D03"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q25",
+          "question": "Xét nghiệm tiểu đường thai kỳ vào tuần bao nhiêu?",
+          "expected": [
+            "D25"
+          ],
+          "retrieved": [
+            "D25",
+            "D06",
+            "D10"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q26",
+          "question": "Có cách nào phòng ngừa tiểu đường loại 2?",
+          "expected": [
+            "D26"
+          ],
+          "retrieved": [
+            "D26",
+            "D07",
+            "D11"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q27",
+          "question": "Thiết bị CGM theo dõi đường huyết làm gì?",
+          "expected": [
+            "D27"
+          ],
+          "retrieved": [
+            "D27",
+            "D14",
+            "D18"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q28",
+          "question": "Sự khác nhau giữa tiểu đường típ 1 và típ 2?",
+          "expected": [
+            "D28"
+          ],
+          "retrieved": [
+            "D28",
+            "D02",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q29",
+          "question": "Những yếu tố nào làm sai lệch xét nghiệm HbA1c?",
+          "expected": [
+            "D29"
+          ],
+          "retrieved": [
+            "D29",
+            "D08",
+            "D10"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q30",
+          "question": "Dấu hiệu tiểu đường nào cần cấp cứu ngay?",
+          "expected": [
+            "D30"
+          ],
+          "retrieved": [
+            "D30",
+            "D17",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        }
+      ],
+      "note": "Chỉ đo chất lượng truy xuất so với tập nhãn mẫu; KHÔNG chứng minh độ chính xác y khoa hoặc chất lượng sinh câu trả lời."
+    },
+    {
+      "mode": "graph",
+      "k": 3,
+      "n_questions": 30,
+      "hit_at_k": 0.7,
+      "recall_at_k": 0.6833,
+      "precision_at_k": 0.2333,
+      "mrr_at_k": 0.4111,
+      "rows": [
+        {
+          "id": "Q01",
+          "question": "Tiểu đường là gì và insulin có tác dụng gì?",
+          "expected": [
+            "D01"
+          ],
+          "retrieved": [
+            "D01",
+            "D04",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q02",
+          "question": "Bệnh đái tháo đường có những loại nào?",
+          "expected": [
+            "D02"
+          ],
+          "retrieved": [
+            "D01",
+            "D02",
+            "D03"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q03",
+          "question": "Các triệu chứng thường gặp của tiểu đường?",
+          "expected": [
+            "D03"
+          ],
+          "retrieved": [
+            "D01",
+            "D02",
+            "D03"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q04",
+          "question": "Tiểu đường típ 1 xảy ra do đâu?",
+          "expected": [
+            "D04"
+          ],
+          "retrieved": [
+            "D02",
+            "D04",
+            "D23"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q05",
+          "question": "Đái tháo đường típ 2 liên quan đến đề kháng insulin thế nào?",
+          "expected": [
+            "D05"
+          ],
+          "retrieved": [
+            "D01",
+            "D02",
+            "D04"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q06",
+          "question": "Sau sinh mắc tiểu đường thai kỳ có nguy cơ gì?",
+          "expected": [
+            "D06"
+          ],
+          "retrieved": [
+            "D02",
+            "D06",
+            "D10"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q07",
+          "question": "Tiền đái tháo đường là gì?",
+          "expected": [
+            "D07"
+          ],
+          "retrieved": [
+            "D02",
+            "D08",
+            "D07"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q08",
+          "question": "HbA1c 6.5 phần trăm có ý nghĩa gì và ngưỡng là bao nhiêu?",
+          "expected": [
+            "D08"
+          ],
+          "retrieved": [
+            "D08",
+            "D13",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q09",
+          "question": "Đường huyết lúc đói từ 126 mg/dL có ý nghĩa gì?",
+          "expected": [
+            "D09"
+          ],
+          "retrieved": [
+            "D09",
+            "D08",
+            "D12"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q10",
+          "question": "Những yếu tố nguy cơ gây tiểu đường típ 2?",
+          "expected": [
+            "D10"
+          ],
+          "retrieved": [
+            "D02",
+            "D07",
+            "D06"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q11",
+          "question": "Tập thể dục có ích gì cho kiểm soát đường huyết?",
+          "expected": [
+            "D11"
+          ],
+          "retrieved": [
+            "D05",
+            "D10",
+            "D11"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q12",
+          "question": "Người tiểu đường nên ăn uống như thế nào?",
+          "expected": [
+            "D12"
+          ],
+          "retrieved": [
+            "D12",
+            "D11",
+            "D07"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q13",
+          "question": "HbA1c mục tiêu và huyết áp cholesterol cần quản lý ra sao?",
+          "expected": [
+            "D13"
+          ],
+          "retrieved": [
+            "D08",
+            "D13",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q14",
+          "question": "Khi nào được gọi là hạ đường huyết?",
+          "expected": [
+            "D14"
+          ],
+          "retrieved": [
+            "D16",
+            "D14",
+            "D15"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q15",
+          "question": "Quy tắc 15-15 xử trí hạ đường huyết là gì?",
+          "expected": [
+            "D15"
+          ],
+          "retrieved": [
+            "D16",
+            "D14",
+            "D15"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q16",
+          "question": "Bị hạ đường huyết nặng bất tỉnh cần làm gì?",
+          "expected": [
+            "D16"
+          ],
+          "retrieved": [
+            "D16",
+            "D14",
+            "D15"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q17",
+          "question": "Nhiễm toan ceton DKA có dấu hiệu nào?",
+          "expected": [
+            "D17"
+          ],
+          "retrieved": [
+            "D30",
+            "D17",
+            "D02"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q18",
+          "question": "Đái tháo đường gây biến chứng thận như thế nào?",
+          "expected": [
+            "D18"
+          ],
+          "retrieved": [
+            "D29",
+            "D24",
+            "D22"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q19",
+          "question": "Bệnh võng mạc tiểu đường ảnh hưởng mắt thế nào?",
+          "expected": [
+            "D19"
+          ],
+          "retrieved": [
+            "D24",
+            "D19",
+            "D13"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q20",
+          "question": "Tê bàn chân do bệnh thần kinh tiểu đường có nguy hiểm không?",
+          "expected": [
+            "D20"
+          ],
+          "retrieved": [
+            "D16",
+            "D14",
+            "D15"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q21",
+          "question": "Tiểu đường ảnh hưởng tim mạch và đột quỵ thế nào?",
+          "expected": [
+            "D21"
+          ],
+          "retrieved": [
+            "D13",
+            "D11",
+            "D21"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q22",
+          "question": "Thuốc metformin được dùng cho ai?",
+          "expected": [
+            "D22"
+          ],
+          "retrieved": [
+            "D22",
+            "D02",
+            "D06"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q23",
+          "question": "Người tiểu đường típ 1 có phải dùng insulin không?",
+          "expected": [
+            "D04",
+            "D23"
+          ],
+          "retrieved": [
+            "D01",
+            "D02",
+            "D04"
+          ],
+          "hit": 1,
+          "recall": 0.5,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q24",
+          "question": "Cần kiểm tra biến chứng và tái khám tiểu đường ra sao?",
+          "expected": [
+            "D24"
+          ],
+          "retrieved": [
+            "D13",
+            "D24",
+            "D21"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q25",
+          "question": "Xét nghiệm tiểu đường thai kỳ vào tuần bao nhiêu?",
+          "expected": [
+            "D25"
+          ],
+          "retrieved": [
+            "D02",
+            "D06",
+            "D10"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q26",
+          "question": "Có cách nào phòng ngừa tiểu đường loại 2?",
+          "expected": [
+            "D26"
+          ],
+          "retrieved": [
+            "D02",
+            "D07",
+            "D06"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q27",
+          "question": "Thiết bị CGM theo dõi đường huyết làm gì?",
+          "expected": [
+            "D27"
+          ],
+          "retrieved": [
+            "D13",
+            "D24",
+            "D21"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q28",
+          "question": "Sự khác nhau giữa tiểu đường típ 1 và típ 2?",
+          "expected": [
+            "D28"
+          ],
+          "retrieved": [
+            "D02",
+            "D04",
+            "D06"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        },
+        {
+          "id": "Q29",
+          "question": "Những yếu tố nào làm sai lệch xét nghiệm HbA1c?",
+          "expected": [
+            "D29"
+          ],
+          "retrieved": [
+            "D08",
+            "D13",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "Q30",
+          "question": "Dấu hiệu tiểu đường nào cần cấp cứu ngay?",
+          "expected": [
+            "D30"
+          ],
+          "retrieved": [
+            "D16",
+            "D14",
+            "D15"
+          ],
+          "hit": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "rr": 0.0
+        }
+      ],
+      "note": "Chỉ đo chất lượng truy xuất so với tập nhãn mẫu; KHÔNG chứng minh độ chính xác y khoa hoặc chất lượng sinh câu trả lời."
+    },
+    {
+      "mode": "hybrid",
+      "k": 3,
+      "n_questions": 30,
+      "hit_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.3444,
+      "mrr_at_k": 0.95,
+      "rows": [
+        {
+          "id": "Q01",
+          "question": "Tiểu đường là gì và insulin có tác dụng gì?",
+          "expected": [
+            "D01"
+          ],
+          "retrieved": [
+            "D01",
+            "D14",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q02",
+          "question": "Bệnh đái tháo đường có những loại nào?",
+          "expected": [
+            "D02"
+          ],
+          "retrieved": [
+            "D02",
+            "D19",
+            "D18"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q03",
+          "question": "Các triệu chứng thường gặp của tiểu đường?",
+          "expected": [
+            "D03"
+          ],
+          "retrieved": [
+            "D03",
+            "D02",
+            "D18"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q04",
+          "question": "Tiểu đường típ 1 xảy ra do đâu?",
+          "expected": [
+            "D04"
+          ],
+          "retrieved": [
+            "D02",
+            "D04",
+            "D28"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q05",
+          "question": "Đái tháo đường típ 2 liên quan đến đề kháng insulin thế nào?",
+          "expected": [
+            "D05"
+          ],
+          "retrieved": [
+            "D28",
+            "D05",
+            "D04"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 0.5
+        },
+        {
+          "id": "Q06",
+          "question": "Sau sinh mắc tiểu đường thai kỳ có nguy cơ gì?",
+          "expected": [
+            "D06"
+          ],
+          "retrieved": [
+            "D06",
+            "D25",
+            "D10"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q07",
+          "question": "Tiền đái tháo đường là gì?",
+          "expected": [
+            "D07"
+          ],
+          "retrieved": [
+            "D07",
+            "D02",
+            "D09"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q08",
+          "question": "HbA1c 6.5 phần trăm có ý nghĩa gì và ngưỡng là bao nhiêu?",
+          "expected": [
+            "D08"
+          ],
+          "retrieved": [
+            "D08",
+            "D29",
+            "D13"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q09",
+          "question": "Đường huyết lúc đói từ 126 mg/dL có ý nghĩa gì?",
+          "expected": [
+            "D09"
+          ],
+          "retrieved": [
+            "D09",
+            "D14",
+            "D07"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q10",
+          "question": "Những yếu tố nguy cơ gây tiểu đường típ 2?",
+          "expected": [
+            "D10"
+          ],
+          "retrieved": [
+            "D10",
+            "D07",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q11",
+          "question": "Tập thể dục có ích gì cho kiểm soát đường huyết?",
+          "expected": [
+            "D11"
+          ],
+          "retrieved": [
+            "D11",
+            "D26",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q12",
+          "question": "Người tiểu đường nên ăn uống như thế nào?",
+          "expected": [
+            "D12"
+          ],
+          "retrieved": [
+            "D12",
+            "D11",
+            "D26"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q13",
+          "question": "HbA1c mục tiêu và huyết áp cholesterol cần quản lý ra sao?",
+          "expected": [
+            "D13"
+          ],
+          "retrieved": [
+            "D13",
+            "D29",
+            "D08"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q14",
+          "question": "Khi nào được gọi là hạ đường huyết?",
+          "expected": [
+            "D14"
+          ],
+          "retrieved": [
+            "D14",
+            "D16",
+            "D15"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q15",
+          "question": "Quy tắc 15-15 xử trí hạ đường huyết là gì?",
+          "expected": [
+            "D15"
+          ],
+          "retrieved": [
+            "D15",
+            "D14",
+            "D16"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q16",
+          "question": "Bị hạ đường huyết nặng bất tỉnh cần làm gì?",
+          "expected": [
+            "D16"
+          ],
+          "retrieved": [
+            "D16",
+            "D14",
+            "D30"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q17",
+          "question": "Nhiễm toan ceton DKA có dấu hiệu nào?",
+          "expected": [
+            "D17"
+          ],
+          "retrieved": [
+            "D17",
+            "D30",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q18",
+          "question": "Đái tháo đường gây biến chứng thận như thế nào?",
+          "expected": [
+            "D18"
+          ],
+          "retrieved": [
+            "D18",
+            "D24",
+            "D29"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q19",
+          "question": "Bệnh võng mạc tiểu đường ảnh hưởng mắt thế nào?",
+          "expected": [
+            "D19"
+          ],
+          "retrieved": [
+            "D19",
+            "D24",
+            "D02"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q20",
+          "question": "Tê bàn chân do bệnh thần kinh tiểu đường có nguy hiểm không?",
+          "expected": [
+            "D20"
+          ],
+          "retrieved": [
+            "D20",
+            "D24",
+            "D18"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q21",
+          "question": "Tiểu đường ảnh hưởng tim mạch và đột quỵ thế nào?",
+          "expected": [
+            "D21"
+          ],
+          "retrieved": [
+            "D21",
+            "D11",
+            "D13"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q22",
+          "question": "Thuốc metformin được dùng cho ai?",
+          "expected": [
+            "D22"
+          ],
+          "retrieved": [
+            "D22",
+            "D23",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q23",
+          "question": "Người tiểu đường típ 1 có phải dùng insulin không?",
+          "expected": [
+            "D04",
+            "D23"
+          ],
+          "retrieved": [
+            "D05",
+            "D23",
+            "D04"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.6666666666666666,
+          "rr": 0.5
+        },
+        {
+          "id": "Q24",
+          "question": "Cần kiểm tra biến chứng và tái khám tiểu đường ra sao?",
+          "expected": [
+            "D24"
+          ],
+          "retrieved": [
+            "D24",
+            "D18",
+            "D27"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q25",
+          "question": "Xét nghiệm tiểu đường thai kỳ vào tuần bao nhiêu?",
+          "expected": [
+            "D25"
+          ],
+          "retrieved": [
+            "D25",
+            "D06",
+            "D10"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q26",
+          "question": "Có cách nào phòng ngừa tiểu đường loại 2?",
+          "expected": [
+            "D26"
+          ],
+          "retrieved": [
+            "D26",
+            "D07",
+            "D11"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q27",
+          "question": "Thiết bị CGM theo dõi đường huyết làm gì?",
+          "expected": [
+            "D27"
+          ],
+          "retrieved": [
+            "D27",
+            "D18",
+            "D13"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q28",
+          "question": "Sự khác nhau giữa tiểu đường típ 1 và típ 2?",
+          "expected": [
+            "D28"
+          ],
+          "retrieved": [
+            "D28",
+            "D02",
+            "D05"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q29",
+          "question": "Những yếu tố nào làm sai lệch xét nghiệm HbA1c?",
+          "expected": [
+            "D29"
+          ],
+          "retrieved": [
+            "D29",
+            "D08",
+            "D24"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        },
+        {
+          "id": "Q30",
+          "question": "Dấu hiệu tiểu đường nào cần cấp cứu ngay?",
+          "expected": [
+            "D30"
+          ],
+          "retrieved": [
+            "D30",
+            "D17",
+            "D14"
+          ],
+          "hit": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "rr": 1.0
+        }
+      ],
+      "note": "Chỉ đo chất lượng truy xuất so với tập nhãn mẫu; KHÔNG chứng minh độ chính xác y khoa hoặc chất lượng sinh câu trả lời."
+    }
+  ]
+}

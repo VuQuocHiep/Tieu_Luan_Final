@@ -1,0 +1,19 @@
+QUY ĐỊNH QUẢN LÝ KHO HÀNG - TÀI LIỆU MINH HỌA
+
+1. Nhập hàng
+Khi nhận hàng từ nhà cung cấp, nhân viên phải kiểm tra mã sản phẩm, tên sản phẩm, số lượng và tình trạng bao bì. Chỉ xác nhận nhập kho sau khi đối chiếu số lượng thực tế với phiếu nhập. Nếu số lượng không khớp, cần lập biên bản và báo cho người quản lý.
+
+2. Xuất hàng
+Mỗi yêu cầu xuất kho cần xác định mã sản phẩm và số lượng xuất. Trước khi xuất hàng, hệ thống kiểm tra số lượng tồn thực tế. Nếu lượng tồn không đủ, yêu cầu xuất phải được tạm dừng để xử lý. Sau khi xuất thành công, số lượng tồn kho được cập nhật.
+
+3. Mức tồn kho tối thiểu
+Mỗi sản phẩm có một mức tồn kho tối thiểu nhằm phục vụ việc cảnh báo. Khi số lượng tồn thấp hơn hoặc bằng mức tối thiểu, hệ thống đưa sản phẩm vào danh sách cần kiểm tra bổ sung. Cảnh báo tồn kho không có nghĩa hệ thống tự động đặt hàng.
+
+4. Giám sát môi trường
+Kho có thể sử dụng cảm biến nhiệt độ, độ ẩm và khí gas. Khi giá trị đo vượt ngưỡng được thiết lập, hệ thống tạo cảnh báo để nhân viên kiểm tra. Chỉ số MQ-2 dạng ADC là giá trị thô từ cảm biến, không được tự coi là nồng độ khí tính bằng ppm khi chưa có hiệu chuẩn.
+
+5. Quy trình xử lý cảnh báo
+Nhân viên xác định nguồn phát sinh cảnh báo, kiểm tra cảm biến và điều kiện thực tế. Nếu có dấu hiệu nguy hiểm như khói, cháy hoặc rò rỉ khí, phải áp dụng quy trình an toàn của cơ sở; không chỉ dựa vào kết quả từ hệ thống thử nghiệm.
+
+6. Báo cáo
+Báo cáo kho theo tuần cần tổng hợp số lượng nhập, số lượng xuất, sản phẩm tồn thấp và các cảnh báo môi trường. Người quản lý kiểm tra nội dung báo cáo trước khi sử dụng cho quyết định mua hàng.

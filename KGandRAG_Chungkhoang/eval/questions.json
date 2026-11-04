@@ -1,0 +1,282 @@
+[
+  {
+    "id": "Q01",
+    "question": "Cổ phiếu là gì, quyền sở hữu doanh nghiệp ra sao?",
+    "gold_docs": [
+      "D01"
+    ]
+  },
+  {
+    "id": "Q02",
+    "question": "Cổ phiếu phổ thông khác cổ phiếu ưu đãi thế nào?",
+    "gold_docs": [
+      "D02"
+    ]
+  },
+  {
+    "id": "Q03",
+    "question": "Cổ tức và phần tăng giá cổ phiếu tạo lợi nhuận ra sao?",
+    "gold_docs": [
+      "D03"
+    ]
+  },
+  {
+    "id": "Q04",
+    "question": "Đầu tư cổ phiếu có thể chịu những rủi ro gì?",
+    "gold_docs": [
+      "D04"
+    ]
+  },
+  {
+    "id": "Q05",
+    "question": "Thanh khoản và khối lượng giao dịch là gì?",
+    "gold_docs": [
+      "D05"
+    ]
+  },
+  {
+    "id": "Q06",
+    "question": "VN-Index là chỉ số chứng khoán gì?",
+    "gold_docs": [
+      "D06"
+    ]
+  },
+  {
+    "id": "Q07",
+    "question": "ETF cổ phiếu là gì và hoạt động ra sao?",
+    "gold_docs": [
+      "D07"
+    ]
+  },
+  {
+    "id": "Q08",
+    "question": "Vì sao cần đa dạng hóa danh mục đầu tư?",
+    "gold_docs": [
+      "D08"
+    ]
+  },
+  {
+    "id": "Q09",
+    "question": "Phân bổ tài sản giữa cổ phiếu vàng và tiền mặt thế nào?",
+    "gold_docs": [
+      "D09"
+    ]
+  },
+  {
+    "id": "Q10",
+    "question": "Khẩu vị rủi ro và thời hạn đầu tư quan trọng ra sao?",
+    "gold_docs": [
+      "D10"
+    ]
+  },
+  {
+    "id": "Q11",
+    "question": "Lệnh thị trường khác lệnh giới hạn như thế nào?",
+    "gold_docs": [
+      "D11"
+    ]
+  },
+  {
+    "id": "Q12",
+    "question": "Lệnh dừng stop loss hoạt động ra sao?",
+    "gold_docs": [
+      "D12"
+    ]
+  },
+  {
+    "id": "Q13",
+    "question": "Hệ số P/E và EPS có ý nghĩa gì?",
+    "gold_docs": [
+      "D13"
+    ]
+  },
+  {
+    "id": "Q14",
+    "question": "Vốn hóa thị trường của doanh nghiệp được tính thế nào?",
+    "gold_docs": [
+      "D14"
+    ]
+  },
+  {
+    "id": "Q15",
+    "question": "Phân tích cơ bản khác phân tích kỹ thuật điểm nào?",
+    "gold_docs": [
+      "D15"
+    ]
+  },
+  {
+    "id": "Q16",
+    "question": "Lãi suất tăng có thể tác động đến giá cổ phiếu như thế nào?",
+    "gold_docs": [
+      "D16"
+    ]
+  },
+  {
+    "id": "Q17",
+    "question": "Đọc báo cáo tài chính và dòng tiền để phân tích doanh nghiệp?",
+    "gold_docs": [
+      "D17"
+    ]
+  },
+  {
+    "id": "Q18",
+    "question": "Phí giao dịch và chênh lệch mua bán ảnh hưởng lợi nhuận thế nào?",
+    "gold_docs": [
+      "D18"
+    ]
+  },
+  {
+    "id": "Q19",
+    "question": "IPO là gì và liên quan đến thị trường thứ cấp ra sao?",
+    "gold_docs": [
+      "D19"
+    ]
+  },
+  {
+    "id": "Q20",
+    "question": "Vàng có đặc điểm nào khi là tài sản đầu tư?",
+    "gold_docs": [
+      "D20"
+    ]
+  },
+  {
+    "id": "Q21",
+    "question": "XAU/USD là gì, đơn vị giá vàng quốc tế?",
+    "gold_docs": [
+      "D21"
+    ]
+  },
+  {
+    "id": "Q22",
+    "question": "Vì sao giá vàng trong nước khác giá vàng thế giới?",
+    "gold_docs": [
+      "D22"
+    ]
+  },
+  {
+    "id": "Q23",
+    "question": "Chênh lệch giá vàng mua vào bán ra nghĩa là gì?",
+    "gold_docs": [
+      "D23"
+    ]
+  },
+  {
+    "id": "Q24",
+    "question": "Cần lưu ý gì khi mua vàng miếng và vàng nhẫn vật chất?",
+    "gold_docs": [
+      "D24"
+    ]
+  },
+  {
+    "id": "Q25",
+    "question": "ETF vàng là gì, khác cầm vàng vật chất thế nào?",
+    "gold_docs": [
+      "D25"
+    ]
+  },
+  {
+    "id": "Q26",
+    "question": "Hợp đồng tương lai vàng có rủi ro đòn bẩy gì?",
+    "gold_docs": [
+      "D26"
+    ]
+  },
+  {
+    "id": "Q27",
+    "question": "USD mạnh lên tác động đến giá vàng ra sao?",
+    "gold_docs": [
+      "D27"
+    ]
+  },
+  {
+    "id": "Q28",
+    "question": "Lãi suất thực ảnh hưởng giá vàng bằng cơ chế nào?",
+    "gold_docs": [
+      "D28"
+    ]
+  },
+  {
+    "id": "Q29",
+    "question": "Vàng có luôn tăng theo lạm phát không?",
+    "gold_docs": [
+      "D29"
+    ]
+  },
+  {
+    "id": "Q30",
+    "question": "Bất ổn địa chính trị ảnh hưởng nhu cầu trú ẩn vàng ra sao?",
+    "gold_docs": [
+      "D30"
+    ]
+  },
+  {
+    "id": "Q31",
+    "question": "Ngân hàng trung ương mua dự trữ vàng làm gì?",
+    "gold_docs": [
+      "D31"
+    ]
+  },
+  {
+    "id": "Q32",
+    "question": "Giữ vàng có được nhận cổ tức không?",
+    "gold_docs": [
+      "D32"
+    ]
+  },
+  {
+    "id": "Q33",
+    "question": "Điểm khác nhau khi đầu tư vàng và cổ phiếu?",
+    "gold_docs": [
+      "D33"
+    ]
+  },
+  {
+    "id": "Q34",
+    "question": "Kết hợp vàng cổ phiếu giúp đa dạng hóa danh mục ra sao?",
+    "gold_docs": [
+      "D34"
+    ]
+  },
+  {
+    "id": "Q35",
+    "question": "Rủi ro tỷ giá USD/VND khi mua vàng tính thế nào?",
+    "gold_docs": [
+      "D35"
+    ]
+  },
+  {
+    "id": "Q36",
+    "question": "Tương quan lợi suất giữa cổ phiếu và vàng có cố định không?",
+    "gold_docs": [
+      "D36"
+    ]
+  },
+  {
+    "id": "Q37",
+    "question": "Nên quản lý biến động thị trường và tái cân bằng danh mục ra sao?",
+    "gold_docs": [
+      "D37"
+    ]
+  },
+  {
+    "id": "Q38",
+    "question": "Đầu tư định kỳ DCA có lợi ích và hạn chế gì?",
+    "gold_docs": [
+      "D38"
+    ]
+  },
+  {
+    "id": "Q39",
+    "question": "Cần nhận biết dấu hiệu lừa đảo đầu tư nào?",
+    "gold_docs": [
+      "D39"
+    ]
+  },
+  {
+    "id": "Q40",
+    "question": "Hệ thống có biết giá vàng hôm nay và giá cổ phiếu hiện tại không?",
+    "gold_docs": [
+      "D40"
+    ]
+  }
+]

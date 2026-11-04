@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.9856459330143541,
+  "macro_precision": 0.987604851204787,
+  "macro_recall": 0.9502022494080505,
+  "macro_f1": 0.9678473904849814,
+  "confusion_matrix": [
+    [
+      723,
+      1
+    ],
+    [
+      11,
+      101
+    ]
+  ],
+  "n_test": 836,
+  "classes": [
+    "Ham",
+    "Spam"
+  ],
+  "key": "sms",
+  "method": "keras",
+  "options": {
+    "max_train": 4000,
+    "max_val": 800,
+    "max_test": 1200,
+    "max_len": 60,
+    "vocab_size": 4000,
+    "embed_dim": 24,
+    "hidden_dim": 32,
+    "epochs": 8,
+    "batch_size": 64,
+    "lr": 0.002,
+    "seed": 42
+  }
+}

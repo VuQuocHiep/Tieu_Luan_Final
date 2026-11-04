@@ -1,0 +1,80 @@
+{
+  "accuracy": 0.4025,
+  "macro_precision": 0.24750808537516203,
+  "macro_recall": 0.22771522488625384,
+  "macro_f1": 0.2102342272694049,
+  "confusion_matrix": [
+    [
+      187,
+      135,
+      8,
+      12,
+      7,
+      0
+    ],
+    [
+      112,
+      271,
+      3,
+      14,
+      17,
+      0
+    ],
+    [
+      45,
+      39,
+      4,
+      4,
+      3,
+      0
+    ],
+    [
+      68,
+      74,
+      4,
+      13,
+      6,
+      0
+    ],
+    [
+      58,
+      65,
+      1,
+      2,
+      8,
+      0
+    ],
+    [
+      10,
+      25,
+      2,
+      1,
+      2,
+      0
+    ]
+  ],
+  "n_test": 1200,
+  "classes": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "key": "emotion",
+  "method": "pytorch",
+  "options": {
+    "max_train": 4000,
+    "max_val": 800,
+    "max_test": 1200,
+    "max_len": 60,
+    "vocab_size": 4000,
+    "embed_dim": 24,
+    "hidden_dim": 32,
+    "epochs": 8,
+    "batch_size": 64,
+    "lr": 0.002,
+    "seed": 42
+  }
+}
